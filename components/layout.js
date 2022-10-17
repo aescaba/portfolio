@@ -11,7 +11,9 @@ export default function Layout({ children }) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar/>
-        {children}
+        <div class="container mx-auto">
+            {children}
+        </div>
         <Footer/>
         </>
     );
