@@ -4,7 +4,7 @@ import PageTitle from '../components/pagetitle'
 
 export default function Contact() {
   return (
-    <div>
+    <div class="container mx-auto">
 
       <PageTitle title={"Contact"}/>
 

@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     // <div className={styles.container}>
-    <div>
+    <div class="grid h-screen place-content-center space-y-4">
         <h1 class="text-3xl">
           Hi there!
         </h1>
