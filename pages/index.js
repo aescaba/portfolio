@@ -5,11 +5,11 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
+      {/* <Head>
         <title>Amanda Escaba - Web Designer & Developer</title>
         <meta name="description" content="Amanda Escaba - Web Designer & Developer Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
       <main class="flex flex-col justify-center">
         <h1 class="text-3xl">
