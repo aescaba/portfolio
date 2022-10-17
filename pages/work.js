@@ -3,17 +3,9 @@ import PageTitle from '../components/pagetitle'
 
 export default function Work() {
   return (
-    <div className={styles.container}>
-      <main class="flex flex-col justify-center">
+    <div>
 
-        
-        {/* <h1 class="text-3xl">
-          Work
-        </h1> */}
-      <PageTitle
-    title={"Work"}/>
-
-      </main>
+      <PageTitle title={"Work"}/>
 
     </div>
   )

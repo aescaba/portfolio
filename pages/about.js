@@ -3,8 +3,7 @@ import PageTitle from '../components/pagetitle'
 
 export default function About() {
   return (
-    <div className={styles.container}>
-      <main class="flex flex-col justify-center">
+    <div>
 
       <PageTitle title={"About"}/>
 
@@ -23,8 +22,6 @@ export default function About() {
         <p class="text-xl">I spend my time cooking and baking dishes from my favorite cuisines, ignoring my pile of unread books 
         to buy new ones, singing both parts of the duet by myself, tinkering with my mechanical keyboard, making too many Spotify
          playlists, starting more video games than I tend to finish, and getting distracted by cute dogs in public.</p>
-
-      </main>
 
     </div>
   )

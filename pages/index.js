@@ -2,9 +2,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-
-      <main class="flex flex-col justify-center">
+    // <div className={styles.container}>
+    <div>
         <h1 class="text-3xl">
           Hi there!
         </h1>
@@ -16,7 +15,6 @@ export default function Home() {
           coding a website, or sketching the artwork, from the smallest quality-of-life details to the overall look and feel, 
           I love the process of creating!
           </h2>
-      </main>
     </div>
   )
 }

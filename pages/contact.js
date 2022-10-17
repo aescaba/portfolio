@@ -4,8 +4,7 @@ import PageTitle from '../components/pagetitle'
 
 export default function Contact() {
   return (
-    <div className={styles.container}>
-      <main class="flex flex-col justify-center">
+    <div>
 
       <PageTitle title={"Contact"}/>
 
@@ -16,8 +15,6 @@ export default function Contact() {
         <h3 class="text-xl">
             <Link href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com</Link>
         </h3>
-
-      </main>
 
     </div>
   )
