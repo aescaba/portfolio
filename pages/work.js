@@ -3,7 +3,7 @@ import PageTitle from '../components/pagetitle'
 
 export default function Work() {
   return (
-    <div class="container mx-auto">
+    <div class="">
 
       <PageTitle title={"Work"}/>
 
