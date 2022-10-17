@@ -10,11 +10,13 @@ export default function Layout({ children }) {
             <meta name="description" content="Amanda Escaba - Web Designer & Developer Portfolio Site" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Navbar/>
-        <main class="grid container mx-auto">
-            {children}
-        </main>
-        <Footer/>
+       <div class="mx-52">
+            <Navbar/>
+            <main class="grid container mx-auto">
+                {children}
+            </main>
+            <Footer/>
+        </div>
         </>
     );
 }

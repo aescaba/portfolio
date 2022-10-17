@@ -8,18 +8,22 @@ const navigationRoutes = ["home", "work", "about", "contact"];
 export default function Navbar() {
     const router = useRouter();
     return (
-        <nav className="nav_container">
+<div class="mt-8">
+    <nav className="nav_container text-xl space-x-14">
             {navigationRoutes.map((singleRoute) => {
                 return (
-                    <NavigationLink
+                    // <span class="">
+                        <NavigationLink
                     key={singleRoute}
                     href={`/${singleRoute}`}
                     text={singleRoute}
                     router={router}
                     />
+                    // </span>
                 );
             })}
         </nav>
+        </div>
     );
 }
 
