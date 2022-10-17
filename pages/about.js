@@ -12,9 +12,9 @@ export default function About() {
       <div>
       <Image class="object-scale-down" src="/../public/images/sunflowers.jpg" alt="photo of me in a sunflower field" width={1536} height={2048}/>
       </div>
-      <div class="col-span-2">
+      <div class="col-span-2 space-y-4">
         <p class="text-xl">
-        Hi, I’m Amanda (she/her)! I'm a proud Filipino American who grew up in the Hudson Valley, New York and
+        <strong>Hi, I’m Amanda (she/her)!</strong> I'm a proud Filipino American who grew up in the Hudson Valley, New York and
          spent five years studying computer science and interaction design at Northeastern University in Boston.</p>
 
         <p class="text-xl">I've taken on the responsibilities of a front-end developer and UI/UX designer and I 

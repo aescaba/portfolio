@@ -11,7 +11,7 @@ export default function Layout({ children }) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar/>
-        <main class="container mx-auto">
+        <main class="grid container mx-auto">
             {children}
         </main>
         <Footer/>
