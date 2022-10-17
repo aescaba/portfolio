@@ -1,19 +1,12 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import PageTitle from '../components/pagetitle'
 
 export default function About() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Amanda Escaba - Web Designer & Developer</title>
-        <meta name="description" content="Amanda Escaba - Web Designer & Developer Portfolio Site" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main class="flex flex-col justify-center">
-        <h1 class="text-3xl">
-          About
-        </h1>
+
+      <PageTitle title={"About"}/>
 
         <p class="text-xl">
         Hi, I’m Amanda (she/her)! I'm a proud Filipino American who grew up in the Hudson Valley, New York and

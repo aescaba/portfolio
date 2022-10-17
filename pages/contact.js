@@ -1,15 +1,13 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import PageTitle from '../components/pagetitle'
 
 export default function Contact() {
   return (
     <div className={styles.container}>
       <main class="flex flex-col justify-center">
 
-        {/* add this to layout later */}
-        <h1 class="text-3xl">
-          Contact
-        </h1>
+      <PageTitle title={"Contact"}/>
 
         <h2 class="text-2xl">
         Amanda Escaba
