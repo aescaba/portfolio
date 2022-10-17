@@ -1,3 +1,5 @@
+// https://j471n.in/blogs/portfolio-tutorial#creating-layout
+
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 

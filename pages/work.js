@@ -3,7 +3,7 @@ import PageTitle from '../components/pagetitle'
 
 export default function Work() {
   return (
-    <div class="">
+    <div class="grid">
 
       <PageTitle title={"Work"}/>
 

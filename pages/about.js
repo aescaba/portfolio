@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div class="">
+    <div class="grid">
 
       <PageTitle title={"About"}/>
 

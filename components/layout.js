@@ -12,7 +12,8 @@ export default function Layout({ children }) {
         </Head>
        <div class="mx-52">
             <Navbar/>
-            <main class="grid container mx-auto">
+            {/* <main class="grid container mx-auto"> */}
+            <main>
                 {children}
             </main>
             <Footer/>
