@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "Overpass": ["Overpass", ...defaultTheme.fontFamily.sans],
+        "Barlow": ["Barlow", ...defaultTheme.fontFamily.sans],
+        "Inter": ["Inter", ...defaultTheme.fontFamily.sans],
       },
     },
   },

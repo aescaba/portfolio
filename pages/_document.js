@@ -19,7 +19,9 @@ import Document, {
       return (
         <Html>
           <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Overpass" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet" />
+
           </Head>
           <body>
             <Main />
