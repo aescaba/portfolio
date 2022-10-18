@@ -4,13 +4,14 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div class="grid">
+    <div class="">
 
       <PageTitle title={"About"}/>
 
-    <div class="grid grid-cols-3 gap-x-20">
+    {/* <div class="grid grid-cols-3 gap-x-20"> */}
+    <div>
       <div>
-      <Image class="object-scale-down" src="/../public/images/sunflowers.jpg" alt="photo of me in a sunflower field" width={1536} height={2048}/>
+      {/* <Image class="object-scale-down" src="/../public/images/sunflowers.jpg" alt="photo of me in a sunflower field" width={1536} height={2048}/> */}
       </div>
       <div class="col-span-2 space-y-4">
         <p class="text-xl">

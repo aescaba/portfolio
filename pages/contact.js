@@ -4,7 +4,7 @@ import PageTitle from '../components/pagetitle'
 
 export default function Contact() {
   return (
-    <div class="grid">
+    <div class="">
 
       <PageTitle title={"Contact"}/>
 

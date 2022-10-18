@@ -4,7 +4,7 @@ export default function Home() {
   return (
     // <div className={styles.container}>
 
-  <div class="h-screen grid content-center space-y-4">
+  <div class="h-[80vh] grid content-center space-y-4">
         <h1 class="text-3xl">
           Hi there!
         </h1>

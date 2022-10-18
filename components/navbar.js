@@ -8,8 +8,8 @@ const navigationRoutes = ["home", "work", "about", "contact"];
 export default function Navbar() {
     const router = useRouter();
     return (
-<div class="mt-8">
-    <nav className="nav_container text-xl space-x-14">
+
+    <nav className="nav_container flex justify-end text-xl space-x-6 md:space-x-10 lg:space-x-14">
             {navigationRoutes.map((singleRoute) => {
                 return (
                     // <span class="">
@@ -23,7 +23,7 @@ export default function Navbar() {
                 );
             })}
         </nav>
-        </div>
+
     );
 }
 
