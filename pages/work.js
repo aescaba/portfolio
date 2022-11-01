@@ -11,6 +11,8 @@ export default function Work() {
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-28">
 
+        {/* CHANGE THIS TO BE A FEED LATER ? */}
+
         {/* project one */}
         <div class="">
           <div class="mb-4 lg:mb-6">

@@ -1,3 +1,14 @@
+# Amanda Escaba Personal Portfolio
+## 2022 Updated Version
+
+This is the code for my personal portfolio website.
+
+I decided to recreate my portfolio site, which was previously created using a [Gatsby](https://www.gatsbyjs.com/) template. I chose to build this website using Next.js and Tailwind as a means to learn new frameworks.
+
+Default Next.js README information can be read below.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
