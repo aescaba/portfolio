@@ -19,7 +19,7 @@ export default function Work() {
             <Image class="" src="/../public/images/work/placeholder_art.png" alt="placeholder" width={1280} height={800}/>
           </div>
 
-          <div class="font-bold">
+          <div class="font-extrabold">
             Project #1 Title
           </div>
 
@@ -34,7 +34,7 @@ export default function Work() {
             <Image class="" src="/../public/images/work/placeholder_art.png" alt="placeholder" width={1280} height={800}/>
           </div>
 
-          <div class="font-bold">
+          <div class="font-extrabold">
             Project #2 Title
           </div>
 
