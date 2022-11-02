@@ -23,11 +23,11 @@ export default function Contact() {
             <a href="https://drive.google.com/file/d/1n4lYfD1M7ZoGZGENIhkVUaDjUM4hhpkh/view?usp=sharing" target="_blank">Resume</a>
           </button>
 
-          <button class="">
+          <button class="opacity-75 hover:opacity-100">
             <a href="https://www.linkedin.com/in/aescaba/" target="_blank"><AiFillLinkedin size={40}/></a>
           </button>
 
-          <button class="">
+          <button class="opacity-75 hover:opacity-100">
             <a href="https://github.com/aescaba" target="_blank"><AiFillGithub size={40}/></a>
           </button>
 
