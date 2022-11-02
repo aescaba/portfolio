@@ -16,7 +16,7 @@ export default function Navbar() {
                         <NavigationLink
                     key={singleRoute}
                     href={`/${singleRoute}`}
-                    text={singleRoute}
+                    text={singleRoute.charAt(0).toUpperCase() + singleRoute.slice(1)} //https://flexiple.com/javascript/javascript-capitalize-first-letter/
                     router={router}
                     />
                     // </span>
