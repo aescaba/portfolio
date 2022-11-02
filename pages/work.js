@@ -16,15 +16,15 @@ export default function Work() {
         {/* project one */}
         <div class="">
           <div class="mb-4 lg:mb-6">
-            <Image class="" src="/../public/images/work/placeholder_art.png" alt="placeholder" width={1280} height={800}/>
+            <Image class="" src="/../public/images/work/capstone/LECHON.png" alt="placeholder" width={1280} height={800}/>
           </div>
 
           <div class="font-extrabold">
-            Project #1 Title
+            Tastes of the Motherland
           </div>
 
           <div class="">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          Northeastern University capstone project&mdash;an interactive website prototype
           </div>
         </div>
 
