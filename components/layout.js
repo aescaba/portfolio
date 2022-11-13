@@ -21,7 +21,7 @@ export default function Layout({ children }) {
                     {children}
                 </main>
             </div>
-            <div class="mt-14">
+            <div class="mt-14 hidden">
                 <Footer/>
             </div>
         </div>
