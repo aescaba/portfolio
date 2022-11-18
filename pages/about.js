@@ -26,7 +26,7 @@ export default function About() {
           together to support the final product.</p>
 
           <p class="text-xl">When it comes to my work, I enjoy improving any type of user experience, but I’m most 
-          passionate about sharing and preserving culture and uplifting marginalized voices, especially through storytelling.</p>
+          passionate about sharing and preserving culture, uplifting marginalized voices, and building community, especially through storytelling.</p>
 
           <p class="text-xl">I spend my time cooking and baking dishes from my favorite cuisines, ignoring my pile of unread books 
           to buy new ones, singing both parts of the duet by myself, tinkering with my mechanical keyboard, making too many Spotify
