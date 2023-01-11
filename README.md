@@ -1,5 +1,5 @@
-# Amanda Escaba Personal Portfolio
-## 2022 Updated Version
+# Amanda Escaba - Personal Portfolio
+## Redesign in progress
 
 This is the code for my personal portfolio website.
 
