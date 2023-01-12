@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import PageTitle from '../components/pagetitle'
 import Image from 'next/image'
+import WorkListing from '../components/worklisting'
 
 
 export default function Work() {
@@ -9,39 +10,37 @@ export default function Work() {
 
       <PageTitle title={"Work"}/>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-28">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-28 pb-24">
 
         {/* CHANGE THIS TO BE A FEED LATER ? */}
 
         {/* project one */}
-        <div class="text-xl">
-          <div class="mb-4 lg:mb-6">
-            <Image class="" src="/../public/images/work/capstone/LECHON.png" alt="placeholder" width={1280} height={800}/>
-          </div>
-
-          <div class="font-bold">
-            Tastes of the Motherland
-          </div>
-
-          <div class="">
-          Northeastern University capstone project&mdash;an interactive website prototype
-          </div>
-        </div>
+          <WorkListing
+            imgsrc={"/../public/images/work/wbecnydmv/WBEC-3-crop-2.png"} 
+            title={"WBEC Metro NY & Greater DMV"}
+            description={"Website rebuild and redesign"}>
+          </WorkListing>
 
         {/* project two */}
-        <div class="text-xl">
-          <div class="mb-4 lg:mb-6">
-            <Image class="" src="/../public/images/work/placeholder_art.png" alt="placeholder" width={1280} height={800}/>
-          </div>
+        <WorkListing
+            imgsrc={"/../public/images/work/capstone/LECHON.png"} 
+            title={"Tastes of the Motherland"}
+            description={"Northeastern University capstone project—an interactive website prototype"}>
+        </WorkListing>
 
-          <div class="font-extrabold">
-            Project #2 Title
-          </div>
+        {/* project three */}
+        <WorkListing
+            imgsrc={"/../public/images/work/placeholder_art.png"} 
+            title={"MBTA University Marketing: Interest-Based Maps"}
+            description={"Lorem ipsum dolor sit amet"}>
+        </WorkListing>
 
-          <div class="">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          </div>
-        </div>
+        {/* project four */}
+        <WorkListing
+            imgsrc={"/../public/images/work/placeholder_art.png"} 
+            title={"MBTA Blue Book Redesign"}
+            description={"Lorem ipsum dolor sit amet"}>
+        </WorkListing>
 
       </div>
 
