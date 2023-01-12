@@ -17,10 +17,10 @@ export default function About() {
         {/* second column - bio */}
         <div class="space-y-4 font-light">
           <p class="text-xl">
-          <span class="font-bold">Hi, I&apos;m Amanda (she/her)!</span> I'm a proud Filipino American who grew up in the Hudson Valley, New York and
+          <span class="font-bold">Hi, I&apos;m Amanda (she/her)!</span> I&apos;m a proud Filipino American who grew up in the Hudson Valley, New York and
           spent five years studying computer science and interaction design at Northeastern University in Boston.</p>
 
-          <p class="text-xl">I've taken on the responsibilities of a <span class="font-semibold">front-end developer and UI/UX designer</span> and I 
+          <p class="text-xl">I&apos;ve taken on the responsibilities of a <span class="font-semibold">front-end developer and UI/UX designer</span> and I 
           thrive in positions that incorporate skills from both of my disciplines. My favorite thing that design and
           code have in common is the <span class="font-semibold">creative process</span>—I love seeing how the decisions made each step of the way come 
           together to support the final product.</p>
