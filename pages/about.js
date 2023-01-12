@@ -17,7 +17,7 @@ export default function About() {
         {/* second column - bio */}
         <div class="space-y-4 font-light">
           <p class="text-xl">
-          <span class="font-bold">Hi, I’m Amanda (she/her)!</span> I'm a proud Filipino American who grew up in the Hudson Valley, New York and
+          <span class="font-bold">Hi, I&apos;m Amanda (she/her)!</span> I'm a proud Filipino American who grew up in the Hudson Valley, New York and
           spent five years studying computer science and interaction design at Northeastern University in Boston.</p>
 
           <p class="text-xl">I've taken on the responsibilities of a <span class="font-semibold">front-end developer and UI/UX designer</span> and I 
@@ -25,7 +25,7 @@ export default function About() {
           code have in common is the <span class="font-semibold">creative process</span>—I love seeing how the decisions made each step of the way come 
           together to support the final product.</p>
 
-          <p class="text-xl">When it comes to my work, I enjoy improving any type of user experience, but I’m most 
+          <p class="text-xl">When it comes to my work, I enjoy improving any type of user experience, but I&apos;m most 
           passionate about <span class="font-semibold">sharing and preserving culture, uplifting marginalized voices, and building community,</span> especially through storytelling.</p>
 
           <p class="text-xl">I spend my time cooking and baking dishes from my favorite cuisines, ignoring my pile of unread books 
