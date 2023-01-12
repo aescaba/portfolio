@@ -23,7 +23,7 @@ export default function Work() {
 
         {/* project two */}
         <WorkListing
-            imgsrc={"/../public/images/work/capstone/LECHON.png"} 
+            imgsrc={"/../public/images/work/capstone/capstone-thumb.png"} 
             title={"Tastes of the Motherland"}
             description={"Northeastern University capstone project: an interactive website prototype"}>
         </WorkListing>
