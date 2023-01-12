@@ -5,11 +5,11 @@ export default function Home() {
     // <div className={styles.container}>
 
   <div class="h-[80vh] grid content-center space-y-4">
-        <h1 class="text-3xl">
+        <h1 class="text-5xl">
           Hi there!
         </h1>
-        <h1 class="text-3xl">
-          My name is Amanda and I'm a <span class="font-black">web designer, developer,</span> and <span class="font-black">artist</span>.
+        <h1 class="text-6xl">
+          My name is Amanda and I'm a <span class="font-bold">web designer, developer,</span> and <span class="font-extrabold">artist</span>.
         </h1>
         <h2 class="text-2xl">
           I like designing creative user-centered experiences, leaving no detail behind. Whether it's wireframing an app, 

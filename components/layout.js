@@ -11,7 +11,7 @@ export default function Layout({ children }) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         
-        <div class="mx-10 md:mx-24 lg:mx-32 xl:mx-48 2xl:mx-80 font-Inter">
+        <div class="mx-10 md:mx-24 lg:mx-32 xl:mx-48 2xl:mx-80 font-Assistant ">
             <div class="my-8">
                 <Navbar/>
             </div>
