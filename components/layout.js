@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <Head>
             <title>Amanda Escaba - Web Designer & Developer</title>
             <meta name="description" content="Amanda Escaba - Web Designer & Developer - Portfolio Site" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.png" />
         </Head>
         
         <div class="mx-10 md:mx-24 lg:mx-32 xl:mx-48 2xl:mx-80 font-Assistant ">
