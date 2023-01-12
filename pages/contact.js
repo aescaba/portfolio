@@ -10,7 +10,7 @@ export default function Contact() {
       <PageTitle title={"Contact"}/>
       <div class="">
 
-        <h2 class="text-2xl">
+        <h2 class="text-2xl font-semibold">
           Amanda Escaba
         </h2>
 

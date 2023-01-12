@@ -14,12 +14,12 @@ export default function Work() {
         {/* CHANGE THIS TO BE A FEED LATER ? */}
 
         {/* project one */}
-        <div class="">
+        <div class="text-xl">
           <div class="mb-4 lg:mb-6">
             <Image class="" src="/../public/images/work/capstone/LECHON.png" alt="placeholder" width={1280} height={800}/>
           </div>
 
-          <div class="font-extrabold">
+          <div class="font-bold">
             Tastes of the Motherland
           </div>
 
@@ -29,7 +29,7 @@ export default function Work() {
         </div>
 
         {/* project two */}
-        <div class="">
+        <div class="text-xl">
           <div class="mb-4 lg:mb-6">
             <Image class="" src="/../public/images/work/placeholder_art.png" alt="placeholder" width={1280} height={800}/>
           </div>
