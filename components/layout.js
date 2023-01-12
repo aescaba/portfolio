@@ -7,7 +7,7 @@ export default function Layout({ children }) {
         <>
         <Head>
             <title>Amanda Escaba - Web Designer & Developer</title>
-            <meta name="description" content="Amanda Escaba - Web Designer & Developer Portfolio Site" />
+            <meta name="description" content="Amanda Escaba - Web Designer & Developer - Portfolio Site" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         
