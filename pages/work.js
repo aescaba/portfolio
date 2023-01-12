@@ -16,7 +16,7 @@ export default function Work() {
 
         {/* project one */}
           <WorkListing
-            imgsrc={"/../public/images/work/wbecnydmv/WBEC-3-crop-2.png"} 
+            imgsrc={"/../public/images/work/wbecnydmv/wbec-thumb.png"} 
             title={"WBEC Metro NY & Greater DMV"}
             description={"Website rebuild and redesign"}>
           </WorkListing>
@@ -30,7 +30,7 @@ export default function Work() {
 
         {/* project three */}
         <WorkListing
-            imgsrc={"/../public/images/work/placeholder_art.png"} 
+            imgsrc={"/../public/images/work/mbta-unimaps/mbta-uni-maps-thumb.png"} 
             title={"MBTA University Marketing: Interest-Based Maps"}
             description={"Lorem ipsum dolor sit amet"}>
         </WorkListing>
