@@ -18,6 +18,7 @@ export default function Home() {
           coding a website, or sketching the artwork, from the smallest quality-of-life details to the overall look and feel, 
           I love the process of creating!
           </h2>
+         <div class="my-6 text-blue-300 font-light text-lg italic">&mdash; Just like me, this website is a constant work in progress :)</div>
     </div>
     
   )
