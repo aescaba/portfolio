@@ -4,7 +4,7 @@ export default function WorkListing({imgsrc, title, description}) {
     return (
         <div class="grayscale-[50%] hover:filter-none hover:text-amber-400">
             <div class="mb-4 lg:mb-6">
-                <Image alt={"Preview of " + {title}} src={imgsrc} width={1280} height={800}/>
+                <Image alt={"Preview of " + `${title}`} src={imgsrc} width={1280} height={800}/>
             </div>
 
             <div class="font-bold text-xl">

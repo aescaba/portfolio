@@ -1,6 +1,4 @@
-import styles from '../styles/Home.module.css'
 import PageTitle from '../components/pagetitle'
-import Image from 'next/image'
 import WorkListing from '../components/worklisting'
 
 
