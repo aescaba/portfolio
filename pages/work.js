@@ -10,7 +10,7 @@ export default function Work() {
 
       <PageTitle title={"Work"}/>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-28 pb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
 
         {/* CHANGE THIS TO BE A FEED LATER ? */}
 
