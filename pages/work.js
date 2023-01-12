@@ -18,14 +18,14 @@ export default function Work() {
           <WorkListing
             imgsrc={"/../public/images/work/wbecnydmv/wbec-thumb.png"} 
             title={"WBEC Metro NY & Greater DMV"}
-            description={"Website rebuild and redesign"}>
+            description={"Complete website overhaul: redesign, rebuild, and relaunch"}>
           </WorkListing>
 
         {/* project two */}
         <WorkListing
             imgsrc={"/../public/images/work/capstone/LECHON.png"} 
             title={"Tastes of the Motherland"}
-            description={"Northeastern University capstone project—an interactive website prototype"}>
+            description={"Northeastern University capstone project: an interactive website prototype"}>
         </WorkListing>
 
         {/* project three */}

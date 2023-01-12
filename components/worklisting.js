@@ -7,11 +7,11 @@ export default function WorkListing({imgsrc, title, description}) {
                 <Image class="grayscale-[50%] hover:filter-none" src={imgsrc} alt="placeholder" width={1280} height={800}/>
             </div>
 
-            <div class="font-bold text-2xl">
+            <div class="font-bold text-xl">
                 {title}
             </div>
 
-            <div class="text-xl">
+            <div class="font-light text-xl">
                 {description}
             </div>
       </div>
