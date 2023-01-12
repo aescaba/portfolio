@@ -37,7 +37,7 @@ export default function Work() {
 
         {/* project four */}
         <WorkListing
-            imgsrc={"/../public/images/work/placeholder_art.png"} 
+            imgsrc={"/../public/images/work/mbta-bluebook/mbta-bluebook-thumb.png"} 
             title={"MBTA Blue Book Redesign"}
             description={"Microsite design to improve readability of and broaden access to MBTA data pool"}>
         </WorkListing>
