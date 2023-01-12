@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+/* a:hover {
+  color: #fcd34d;
+} */
+
 * {
   box-sizing: border-box;
 }
@@ -24,7 +28,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: #1C1D21;
+    color: #F3F3F3;
+    background: #131315;
   }
 }

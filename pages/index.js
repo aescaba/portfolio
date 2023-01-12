@@ -9,7 +9,9 @@ export default function Home() {
           Hi there!
         </h1>
         <h1 class="text-6xl">
-          My name is Amanda and I'm a <span class="font-bold">web designer, developer,</span> and <span class="font-bold">artist</span>.
+          My name is Amanda and I'm a 
+          <br/>
+          <span class="font-bold bg-gradient-to-r hover:bg-gradient-to-l from-blue-500 to-amber-400 inline-block leading-tight text-transparent bg-clip-text"> web designer,</span> <span class="font-bold bg-gradient-to-r hover:bg-gradient-to-l from-amber-400 to-orange-400 inline-block leading-tight text-transparent bg-clip-text">developer,</span> and <span class="font-bold bg-gradient-to-r hover:bg-gradient-to-l from-orange-400 to-blue-500 inline-block text-transparent bg-clip-text">artist.</span>
         </h1>
         <h2 class="text-2xl">
           I like designing creative user-centered experiences, leaving no detail behind. Whether it's wireframing an app, 
@@ -20,3 +22,6 @@ export default function Home() {
     
   )
 }
+
+// gradient text code from: https://redpixelthemes.com/blog/tailwindcss-gradient-text/
+// line height cutoff fix from: https://stackoverflow.com/questions/74542280/bottom-of-gradient-text-gets-cut-off-tailwindcss
