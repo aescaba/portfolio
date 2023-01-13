@@ -14,28 +14,28 @@ export default function Work() {
 
         {/* project one */}
           <WorkListing
-            imgsrc={"/../public/images/work/wbecnydmv/wbec-thumb.png"} 
+            imgsrc={"/images/work/wbecnydmv/wbec-thumb.png"} 
             title={"WBEC Metro NY & Greater DMV"}
             description={"Complete website overhaul to reflect new branding and improve user experience"}>
           </WorkListing>
 
         {/* project two */}
         <WorkListing
-            imgsrc={"/../public/images/work/capstone/capstone-thumb.png"} 
+            imgsrc={"/images/work/capstone/capstone-thumb.png"} 
             title={"Tastes of the Motherland"}
             description={"Northeastern University capstone project: an interactive website prototype"}>
         </WorkListing>
 
         {/* project three */}
         <WorkListing
-            imgsrc={"/../public/images/work/mbta-unimaps/mbta-uni-maps-thumb.png"} 
+            imgsrc={"/images/work/mbta-unimaps/mbta-uni-maps-thumb.png"} 
             title={"MBTA University Marketing: Interest-Based Maps"}
             description={"Outreach plan to promote MBTA ridership to university students and young professionals"}>
         </WorkListing>
 
         {/* project four */}
         <WorkListing
-            imgsrc={"/../public/images/work/mbta-bluebook/mbta-bluebook-thumb.png"} 
+            imgsrc={"/images/work/mbta-bluebook/mbta-bluebook-thumb.png"} 
             title={"MBTA Blue Book Redesign"}
             description={"Microsite design to improve readability of and broaden access to MBTA data pool"}>
         </WorkListing>
