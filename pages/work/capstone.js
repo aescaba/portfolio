@@ -2,56 +2,38 @@ import PageTitle from '../../components/pagetitle'
 
 export default function Capstone() {
   return (
-    <div class="">
+    <div class="font-light text-lg leading-6">
       <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
 
       <div class="mb-14"> 
-      {/* make this two columns and add a photo, or add photo at the top */}
+      {/* insert photo */}
         <div class="mb-4">
-          <h2 class="text-2xl py-2 font-semibold">Summary</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          <h2 class="text-2xl py-2 font-semibold">Overview</h2>
+          <p>For my final capstone project at Northeastern University, I wanted to incorporate two of my passions: food and Filipino culture. A personal project I had already been thinking of making was documenting family recipes, so my capstone was the perfect way to combine that idea with my interests.
+          </p>
+          <p class="mt-2">Inspired by video games that required the user to interact with objects to progress and facilitate discovery and physical children&apos;s books with interactive components, I designed a website prototype evoking the feel of a loved family cookbook.
           </p>
         </div>
 
-        <div>
+        {/* <div>
           <h3 class="text-xl py-2 font-semibold">Skills/Tools</h3>
           <div class="flex space-x-6">
             <p>Skill One</p>
             <p>Skill Two</p>
             <p>Another Skill</p>
           </div>
+        </div> */}
+      </div>
+
+      <div class="mb-4">
+          <h2 class="text-xl py-2 font-semibold">Responsibilities</h2>
+          <ul class="list-disc list-outside ml-6">
+            <li>Self-taught Adobe XD prototyping software to achieve layout and interactivity goals</li>
+            <li>Illustrated 40+ full color assets and hand-wrote titles and annotations for each page of cookbook</li>
+            <li>Designed page layouts in Adobe InDesign</li>
+            <li>Researched from various sources and mixed media such as interactive online games, children&apos;s books, cookbooks, and food essay compilations</li>
+          </ul>
         </div>
-      </div>
-
-      <div class="mb-14">
-        <h2 class="text-2xl py-2 font-semibold">Background</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-
-      <div class="mb-14">
-        <h2 class="text-2xl py-2 font-semibold">Process</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        
-        {/* insert a bunch of photos here */}
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-      </div>
-
-      <div class="mb-14">
-        <h2 class="text-2xl py-2 font-semibold">Final Product</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        {/* insert photo(s) */}
-      </div>
 
     </div>
   );
