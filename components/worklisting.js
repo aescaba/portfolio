@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function WorkListing({imgsrc, path, title, description}) {
     return (
         <div class="">
-            <div class="grayscale-[50%] hover:filter-none hover:text-amber-400">
+            <div class="grayscale-[75%] transition ease-in-out delay-100 hover:filter-none hover:text-amber-400">
                 <Link href={"/work/"+ `${path}`}>
                     <a>
                         <div class="mb-4 lg:mb-6">
