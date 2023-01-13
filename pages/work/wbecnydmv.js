@@ -24,14 +24,13 @@ export default function WBECNYDMV() {
       </div>
 
       <div class="mb-4">
-          <h2 class="text-xl py-2 font-semibold">Responsibilities</h2>
-          <ul class="list-disc list-outside ml-6">
-            <li>Designed and built 90+ responsive web pages based off old content and new requests, adhering to brand guidelines and 2 initial page wireframes</li>
-            <li>Organized and coordinated technical and design process efforts between myself, creative director, and account staff/client liaison</li>
-            <li>Researched, tested, and implemented technical solutions to specific client requests</li>
-          </ul>
-        </div>
-
+        <h2 class="text-xl py-2 font-semibold">Responsibilities</h2>
+        <ul class="list-disc list-outside ml-6">
+          <li>Designed and built 90+ responsive web pages based off old content and new requests, adhering to brand guidelines and 2 initial page wireframes</li>
+          <li>Organized and coordinated technical and design process efforts between myself, creative director, and account staff/client liaison</li>
+          <li>Researched, tested, and implemented technical solutions to specific client requests</li>
+        </ul>
+      </div>
     </div>
   );
 }
