@@ -1,8 +1,8 @@
 import PageTitle from '../../components/pagetitle'
 
-export default function UniMaps() {
+export default function BlueBook() {
   return (
-    <div class="font-light text-lg leading-6">
+    <div class="font-light text-lg leading-6 pb-24">
       <PageTitle title={"MBTA Blue Book Redesign"}/>
 
       <div class="mb-14"> 

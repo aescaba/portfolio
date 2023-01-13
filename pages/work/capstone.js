@@ -2,7 +2,7 @@ import PageTitle from '../../components/pagetitle'
 
 export default function Capstone() {
   return (
-    <div class="font-light text-lg leading-6">
+    <div class="font-light text-lg leading-6 pb-24">
       <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
 
       <div class="mb-14"> 
