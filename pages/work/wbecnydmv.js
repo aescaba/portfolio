@@ -7,6 +7,7 @@ export default function WBECNYDMV() {
 
       <div class="mb-14"> 
       {/* insert photo */}
+      <p class="text-2xl my-10 font-medium text-blue-300 italic">preview coming soon</p>
         <div class="mb-4">
           <h2 class="text-2xl py-2 font-semibold">Overview</h2>
           <p>Coming off the heels of a successful rebranding, the Women&apos;s Business Enterprise Council of Metro NY and Greater DMV (WBEC NY DMV) wanted to update their website to reflect their fresh new look and feel. After my team&apos;s creative director developed the new sitemap and a couple of wireframes, I designed the remaining 90+ pages based off of these concepts and handled the new website build. The result was a website with a modern look, easier navigation, and clearer calls to action.

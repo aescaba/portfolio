@@ -7,6 +7,8 @@ export default function UniMaps() {
 
       <div class="mb-14"> 
       {/* insert photo */}
+      <p class="text-2xl my-10 font-medium text-blue-300 italic">preview coming soon</p>
+
         <div class="mb-4">
           <h2 class="text-2xl py-2 font-semibold">Overview</h2>
           <p>During my time at MassDOT/MBTA&apos;s Office of Performance Management and Innovation, in an effort to promote train ridership to university students, I wanted to focus on how the T was an accessible and affordable means of transportation. I developed a system of interest-based maps to highlight how students can use the T to reach notable destinations in Greater Boston and surrounding areas. My team and I took an approach that focused on students with different levels of experience with the T and the city of Boston&mdash;we aimed to present the T as a connector to Boston&apos;s different cultural attractions.

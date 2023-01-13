@@ -7,6 +7,8 @@ export default function BlueBook() {
 
       <div class="mb-14"> 
       {/* insert photo */}
+      <p class="text-2xl my-10 font-medium text-blue-300 italic">preview coming soon</p>
+
         <div class="mb-4">
           <h2 class="text-2xl py-2 font-semibold">Overview</h2>
           <p>The MBTA has published several editions of the MBTA Ridership and Service Statistics, also known as the “Blue Book”, since 1988. The Blue Book contains a collection of MBTA data such as ridership, bus speeds, track distances, fleet rosters, and more, but its updates have been inconsistent and its lengthy PDF format was inconvenient to navigate.

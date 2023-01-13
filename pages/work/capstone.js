@@ -7,6 +7,8 @@ export default function Capstone() {
 
       <div class="mb-14"> 
       {/* insert photo */}
+      <p class="text-2xl my-10 font-medium text-blue-300 italic">preview coming soon</p>
+
         <div class="mb-4">
           <h2 class="text-2xl py-2 font-semibold">Overview</h2>
           <p>For my final capstone project at Northeastern University, I wanted to incorporate two of my passions: food and Filipino culture. A personal project I had already been thinking of making was documenting family recipes, so my capstone was the perfect way to combine that idea with my interests.
