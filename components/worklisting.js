@@ -1,15 +1,20 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
-export default function WorkListing({imgsrc, title, description}) {
+export default function WorkListing({imgsrc, path, title, description}) {
     return (
         <div class="grayscale-[50%] hover:filter-none hover:text-amber-400">
-            <div class="mb-4 lg:mb-6">
-                <Image alt={"Preview of " + `${title}`} src={imgsrc} width={1280} height={800}/>
-            </div>
+            <Link href={"/work/"+ `${path}`}>
+                <div>
+                    <div class="mb-4 lg:mb-6">
+                        <Image alt={"Preview of " + `${title}`} src={imgsrc} width={1280} height={800}/>
+                    </div>
 
-            <div class="font-bold text-xl">
-                {title}
-            </div>
+                    <div class="font-bold text-xl">
+                        {title}
+                    </div>
+                </div>
+            </Link>
 
             <div class="font-light text-neutral-300 text-lg leading-6">
                 {description}
