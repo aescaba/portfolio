@@ -1,28 +1,16 @@
 // navbar code from https://j471n.in/blogs/active-navbar-next-js
 
 import '../styles/globals.css'
-import { motion } from 'framer-motion';
 import Layout from '../components/layout';
 
-function MyApp({ Component, pageProps, router }) {
+
+function MyApp({ Component, pageProps, }) {
   return (
-    <motion.div
-    key={router.route}
-    initial="initial"
-    animate="animate"
-    variants={{
-      initial: {
-        opacity: 0,
-      },
-      animate: {
-        opacity: 1,
-      },
-    }}>
-  <Layout>
-  <Component {...pageProps} />
-  </Layout>
-  </motion.div>
-    );
+
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
 export default MyApp
