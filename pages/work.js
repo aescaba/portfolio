@@ -1,6 +1,5 @@
-import styles from '../styles/Home.module.css'
 import PageTitle from '../components/pagetitle'
-import Image from 'next/image'
+import WorkListing from '../components/worklisting'
 
 
 export default function Work() {
@@ -9,39 +8,41 @@ export default function Work() {
 
       <PageTitle title={"Work"}/>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-28">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
 
         {/* CHANGE THIS TO BE A FEED LATER ? */}
 
         {/* project one */}
-        <div class="">
-          <div class="mb-4 lg:mb-6">
-            <Image class="" src="/../public/images/work/capstone/LECHON.png" alt="placeholder" width={1280} height={800}/>
-          </div>
-
-          <div class="font-extrabold">
-            Tastes of the Motherland
-          </div>
-
-          <div class="">
-          Northeastern University capstone project&mdash;an interactive website prototype
-          </div>
-        </div>
+          <WorkListing
+            imgsrc={"/images/work/wbecnydmv/wbec-thumb.png"}
+            path={"wbecnydmv"}
+            title={"WBEC Metro NY & Greater DMV"}
+            description={"Complete website overhaul to reflect new branding and improve user experience"}>
+          </WorkListing>
 
         {/* project two */}
-        <div class="">
-          <div class="mb-4 lg:mb-6">
-            <Image class="" src="/../public/images/work/placeholder_art.png" alt="placeholder" width={1280} height={800}/>
-          </div>
+        <WorkListing
+            imgsrc={"/images/work/capstone/capstone-thumb.png"}
+            path={"capstone"}
+            title={"Tastes of the Motherland"}
+            description={"Northeastern University capstone project: an interactive website prototype"}>
+        </WorkListing>
 
-          <div class="font-extrabold">
-            Project #2 Title
-          </div>
+        {/* project three */}
+        <WorkListing
+            imgsrc={"/images/work/mbta-unimaps/mbta-uni-maps-thumb.png"}
+            path={"unimaps"}
+            title={"MBTA University Marketing: Interest-Based Maps"}
+            description={"Outreach plan to promote MBTA ridership to university students and young professionals"}>
+        </WorkListing>
 
-          <div class="">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          </div>
-        </div>
+        {/* project four */}
+        <WorkListing
+            imgsrc={"/images/work/mbta-bluebook/mbta-bluebook-thumb.png"}
+            path={"bluebook"}
+            title={"MBTA Blue Book Redesign"}
+            description={"Microsite design to improve readability of and broaden access to MBTA data pool"}>
+        </WorkListing>
 
       </div>
 
