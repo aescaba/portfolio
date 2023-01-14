@@ -1,14 +1,14 @@
 // navbar code from https://j471n.in/blogs/active-navbar-next-js
-// animation https://dev.to/ivandotv/full-page-transitions-with-next-js-1co5
+// animation https://letsbuildui.dev/articles/animated-page-transitions-in-nextjs
 
 import '../styles/globals.css'
 import Layout from '../components/layout';
 import Navbar from '../components/navbar';
 import Head from 'next/head';
 import Footer from '../components/footer'
-import { motion } from 'framer-motion';
 
-function MyApp({ Component, pageProps, router }) {
+
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -19,17 +19,9 @@ function MyApp({ Component, pageProps, router }) {
       <div>
         <Navbar />
 
-        <motion.div
-          key={router.route}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.2 }}
-        >
-          <Layout>
+        <Layout>
             <Component {...pageProps} />
-          </Layout>
-        </motion.div>
+        </Layout>
         {/* <Footer /> */}
       </div>
     </>
