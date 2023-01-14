@@ -10,7 +10,7 @@ export default function About() {
       <div class="flex flex-col-reverse lg:flex-row">
         {/* first column - photo */}
         <div class="max-w-sm mt-16 pb-24 lg:pb-0 lg:mt-0 lg:mr-20 xl:mr-24 place-self-center lg:place-self-auto">
-          <Image class="" src="/images/apl.png" placeholder="blur" blurDataURL="/images/apl-blur.png" alt="Photo of Amanda smiling holding an apple in front of an apple tree" width={1536} height={2048}/>
+          <Image class="" src="/images/apl.webp" alt="Photo of Amanda smiling holding an apple in front of an apple tree" width={1536} height={2048}/>
         </div>
 
         {/* second column - bio */}
