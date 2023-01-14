@@ -17,7 +17,7 @@ import Document, {
   
     render() {
       return (
-        <Html className='dark bg-[#131315] text-[#F3F3F3]'>
+        <Html class="dark bg-[#131315] text-[#F3F3F3]">
           <Head>
           <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
           </Head>

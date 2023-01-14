@@ -3,17 +3,30 @@
 
 import '../styles/globals.css'
 import Layout from '../components/layout';
-import Transition from '../components/transition';
+import Navbar from '../components/navbar';
+import Head from 'next/head';
+import Footer from '../components/footer'
+import { AnimatePresence } from 'framer-motion';
 
 
 function MyApp({ Component, pageProps, }) {
   return (
-
-    <Layout>
-      {/* <Transition> */}
-        <Component {...pageProps} />
-      {/* </Transition> */}
-    </Layout>
+    <>
+      <Head>
+        <title>Amanda Escaba - Web Designer & Developer</title>
+        <meta name="description" content="Amanda Escaba - Web Designer & Developer - Portfolio Site" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      <div>
+        <Navbar />
+        
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        
+        {/* <Footer /> */}
+      </div>
+    </>
   );
 }
 

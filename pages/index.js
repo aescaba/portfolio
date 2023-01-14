@@ -1,11 +1,12 @@
 import styles from '../styles/Home.module.css'
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
     // <div className={styles.container}>
 
   <div class="h-[80vh] grid content-center space-y-4 font-light">
-        <h1 class="text-3xl lg:text-5xl">
+    <h1 class="text-3xl lg:text-5xl">
           Hi there!
         </h1>
         <h1 class="text-4xl lg:text-6xl">
