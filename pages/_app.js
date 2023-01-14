@@ -6,10 +6,9 @@ import Layout from '../components/layout';
 import Navbar from '../components/navbar';
 import Head from 'next/head';
 import Footer from '../components/footer'
-import { AnimatePresence } from 'framer-motion';
 
 
-function MyApp({ Component, pageProps, }) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -19,11 +18,10 @@ function MyApp({ Component, pageProps, }) {
       </Head>
       <div>
         <Navbar />
-        
-          <Layout>
+
+        <Layout>
             <Component {...pageProps} />
-          </Layout>
-        
+        </Layout>
         {/* <Footer /> */}
       </div>
     </>
