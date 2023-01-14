@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import PageTitle from '../components/pagetitle'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
