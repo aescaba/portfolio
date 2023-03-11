@@ -12,8 +12,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Amanda Escaba - Web Designer & Developer</title>
-        <meta name="description" content="Amanda Escaba - Web Designer & Developer - Portfolio Site" />
+        <title>Amanda Escaba &ndash; Web Designer & Developer &ndash; Portfolio Site</title>
+        <meta name="description" content="My name is Amanda and I'm a web designer, developer based in the New York Metropolitan Area. I love designing user-centered experiences and everything about the process of creating!" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div>
