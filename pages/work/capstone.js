@@ -65,7 +65,7 @@ export default function Capstone() {
 
         <div>
           <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720}/>
-          <p class="mt-2 text-lg leading-6">I researched children's books, cookbooks, and food essays for inspiration.</p>
+          <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
         </div>
       </div>
     </div>
