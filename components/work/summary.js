@@ -23,7 +23,7 @@ export default function Summary({ summary, toolsList, imgInfo }) {
                 <div class="flex space-x-6 text-lg">
                     {tools.map((tool) => {
                         return (
-                            <p>{tool}</p>
+                            <p key={tool}>{tool}</p>
                         );
                     })}
                 </div>
