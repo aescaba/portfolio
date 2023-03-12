@@ -2,6 +2,8 @@ import PageTitle from '../../components/pagetitle'
 import Image from 'next/image';
 import Summary from '../../components/work/summary';
 
+const summary = "Two of my biggest passions are food and culture—so for my final capstone project at Northeastern University, I combined the two interests to create a project that encapsulated who I was and what I loved to express."
+
 const toolsList = [
   "Adobe InDesign",
   "Adobe XD",
@@ -18,36 +20,15 @@ const imgInfo = {
 export default function Capstone() {
   return (
     <div class="font-light text-xl leading-6 pb-24">
-      <Summary 
-      summary="test"
-      toolsList={toolsList}
-      imgInfo = {imgInfo}
-      />
+
       <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
       
       {/* first row - summary and preview photo */}
-      <div class="flex flex-col lg:flex-row lg:gap-x-8 mb-20">
-        {/* <p class="text-2xl my-10 font-medium text-blue-300 italic">preview coming soon</p> */}
-
-      {/* first column - summary */}
-        <div class="mb-8 lg:mb-4 lg:basis-1/2">
-            <p class="text-[1.75rem] leading-9 font-thin">Two of my biggest passions are food and culture&mdash;so for my final capstone project at Northeastern University, I combined the two interests to create a project that encapsulated who I was and what I loved to express.
-            </p>
-
-            <h3 class="text-xl mt-10 py-2 font-semibold">Skills/Tools</h3>
-            <div class="flex space-x-6 text-lg">
-              <p>Adobe InDesign</p>
-              <p>Adobe XD</p>
-              <p>Procreate</p>
-            </div>
-        </div>
-
-      {/* second column - image */}
-          <div class="lg:basis-1/2">
-            <Image class="" src="/images/work/capstone/lechon-page.jpg" alt="Screenshot of cookbook capstone project, open to a page with an illustrated roast pig" width={1280} height={720}/>
-          </div>
-
-      </div>
+      <Summary 
+        summary={summary}
+        toolsList={toolsList}
+        imgInfo = {imgInfo}
+      />
 
     {/* second row */}
     <div class="mb-10 lg:mb-20">
