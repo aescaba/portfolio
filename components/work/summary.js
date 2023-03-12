@@ -4,6 +4,10 @@ export default function Summary({ summary, toolsList, imgInfo }) {
 
     // imgInfo: src, alt, width, height
 
+    const tools = toolsList;
+    console.log(tools);
+    console.log(toolsList);
+
     const src = `${imgInfo.src}`;
     const alt = `${imgInfo.alt}`;
     const width = `${imgInfo.width}`;
@@ -17,7 +21,7 @@ export default function Summary({ summary, toolsList, imgInfo }) {
 
                 <h3 class="text-xl mt-10 py-2 font-semibold">Skills/Tools</h3>
                 <div class="flex space-x-6 text-lg">
-                    {toolsList.map((tool) => {
+                    {tools.map((tool) => {
                         return (
                             <p>{tool}</p>
                         );
