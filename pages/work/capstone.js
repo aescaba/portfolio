@@ -1,9 +1,28 @@
 import PageTitle from '../../components/pagetitle'
 import Image from 'next/image';
+import Summary from '../../components/work/summary';
+
+const toolsList = [
+  "Adobe InDesign",
+  "Adobe XD",
+  "Procreate"
+]
+
+const imgInfo = {
+  src: "/images/work/capstone/lechon-page.jpg",
+  alt: "Screenshot of cookbook capstone project, open to a page with an illustrated roast pig",
+  width: "1280",
+  height: "720"
+}
 
 export default function Capstone() {
   return (
     <div class="font-light text-xl leading-6 pb-24">
+      <Summary 
+      summary="test"
+      toolsList={toolsList}
+      imgInfo = {imgInfo}
+      />
       <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
       
       {/* first row - summary and preview photo */}
