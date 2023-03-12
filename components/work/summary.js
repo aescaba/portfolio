@@ -20,7 +20,7 @@ export default function Summary({ summary, toolsList, imgInfo }) {
                 <p class="text-[1.75rem] leading-9 font-thin">{summary}</p>
 
                 <h3 class="text-xl mt-10 py-2 font-semibold">Skills/Tools</h3>
-                <div class="flex space-x-6 text-lg">
+                <div class="flex flex-wrap gap-x-6 text-lg">
                     {tools.map((tool) => {
                         return (
                             <p key={tool}>{tool}</p>
