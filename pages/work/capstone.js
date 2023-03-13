@@ -34,39 +34,67 @@ export default function Capstone() {
   return (
     <div class="font-light text-xl leading-6 pb-24">
 
-      <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
-      
-      {/* first row - summary and preview photo */}
-      <Summary 
+      <PageTitle title={"Capstone Project: Tastes of the Motherland"} />
+
+      {/* first section - summary and preview photo */}
+      <Summary
         summary={summary}
         toolsList={toolsList}
-        imgInfo = {imgInfo}
+        imgInfo={imgInfo}
       />
 
-    {/* second row - overview and responsibilities */}
-    <Overview
-      overview={overview}
-      responsibilities={responsibilities}
-    />
+      {/* second section - overview and responsibilities */}
+      <Overview
+        overview={overview}
+        responsibilities={responsibilities}
+      />
 
-    {/* third row */}
-    <div class="mb-10 lg:mb-20">
-      <div class="mb-4 text-xl leading-8">
-        <h2 class="text-3xl py-4 font-semibold">Process</h2>
-      </div>
-      
-      <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
-        <div>
-          <Image class="" src="/images/work/capstone/capstone-sketches.jpg" alt="Early sketches of the proposed website flow" width={1280} height={720}/>
-          <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
+      {/* third section - process */}
+      <div class="mb-10 lg:mb-20">
+
+        <div class="mb-4 text-xl leading-8">
+          <h2 class="text-3xl py-4 font-semibold">Process</h2>
         </div>
 
-        <div>
-          <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720}/>
+        {/* row - image left + text right */}
+        <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
+          <div class="lg:w-1/2">
+            <Image class="" src="/images/work/capstone/capstone-sketches.jpg" alt="Early sketches of the proposed website flow" width={1280} height={720} />
+            <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
+          </div>
+
+          <div class="lg:w-1/2 lg:mb-10 lg:self-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          </div>
+        </div>
+
+        {/* row - full size image */}
+        <div class="mb-10 lg:mb-20">
+          <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720} />
           <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
         </div>
+
+        {/* row - text */}
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        </div>
+
+        {/* row - vertical + horizontal image */}
+        <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
+          <div class="lg:w-1/2">
+            <Image class="" src="/images/work/capstone/planning-excerpts.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={875} height={1078} />
+            <p class="mt-2 text-lg leading-6">Excerpts from my early planning stages</p>
+          </div>
+
+          <div>
+            <Image class="lg:w-1/2" src="/images/work/capstone/organizing.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1405} height={1078} />
+            <p class="mt-2 text-lg leading-6">lorem ipsum</p>
+          </div>
+        </div>
+
+
       </div>
-    </div>
+
 
     </div>
   );
