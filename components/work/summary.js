@@ -2,12 +2,20 @@ import Image from "next/image";
 
 export default function Summary({ summary, toolsList, imgInfo }) {
 
-    // imgInfo: src, alt, width, height
+    /*
+        summary: 1-2 sentence description of project, larger text at top
+        toolsList: short list of skills/tools used in project
+        imgInfo: 
+            source: path to image
+            alt: image alt text
+            width: image width
+            height: image height
+    */
 
+    // for mapping tools in styled list
     const tools = toolsList;
-    console.log(tools);
-    console.log(toolsList);
 
+    // parameters needed to render image
     const src = `${imgInfo.src}`;
     const alt = `${imgInfo.alt}`;
     const width = `${imgInfo.width}`;
