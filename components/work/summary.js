@@ -3,17 +3,17 @@ import Image from "next/image";
 export default function Summary({ summary, toolsList, imgInfo }) {
 
     /*
-        summary: 1-2 sentence description of project, larger text at top
-        toolsList: short list of skills/tools used in project
-        imgInfo: 
-            source: path to image
-            alt: image alt text
-            width: image width
-            height: image height
+        summary: string - 1-2 sentence description of project, larger text at top
+        toolsList: array of strings - each string is a skill/tool used in project
+        imgInfo: object
+            src: string - path to image
+            alt: string - image alt text
+            width: string - # - image width
+            height: string - # - image height
     */
 
     // for mapping tools in styled list
-    const tools = toolsList;
+    // const tools = toolsList;
 
     // parameters needed to render image
     const src = `${imgInfo.src}`;
@@ -29,7 +29,7 @@ export default function Summary({ summary, toolsList, imgInfo }) {
 
                 <h3 class="text-xl mt-10 py-2 font-semibold">Skills/Tools</h3>
                 <div class="flex flex-wrap gap-x-6 text-lg">
-                    {tools.map((tool) => {
+                    {toolsList.map((tool) => {
                         return (
                             <p key={tool}>{tool}</p>
                         );

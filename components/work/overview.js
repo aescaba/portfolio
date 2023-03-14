@@ -1,8 +1,10 @@
 
 export default function Overview({ overview, responsibilities }) {
-
-    // const overviewText = overview;
-    // const resps = responsibilities;
+    
+    /*
+        overview: array of strings - each string is a paragraph in the overview section
+        responsibilities: array of strings - each string is a bullet point
+    */
 
     return (
         <div class="mb-10 lg:mb-20">
