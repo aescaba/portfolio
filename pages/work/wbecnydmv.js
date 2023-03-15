@@ -37,6 +37,7 @@ export default function WBECNYDMV() {
         summary={summary}
         toolsList={toolsList}
         imgInfo={imgInfo}
+        hasLink={false}
       />
 
       <Overview

@@ -41,6 +41,9 @@ export default function Capstone() {
         summary={summary}
         toolsList={toolsList}
         imgInfo = {imgInfo}
+        hasLink={true}
+        link="http://bit.ly/aescaba_capstone"
+        linkText="Live Preview"
       />
 
     {/* second row - overview and responsibilities */}

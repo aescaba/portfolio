@@ -44,6 +44,7 @@ export default function UniMaps() {
       summary={summary}
       toolsList={toolsList}
       imgInfo = {imgInfo}
+      hasLink={false}
     />
 
   {/* second row - overview and responsibilities */}

@@ -41,6 +41,7 @@ export default function BlueBook() {
         summary={summary}
         toolsList={toolsList}
         imgInfo={imgInfo}
+        hasLink={false}
       />
 
       {/* second row - overview and responsibilities */}
