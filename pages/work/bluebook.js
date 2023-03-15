@@ -43,7 +43,7 @@ export default function BlueBook() {
         imgInfo={imgInfo}
         hasLink={true}
         link="https://mbta-massdot.opendata.arcgis.com/"
-        linkText="Visit Open Data Portal"
+        linkText="View Open Data Portal"
       />
 
       {/* second row - overview and responsibilities */}

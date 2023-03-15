@@ -43,7 +43,7 @@ export default function Capstone() {
         imgInfo = {imgInfo}
         hasLink={true}
         link="http://bit.ly/aescaba_capstone"
-        linkText="Live Preview"
+        linkText="View Project"
       />
 
     {/* second row - overview and responsibilities */}
