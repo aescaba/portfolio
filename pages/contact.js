@@ -21,8 +21,6 @@ export default function Contact() {
         <div class="flex flex-row mt-6 space-x-4">
           <a href="https://drive.google.com/file/d/1n4lYfD1M7ZoGZGENIhkVUaDjUM4hhpkh/view?usp=sharing" target="_blank" rel="noreferrer">
           <button class="outline outline-2 rounded-full px-8 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-semibold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
-          {/* <button class="outline outline-2 rounded-full px-14 py-1 text-xl text-white font-bold bg-gradient-to-r hover:bg-gradient-to-l from-blue-500 via-orange-500 to-amber-400"> */}
-          {/* <button class="outline outline-2 rounded-full px-14 py-1 text-xl text-black font-black bg-gradient-to-r hover:bg-gradient-to-l from-blue-300 via-amber-200 to-orange-200"> */}
             <p>Resume</p>
           </button>
           </a>
