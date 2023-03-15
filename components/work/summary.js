@@ -13,7 +13,7 @@ export default function Summary({ summary, toolsList, imgInfo, hasLink, link = "
             height: string - # - image height
         hasLink: boolean - is there a link to some sort of preview?
         link: string - external preview link. default empty string
-        link: string - link text
+        linkText: string - link text
     */
 
     // parameters needed to render image
@@ -26,11 +26,11 @@ export default function Summary({ summary, toolsList, imgInfo, hasLink, link = "
     function previewLink() {
         if (hasLink) {
             return (
-                <button class="flex flex-row mt-6 outline outline-2 rounded-full px-6 py-2  transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
-                    <a href={link} target="_blank" aria-label={"View a live preview"}
-                        class="text-lg font-semibold">
-                        {linkText}<HiOutlineExternalLink class="inline ml-2" /></a>
+                <a href={link} target="_blank" aria-label={"View a live preview"}>
+                <button class="flex mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                        {linkText}<HiOutlineExternalLink class="inline ml-2" />
                 </button>
+                </a>
             )
         }
     }

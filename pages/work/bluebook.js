@@ -41,7 +41,9 @@ export default function BlueBook() {
         summary={summary}
         toolsList={toolsList}
         imgInfo={imgInfo}
-        hasLink={false}
+        hasLink={true}
+        link="https://mbta-massdot.opendata.arcgis.com/"
+        linkText="Visit Open Data Portal"
       />
 
       {/* second row - overview and responsibilities */}

@@ -44,7 +44,9 @@ export default function UniMaps() {
       summary={summary}
       toolsList={toolsList}
       imgInfo = {imgInfo}
-      hasLink={false}
+      hasLink={true}
+      link="https://drive.google.com/file/d/1Mn1ZaLUWeAT9z04bvnlV_ln-Hf0TZamY/view?usp=sharing"
+      linkText="View Proposal"
     />
 
   {/* second row - overview and responsibilities */}
