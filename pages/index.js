@@ -6,7 +6,6 @@ export default function Home() {
     // <div className={styles.container}>
 
   <div class="h-[80vh] grid content-center space-y-4 font-light">
-    {console.log('test')}
     <h1 class="text-3xl lg:text-5xl">
           Hi there!
         </h1>
