@@ -6,6 +6,7 @@ export default function Home() {
     // <div className={styles.container}>
 
   <div class="h-[80vh] grid content-center space-y-4 font-light">
+    {console.log('test')}
     <h1 class="text-3xl lg:text-5xl">
           Hi there!
         </h1>
@@ -21,7 +22,6 @@ export default function Home() {
           </h2>
          <div class="my-6 text-blue-300 font-light text-lg italic">&mdash; Just like me, this website is a constant work in progress :)</div>
     </div>
-    // test change for branch deploy
   )
 }
 
