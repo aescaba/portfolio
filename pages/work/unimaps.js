@@ -3,6 +3,9 @@ import Image from 'next/image';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
+// image imports
+import summaryPhoto from '../../public/images/work/mbta-unimaps/mbta-uni-maps-crop.png'
+
 const summary = "As an advocate for accessible public transit, getting to co-op at the Massachusetts Bay Transportation Authority was an incredible opportunity. I loved getting to use my personal experiences as a college student and Boston resident to drive my inspiration for this marketing concept."
 
 const toolsList = [
@@ -15,7 +18,7 @@ const toolsList = [
 ]
 
 const imgInfo = {
-  src: "/images/work/mbta-unimaps/mbta-uni-maps-crop.png",
+  summaryPhoto,
   alt: "Interest-Based Map of Boston Preview, a map of the Greater Boston Area with neighborhoods labeled and outlined.",
   width: "1280",
   height: "800"

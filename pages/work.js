@@ -2,6 +2,15 @@ import PageTitle from '../components/pagetitle'
 import WorkListing from '../components/worklisting'
 import Image from 'next/image'
 
+// image imports
+import wbec from '../public/images/work/wbecnydmv/wbec-thumb.jpg'
+import capstone from '../public/images/work/capstone/capstone-thumb.jpg'
+import unimaps from '../public/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg'
+import bluebook from '../public/images/work/mbta-bluebook/mbta-bluebook-thumb.jpg'
+import portfolioPreview from '../public/images/work/portfolio-preview-thumb.jpg'
+import gallerifyPreview from '../public/images/work/gallerify-preview-thumb.jpg'
+
+
 export default function Work() {
   return (
     <div class="">
@@ -14,7 +23,7 @@ export default function Work() {
 
         {/* project one */}
         <WorkListing
-          imgsrc={"/images/work/wbecnydmv/wbec-thumb.jpg"}
+          imgsrc={wbec}
           path={"wbecnydmv"}
           title={"WBEC Metro NY & Greater DMV"}
           description={"Complete website overhaul to reflect new branding and improve user experience"}>
@@ -22,7 +31,7 @@ export default function Work() {
 
         {/* project two */}
         <WorkListing
-          imgsrc={"/images/work/capstone/capstone-thumb.jpg"}
+          imgsrc={capstone}
           path={"capstone"}
           title={"Tastes of the Motherland"}
           description={"Northeastern University capstone project: an interactive website prototype"}>
@@ -30,7 +39,7 @@ export default function Work() {
 
         {/* project three */}
         <WorkListing
-          imgsrc={"/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg"}
+          imgsrc={unimaps}
           path={"unimaps"}
           title={"MBTA University Marketing: Interest-Based Maps"}
           description={"Outreach plan to promote MBTA ridership to university students and young professionals"}>
@@ -38,7 +47,7 @@ export default function Work() {
 
         {/* project four */}
         <WorkListing
-          imgsrc={"/images/work/mbta-bluebook/mbta-bluebook-thumb.jpg"}
+          imgsrc={bluebook}
           path={"bluebook"}
           title={"MBTA Blue Book Redesign"}
           description={"Microsite design to improve readability of and broaden access to MBTA data pool"}>
@@ -52,7 +61,7 @@ export default function Work() {
         {/* portfolio preview */}
         <div class="">
           <div class="mb-4 lg:mb-6">
-            <Image alt="Blurred photo preview of portfolio project asset" src="/images/work/portfolio-preview-thumb.jpg" width={1280} height={800} />
+            <Image alt="Blurred photo preview of portfolio project asset" src={portfolioPreview} placeholder="blur" width={1280} height={800} />
           </div>
 
           <div class="font-bold text-xl">
@@ -63,7 +72,7 @@ export default function Work() {
                 {/* gallerify preview */}
                 <div class="">
           <div class="mb-4 lg:mb-6">
-            <Image alt="Blurred photo preview of Gallerify project asset" src="/images/work/gallerify-preview-thumb.jpg" width={1280} height={800} />
+            <Image alt="Blurred photo preview of Gallerify project asset" src={gallerifyPreview} placeholder="blur" width={1280} height={800} />
           </div>
 
           <div class="font-bold text-xl">

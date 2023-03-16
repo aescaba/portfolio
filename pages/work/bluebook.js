@@ -3,6 +3,9 @@ import Image from 'next/image';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
+// image imports
+import summaryPhoto from '../../public/images/work/mbta-bluebook/wireframes_3_page-0003.jpg'
+
 const summary = "Prioritizing the user experience is always a driving factor of mine—so when I was faced with the challenge of designing a microsite for the Massachusetts Bay Transportation Authority Blue Book, I was excited to put my technical, design, and organization skills to use to make navigating through large amounts of data more bearable."
 
 const toolsList = [
@@ -12,7 +15,7 @@ const toolsList = [
 ]
 
 const imgInfo = {
-  src: "/images/work/mbta-bluebook/wireframes_3_page-0003.jpg",
+  summaryPhoto,
   alt: "Screenshot of a wireframed webpage for MBTA Blue Book microsite",
   width: "4000",
   height: "2932"
