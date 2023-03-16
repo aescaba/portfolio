@@ -2,6 +2,9 @@ import PageTitle from '../../components/pagetitle'
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
+// image imports
+import summaryPhoto from '../../public/images/work/wbecnydmv/WBEC-3-crop-2.png'
+
 const summary = "I love taking a design concept and seeing how far I can run with it, so designing and building website pages for my marketing agency’s client was a challenge I was excited to take on."
 
 const toolsList = [
@@ -12,7 +15,7 @@ const toolsList = [
 ]
 
 const imgInfo = {
-  src: "/images/work/wbecnydmv/WBEC-3-crop-2.png",
+  summaryPhoto,
   alt: "Screenshot of 'About Us' page on WBEC Metro NY and Greater DMV website",
   width: "1280",
   height: "800"

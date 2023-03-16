@@ -3,6 +3,11 @@ import Image from 'next/image';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
+// image imports
+import summaryPhoto from '../../public/images/work/capstone/lechon-page.jpg'
+import capstoneSketches from '../../public/images/work/capstone/capstone-sketches.jpg';
+import capstonePlanning from '../../public/images/work/capstone/capstone-planning.jpg';
+
 const summary = "Two of my biggest passions are food and culture—so for my final capstone project at Northeastern University, I combined the two interests to create a project that encapsulated who I was and what I loved to express."
 
 const toolsList = [
@@ -12,7 +17,7 @@ const toolsList = [
 ]
 
 const imgInfo = {
-  src: "/images/work/capstone/lechon-page.jpg",
+  summaryPhoto,
   alt: "Screenshot of cookbook capstone project, open to a page with an illustrated roast pig",
   width: "1280",
   height: "720"
@@ -60,12 +65,12 @@ export default function Capstone() {
       
       <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
         <div>
-          <Image class="" src="/images/work/capstone/capstone-sketches.jpg" alt="Early sketches of the proposed website flow" width={1280} height={720}/>
+          <Image class="" src={capstoneSketches} alt="Early sketches of the proposed website flow" placeholder="blur" width={1280} height={720}/>
           <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
         </div>
 
         <div>
-          <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720}/>
+          <Image class="" src={capstonePlanning} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1280} height={720}/>
           <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 export default function Summary({ summary, toolsList, imgInfo, hasLink, link = "", linkText = "" }) {
 
     /*
-        summary: string - 1-2 sentence description of project, larger text at top
+        summaryPhoto: image - image imported in a work page
         toolsList: array of strings - each string is a skill/tool used in project
         imgInfo: object
             src: string - path to image
@@ -15,12 +15,6 @@ export default function Summary({ summary, toolsList, imgInfo, hasLink, link = "
         link: string - external preview link. default empty string
         linkText: string - link text
     */
-
-    // parameters needed to render image
-    const src = `${imgInfo.src}`;
-    const alt = `${imgInfo.alt}`;
-    const width = `${imgInfo.width}`;
-    const height = `${imgInfo.height}`;
 
     // if there's a link to some sort of preview, create this link
     function previewLink() {
@@ -52,11 +46,9 @@ export default function Summary({ summary, toolsList, imgInfo, hasLink, link = "
                 {previewLink()}
             </div>
 
-
-
             {/* second column - image */}
             <div class="lg:basis-1/2">
-                <Image class="" src={src} alt={alt} width={width} height={height} />
+                <Image class="" src={imgInfo.summaryPhoto} alt={imgInfo.alt} placeholder="blur" width={imgInfo.width} height={imgInfo.height} />
             </div>
 
         </div>

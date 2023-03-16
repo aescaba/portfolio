@@ -7,6 +7,9 @@ import wbec from '../public/images/work/wbecnydmv/wbec-thumb.jpg'
 import capstone from '../public/images/work/capstone/capstone-thumb.jpg'
 import unimaps from '../public/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg'
 import bluebook from '../public/images/work/mbta-bluebook/mbta-bluebook-thumb.jpg'
+import portfolioPreview from '../public/images/work/portfolio-preview-thumb.jpg'
+import gallerifyPreview from '../public/images/work/gallerify-preview-thumb.jpg'
+
 
 export default function Work() {
   return (
@@ -58,7 +61,7 @@ export default function Work() {
         {/* portfolio preview */}
         <div class="">
           <div class="mb-4 lg:mb-6">
-            <Image alt="Blurred photo preview of portfolio project asset" src="/images/work/portfolio-preview-thumb.jpg" width={1280} height={800} />
+            <Image alt="Blurred photo preview of portfolio project asset" src={portfolioPreview} placeholder="blur" width={1280} height={800} />
           </div>
 
           <div class="font-bold text-xl">
@@ -69,7 +72,7 @@ export default function Work() {
                 {/* gallerify preview */}
                 <div class="">
           <div class="mb-4 lg:mb-6">
-            <Image alt="Blurred photo preview of Gallerify project asset" src="/images/work/gallerify-preview-thumb.jpg" width={1280} height={800} />
+            <Image alt="Blurred photo preview of Gallerify project asset" src={gallerifyPreview} placeholder="blur" width={1280} height={800} />
           </div>
 
           <div class="font-bold text-xl">
