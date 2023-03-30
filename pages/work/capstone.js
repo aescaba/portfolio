@@ -39,42 +39,46 @@ export default function Capstone() {
   return (
     <div class="font-light text-xl leading-6 pb-24">
 
-      <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
-      
+      <PageTitle title={"Capstone Project: Tastes of the Motherland"} />
+
       {/* first row - summary and preview photo */}
-      <Summary 
+      <Summary
         summary={summary}
         toolsList={toolsList}
-        imgInfo = {imgInfo}
+        imgInfo={imgInfo}
         hasLink={true}
         link="http://bit.ly/aescaba_capstone"
         linkText="View Project"
       />
 
-    {/* second row - overview and responsibilities */}
-    <Overview
-      overview={overview}
-      responsibilities={responsibilities}
-    />
+      <a class="text-amber-400 transition ease-in-out delay-100 hover:text-orange-400 font-semibold" href="https://drive.google.com/file/d/146VCS8Jz-Py_qIGlt_TLYfS-ULiYQb4_/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View full process documentation">
+          View full process documentation	&#8594;
+      </a>
 
-    {/* third row */}
-    <div class="mb-10 lg:mb-20">
-      <div class="mb-4 text-xl leading-8">
-        <h2 class="text-3xl py-4 font-semibold">Process</h2>
-      </div>
-      
-      <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
-        <div>
-          <Image class="" src={capstoneSketches} alt="Early sketches of the proposed website flow" placeholder="blur" width={1280} height={720}/>
-          <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
+      {/* second row - overview and responsibilities */}
+      <Overview
+        overview={overview}
+        responsibilities={responsibilities}
+      />
+
+      {/* third row */}
+      <div class="mb-10 lg:mb-20">
+        <div class="mb-4 text-xl leading-8">
+          <h2 class="text-3xl py-4 font-semibold">Process</h2>
         </div>
 
-        <div>
-          <Image class="" src={capstonePlanning} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1280} height={720}/>
-          <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
+          <div>
+            <Image class="" src={capstoneSketches} alt="Early sketches of the proposed website flow" placeholder="blur" width={1280} height={720} />
+            <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
+          </div>
+
+          <div>
+            <Image class="" src={capstonePlanning} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1280} height={720} />
+            <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
+          </div>
         </div>
       </div>
-    </div>
 
     </div>
   );
