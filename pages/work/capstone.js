@@ -7,6 +7,8 @@ import Overview from '../../components/work/overview';
 import summaryPhoto from '../../public/images/work/capstone/lechon-page.jpg'
 import capstoneSketches from '../../public/images/work/capstone/capstone-sketches.jpg';
 import capstonePlanning from '../../public/images/work/capstone/capstone-planning.jpg';
+import planningExcerpts from '../../public/images/work/capstone/planning-excerpts.jpg';
+import organizing from '../../public/images/work/capstone/organizing.jpg';
 
 const summary = "Two of my biggest passions are food and culture—so for my final capstone project at Northeastern University, I combined the two interests to create a project that encapsulated who I was and what I loved to express."
 
@@ -71,7 +73,7 @@ export default function Capstone() {
         {/* row - image left + text right */}
         <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
           <div class="lg:w-1/2">
-            <Image class="" src="/images/work/capstone/capstone-sketches.jpg" alt="Early sketches of the proposed website flow" width={1280} height={720} />
+            <Image class="" src={capstoneSketches} alt="Early sketches of the proposed website flow" placeholder="blur" width={1280} height={720} />
 
           </div>
 
@@ -87,7 +89,7 @@ export default function Capstone() {
 
         {/* row - full size image */}
         <div class="mb-10 lg:mb-20">
-          <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720} />
+          <Image class="" src={capstonePlanning} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1280} height={720} />
         </div>
 
         {/* row - text */}
@@ -109,12 +111,12 @@ export default function Capstone() {
         {/* row - vertical + horizontal image */}
         <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
           <div class="lg:w-1/2">
-            <Image class="" src="/images/work/capstone/planning-excerpts.jpg" alt="Miscellaneous handwritten digital notes documenting the process of defining my target audience and look/feel" width={875} height={1078} />
+            <Image class="" src={planningExcerpts} alt="Miscellaneous handwritten digital notes documenting the process of defining my target audience and look/feel" placeholder="blur" width={875} height={1078} />
             <p class="mt-2 text-lg leading-6">Excerpts from my early planning stages&mdash;defining my target audience and look/feel</p>
           </div>
 
           <div>
-            <Image class="lg:w-1/2" src="/images/work/capstone/organizing.jpg" alt="Various lists of possible cookbook recipes and handwritten annotations" width={1405} height={1078} />
+            <Image class="lg:w-1/2" src={organizing} alt="Various lists of possible cookbook recipes and handwritten annotations" placeholder="blur" width={1405} height={1078} />
             <p class="mt-2 text-lg leading-6">Lists of possible cookbook recipes to include, narrowing them down, then organizing into sections</p>
           </div>
         </div>
