@@ -1,4 +1,4 @@
-import PageTitle from '../../components/pagetitle'
+import WorkPage from '../../components/work/workpage';
 import Image from 'next/image';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
@@ -39,9 +39,8 @@ const responsibilities = [
 
 export default function Capstone() {
   return (
-    <div class="font-light text-xl leading-8 pb-24">
-
-      <PageTitle title={"Capstone Project: Tastes of the Motherland"} />
+    <WorkPage
+      title={"Capstone Project: Tastes of the Motherland"}>
 
       {/* first section - summary and preview photo */}
       <Summary
@@ -54,7 +53,7 @@ export default function Capstone() {
       />
 
       <a class="text-amber-400 transition ease-in-out delay-100 hover:text-orange-400 font-semibold" href="https://drive.google.com/file/d/146VCS8Jz-Py_qIGlt_TLYfS-ULiYQb4_/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View full process documentation">
-          View full process documentation	&#8594;
+        View full process documentation	&#8594;
       </a>
 
       {/* second row - overview and responsibilities */}
@@ -141,10 +140,10 @@ export default function Capstone() {
           <h2 class="text-3xl py-4 font-semibold">Preview</h2>
         </div>
         <div class="flex justify-center">
-          <iframe class="w-full aspect-video" src="https://drive.google.com/file/d/1GQN2bRQYNej_zq_rWChd5c8c9StBEkqn/preview"  allow="autoplay"></iframe>
+          <iframe class="w-full aspect-video" src="https://drive.google.com/file/d/1GQN2bRQYNej_zq_rWChd5c8c9StBEkqn/preview" allow="autoplay"></iframe>
         </div>
       </div>
 
-    </div>
+    </WorkPage>
   );
 }

@@ -1,4 +1,4 @@
-import PageTitle from '../../components/pagetitle'
+import WorkPage from '../../components/work/workpage';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
@@ -33,8 +33,8 @@ const responsibilities = [
 
 export default function WBECNYDMV() {
   return (
-    <div class="font-light text-lg leading-6 pb-24">
-      <PageTitle title={"WBEC Metro NY & Greater DMV"} />
+    <WorkPage
+      title={"WBEC Metro NY & Greater DMV"}>
 
       <Summary
         summary={summary}
@@ -47,6 +47,6 @@ export default function WBECNYDMV() {
         overview={overview}
         responsibilities={responsibilities}
       />
-    </div>
+    </WorkPage>
   );
 }

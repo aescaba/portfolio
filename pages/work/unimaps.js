@@ -1,5 +1,4 @@
-import PageTitle from '../../components/pagetitle'
-import Image from 'next/image';
+import WorkPage from '../../components/work/workpage';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
@@ -38,45 +37,24 @@ const responsibilities = [
 
 export default function UniMaps() {
   return (
-    <div class="font-light text-xl leading-6 pb-24">
+    <WorkPage title={"MBTA University Marketing: Interest-Based Maps"}>
 
-    <PageTitle title={"MBTA University Marketing: Interest-Based Maps"}/>
-    
-    {/* first row - summary and preview photo */}
-    <Summary 
-      summary={summary}
-      toolsList={toolsList}
-      imgInfo = {imgInfo}
-      hasLink={true}
-      link="https://drive.google.com/file/d/1Mn1ZaLUWeAT9z04bvnlV_ln-Hf0TZamY/view?usp=sharing"
-      linkText="View Proposal"
-    />
+      {/* first row - summary and preview photo */}
+      <Summary
+        summary={summary}
+        toolsList={toolsList}
+        imgInfo={imgInfo}
+        hasLink={true}
+        link="https://drive.google.com/file/d/1Mn1ZaLUWeAT9z04bvnlV_ln-Hf0TZamY/view?usp=sharing"
+        linkText="View Proposal"
+      />
 
-  {/* second row - overview and responsibilities */}
-  <Overview
-    overview={overview}
-    responsibilities={responsibilities}
-  />
+      {/* second row - overview and responsibilities */}
+      <Overview
+        overview={overview}
+        responsibilities={responsibilities}
+      />
 
-  {/* third row */}
-  {/* <div class="mb-10 lg:mb-20">
-    <div class="mb-4 text-xl leading-8">
-      <h2 class="text-3xl py-4 font-semibold">Process</h2>
-    </div>
-    
-    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
-      <div>
-        <Image class="" src="/images/work/capstone/capstone-sketches.jpg" alt="Early sketches of the proposed website flow" width={1280} height={720}/>
-        <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
-      </div>
-
-      <div>
-        <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720}/>
-        <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
-      </div>
-    </div>
-  </div> */}
-
-  </div>
+    </WorkPage>
   );
 }

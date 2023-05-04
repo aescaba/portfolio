@@ -1,5 +1,4 @@
-import PageTitle from '../../components/pagetitle'
-import Image from 'next/image';
+import WorkPage from '../../components/work/workpage';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
@@ -35,9 +34,8 @@ const responsibilities = [
 
 export default function BlueBook() {
   return (
-    <div class="font-light text-lg leading-6 pb-24">
-
-      <PageTitle title={"MBTA Blue Book Redesign"} />
+    <WorkPage
+      title={"MBTA Blue Book Redesign"} >
 
       {/* first row - summary and preview photo */}
       <Summary
@@ -55,6 +53,6 @@ export default function BlueBook() {
         responsibilities={responsibilities}
       />
 
-    </div>
+    </WorkPage>
   );
 }
