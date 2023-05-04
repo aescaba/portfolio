@@ -1,5 +1,10 @@
-import WorkPage from '../../components/work/workpage';
+// library imports
 import Image from 'next/image';
+
+//component imports
+import WorkPage from '../../components/work/workpage';
+import WorkSection from '../../components/work/worksection';
+import WorkRow from '../../components/work/workrow';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
@@ -63,14 +68,14 @@ export default function Capstone() {
       />
 
       {/* third section - process */}
-      <div class="mb-10 lg:mb-20">
+      <WorkSection>
 
         <div class="mb-4 text-xl">
           <h2 class="text-3xl py-4 font-semibold">Process</h2>
         </div>
 
         {/* row - image left + text right */}
-        <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
+        <WorkRow>
           <div class="lg:w-1/2">
             <Image class="" src={capstoneSketches} alt="Early sketches of the proposed website flow" placeholder="blur" width={1280} height={720} />
 
@@ -84,20 +89,25 @@ export default function Capstone() {
               this concept into one cookbook with interactive elements within and around it.
             </p>
           </div>
-        </div>
+        </WorkRow>
 
         {/* row - full size image */}
-        <div class="mb-10 lg:mb-20">
+        <WorkRow>
           <Image class="" src={capstonePlanning} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1280} height={720} />
-        </div>
+        </WorkRow>
 
         {/* row - text */}
-        <div class="mb-10 lg:mb-20">
+        {/* 
+        TODO:
+          using a section instead of a row so it doesnt go to two columns - redo this to be cleaner/consistent later 
+        */}
+        <WorkSection>
           <p class="mb-10">
             I initially turned to inspiration from both virtual and physical sources. Online
             references were interactive games that required the user to click and interact with
             objects on the page or virtual storybooks, and physical references were children&apos;s
-            books that had interactive aspects like envelopes with letters inside or tabs to pull out.</p>
+            books that had interactive aspects like envelopes with letters inside or tabs to pull out.
+          </p>
           <p>
             I wanted to insert a lot of personal stories in this to really convey how directly
             influenced I was by these dishes, and if I couldn&apos;t come up with a strong enough
@@ -105,10 +115,10 @@ export default function Capstone() {
             a few weeks narrowing down my target audience and researching existing media that catered
             towards that audience.
           </p>
-        </div>
+        </WorkSection>
 
         {/* row - vertical + horizontal image */}
-        <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
+        <WorkRow>
           <div class="lg:w-1/2">
             <Image class="" src={planningExcerpts} alt="Miscellaneous handwritten digital notes documenting the process of defining my target audience and look/feel" placeholder="blur" width={875} height={1078} />
             <p class="mt-2 text-lg leading-6">Excerpts from my early planning stages&mdash;defining my target audience and look/feel</p>
@@ -118,10 +128,10 @@ export default function Capstone() {
             <Image class="lg:w-1/2" src={organizing} alt="Various lists of possible cookbook recipes and handwritten annotations" placeholder="blur" width={1405} height={1078} />
             <p class="mt-2 text-lg leading-6">Lists of possible cookbook recipes to include, narrowing them down, then organizing into sections</p>
           </div>
-        </div>
+        </WorkRow>
 
         {/* row - text */}
-        <div class="mb-10 lg:mb-20">
+        <WorkRow>
           <p class="mb-10">
             Once I had my cookbook structure finalized, I used a combination of online recipes,
             physical cookbooks, and phone calls with my parents to get the recipes. The project
@@ -129,20 +139,19 @@ export default function Capstone() {
             XD&mdash;I typeset the cookbook itself, drew all the annotations and illustrations
             by hand, and published the interactivity online.
           </p>
-        </div>
+        </WorkRow>
 
-      </div>
+      </WorkSection>
 
       {/* fourth section - preview */}
-      {/* row - video embed*/}
-      <div>
+      <WorkSection>
         <div class="mb-4 text-xl">
           <h2 class="text-3xl py-4 font-semibold">Preview</h2>
         </div>
         <div class="flex justify-center">
           <iframe class="w-full aspect-video" src="https://drive.google.com/file/d/1GQN2bRQYNej_zq_rWChd5c8c9StBEkqn/preview" allow="autoplay"></iframe>
         </div>
-      </div>
+      </WorkSection>
 
     </WorkPage>
   );
