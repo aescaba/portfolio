@@ -90,9 +90,9 @@ export default function UniMaps() {
               needs when it came to travel around the Greater Boston Area.
             </p>
             <ul class="list-disc list-outside ml-6">
-              <li><span class="font-bold">"Level One" Map:</span> For the student brand new to the Boston area</li>
-              <li><span class="font-bold">“Level Two” Map:</span> For the student comfortable with travel to places they frequent</li>
-              <li><span class="font-bold">“Level Three” Map:</span> For the young person who considers themself an expert traveling Boston proper</li>
+              <li><span class="font-bold">&ldquo;Level One&rdquo; Map:</span> For the student brand new to the Boston area</li>
+              <li><span class="font-bold">&ldquo;Level Two&rdquo; Map:</span> For the student comfortable with travel to places they frequent</li>
+              <li><span class="font-bold">&ldquo;Level Three&rdquo; Map:</span> For the young person who considers themself an expert traveling Boston proper</li>
             </ul>
           </div>
         </WorkRow>
