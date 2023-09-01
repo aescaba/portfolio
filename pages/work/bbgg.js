@@ -130,7 +130,7 @@ export default function BBGG() {
 
                 <WorkSection>
                     <h3 class="text-2xl py-3 font-semibold">BBG&G Case Studies</h3>
-                    <p class="mb-10">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with the BBG&G's existing brand image, I designed new templates for the case studies showcased on the site.</p>
+                    <p class="mb-10">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with the BBG&G&apos;s existing brand image, I designed new templates for the case studies showcased on the site.</p>
                 </WorkSection>
             </WorkSection>
         </WorkPage>
