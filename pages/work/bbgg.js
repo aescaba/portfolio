@@ -10,7 +10,7 @@ import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 
 // image imports
-import summaryPhoto from '../../public/images/work/wbecnydmv/WBEC-3-crop-2.png'
+import summaryPhoto from '../../public/images/work/bbgg/bbgg-mockup.jpg';
 import wbecHome from '../../public/images/work/bbgg/wbec-home.jpg';
 import crcogHome from '../../public/images/work/bbgg/crcog-home.jpg';
 import caseStudies from '../../public/images/work/bbgg/case-study-drafts.jpg';

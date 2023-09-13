@@ -3,7 +3,7 @@ import WorkListing from '../components/worklisting'
 import Image from 'next/image'
 
 // image imports
-import wbec from '../public/images/work/wbecnydmv/wbec-thumb.jpg'
+import bbgg from '../public/images/work/bbgg/bbgg-thumb.jpg'
 import capstone from '../public/images/work/capstone/capstone-thumb.jpg'
 import unimaps from '../public/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg'
 import bluebook from '../public/images/work/mbta-bluebook/mbta-bluebook-thumb.jpg'
@@ -23,10 +23,10 @@ export default function Work() {
 
         {/* project one */}
         <WorkListing
-          imgsrc={wbec}
-          path={"wbecnydmv"}
-          title={"WBEC Metro NY & Greater DMV"}
-          description={"Complete website overhaul to reflect new branding and improve user experience"}>
+          imgsrc={bbgg}
+          path={"bbgg"}
+          title={"BBG&G Integrated Marketing"}
+          description={"Projects as Mid-Level Web Developer/Designer"}>
         </WorkListing>
 
         {/* project two */}
