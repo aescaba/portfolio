@@ -55,7 +55,7 @@ export default function Work() {
 
       </div>
 
-      <h2 class="text-2xl mb-12 font-medium">In Progress &mdash; Coming Soon!</h2>
+      <h2 class="text-2xl mb-12 font-medium">In Progress</h2>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
         {/* portfolio preview */}
