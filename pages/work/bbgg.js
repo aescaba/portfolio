@@ -88,6 +88,11 @@ export default function BBGG() {
                         <p class="mt-5 font-medium">
                             In tandem with implementing a new social media campaign, this project resulted in an 841.5% increase in new website users.
                         </p>
+                        <a href="https://www.wbecnydmv.org/" target="_blank" rel="noreferrer">
+                            <button class=" mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                                <p class="inline">Visit Live Site</p><HiOutlineExternalLink class="inline items-center lg:mb-1 ml-2" />
+                            </button>
+                        </a>
                     </div>
                 </WorkRow>
 
@@ -107,6 +112,11 @@ export default function BBGG() {
                             <p class="mt-5 font-medium">
                                 The new CRCOG website won a Gold Hermes Creative Award, evaluating the creative industry&apos;s best marketing and communication programs, in the category of Overall Website &ndash; Government.
                             </p>
+                            <a href="https://crcog.org/" target="_blank" rel="noreferrer">
+                                <button class=" mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                                    <p class="inline">Visit Live Site</p><HiOutlineExternalLink class="inline items-center lg:mb-1 ml-2" />
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -131,7 +141,7 @@ export default function BBGG() {
                     <div class="lg:w-1/2 lg:mb-10 lg:self-center">
                         <h3 class="text-2xl py-3 font-semibold">BBG&G 25th Anniversary</h3>
                         <p>I designed the homepage header and landing page for BBG&G Integrated Marketing&apos;s 25th anniversary. The header replaced the website&apos;s usual design, offering a preview of BBG&G&apos;s growth
-                        and success over the past 25 years. The landing page continued this narrative with an animated timeline showcasing more of the company&apos;s successes.
+                            and success over the past 25 years. The landing page continued this narrative with an animated timeline showcasing more of the company&apos;s successes.
                         </p>
                     </div>
                 </WorkRow>
@@ -147,7 +157,13 @@ export default function BBGG() {
                             <div class="lg:w-1/2 lg:mb-10 lg:mr-10 lg:self-center">
                                 <h3 class="text-2xl py-3 font-semibold">BBG&G Case Studies</h3>
                                 <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with the BBG&G&apos;s existing brand image, I designed new templates for the case studies showcased on the site.</p>
+                                <a href="https://bbggadv.com/work/" target="_blank" rel="noreferrer">
+                                    <button class=" mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                                        <p class="inline">Visit Live Site</p><HiOutlineExternalLink class="inline items-center lg:mb-1 ml-2" />
+                                    </button>
+                                </a>
                             </div>
+
                         </div>
 
                     </WorkRow>
