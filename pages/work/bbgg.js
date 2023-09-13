@@ -13,6 +13,8 @@ import Overview from '../../components/work/overview';
 import summaryPhoto from '../../public/images/work/wbecnydmv/WBEC-3-crop-2.png'
 import wbecHome from '../../public/images/work/bbgg/wbec-home.jpg';
 import crcogHome from '../../public/images/work/bbgg/crcog-home.jpg';
+import caseStudies from '../../public/images/work/bbgg/case-study-drafts.jpg';
+import anniversary from '../../public/images/work/bbgg/25th-anniv.png';
 
 const summary = "As a Mid-Level Web Designer and Developer at BBG&G Integrated Marketing, I am an integral member of the web/creative team and work on all aspects of website design and development."
 
@@ -112,21 +114,43 @@ export default function BBGG() {
             </WorkSection>
 
 
+
+
             <WorkSection>
+
                 <div class="mb-4 text-xl">
                     <h2 class="text-3xl py-4 font-semibold">UI/UX Design</h2>
                 </div>
 
-                {/* row - paragraph */}
-                <WorkSection>
-                    <h3 class="text-2xl py-3 font-semibold">BBG&G 25th Anniversary</h3>
-                    <p class="mb-10">I designed the homepage header and landing page for BBG&G Integrated Marketing&apos;s 25th anniversary. The header replaced the website&apos;s usual design, offering a preview of BBG&G&apos;s growth
-                        and success over the past 25 years. The landing page continued this narrative with an animated timeline showcasing more of the company&apos;s successes.</p>
-                </WorkSection>
+                {/* row - image left + text right */}
+                <WorkRow>
+                    <div class="lg:w-1/2">
+                        <Image class="" src={anniversary} alt="Wireframes/drafts of 25th company anniversary homepage and timeline" placeholder="blur" width={842} height={800} />
+                    </div>
+
+                    <div class="lg:w-1/2 lg:mb-10 lg:self-center">
+                        <h3 class="text-2xl py-3 font-semibold">BBG&G 25th Anniversary</h3>
+                        <p>I designed the homepage header and landing page for BBG&G Integrated Marketing&apos;s 25th anniversary. The header replaced the website&apos;s usual design, offering a preview of BBG&G&apos;s growth
+                        and success over the past 25 years. The landing page continued this narrative with an animated timeline showcasing more of the company&apos;s successes.
+                        </p>
+                    </div>
+                </WorkRow>
 
                 <WorkSection>
-                    <h3 class="text-2xl py-3 font-semibold">BBG&G Case Studies</h3>
-                    <p class="mb-10">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with the BBG&G&apos;s existing brand image, I designed new templates for the case studies showcased on the site.</p>
+                    <WorkRow>
+                        {/* reverse column order on large screens */}
+                        <div class="lg:flex lg:flex-row-reverse">
+                            <div class="lg:w-1/2 mb-10">
+                                <Image class="" src={caseStudies} alt="Wireframes/drafts of new case study designs" placeholder="blur" width={3590} height={2149} />
+                            </div>
+
+                            <div class="lg:w-1/2 lg:mb-10 lg:mr-10 lg:self-center">
+                                <h3 class="text-2xl py-3 font-semibold">BBG&G Case Studies</h3>
+                                <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with the BBG&G&apos;s existing brand image, I designed new templates for the case studies showcased on the site.</p>
+                            </div>
+                        </div>
+
+                    </WorkRow>
                 </WorkSection>
             </WorkSection>
         </WorkPage>
