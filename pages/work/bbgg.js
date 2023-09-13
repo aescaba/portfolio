@@ -11,6 +11,8 @@ import Overview from '../../components/work/overview';
 
 // image imports
 import summaryPhoto from '../../public/images/work/wbecnydmv/WBEC-3-crop-2.png'
+import wbecHome from '../../public/images/work/bbgg/wbec-home.jpg';
+import crcogHome from '../../public/images/work/bbgg/crcog-home.jpg';
 
 const summary = "As a Mid-Level Web Designer and Developer at BBG&G Integrated Marketing, I am an integral member of the web/creative team and work on all aspects of website design and development."
 
@@ -74,45 +76,39 @@ export default function BBGG() {
 
                 {/* row - image left + text right */}
                 <WorkRow>
-                    <div class="lg:w-2/3">
-                        <Image class="" src={summaryPhoto} alt="Four different user personas" placeholder="blur" width={1280} height={720} />
-
+                    <div class="lg:w-1/3">
+                        <Image class="" src={wbecHome} alt="Homepage of the WBEC NY DMV website" placeholder="blur" width={1598} height={2510} />
                     </div>
 
-                    <div class="lg:w-1/3 lg:mb-10 lg:self-center">
+                    <div class="lg:w-2/3 lg:mb-10 lg:self-center">
                         <h3 class="text-2xl py-3 font-semibold">WBEC Metro NY & Greater DMV</h3>
                         <p>WBEC NY DMV&apos;s site was in need of a refresh, aligning with their recent rebranding, so we developed the new website to have a modern look, easier navigation, and clearer calls to action.</p>
+                        <p class="mt-5 font-medium">
+                            In tandem with implementing a new social media campaign, this project resulted in an 841.5% increase in new website users.
+                        </p>
                     </div>
                 </WorkRow>
-
-                {/* row - pull quote - style more later */}
-                <WorkSection>
-                    <p class="mb-10">
-                        In tandem with implementing a new social media campaign, this project resulted in an 841.5% increase in new website users.
-                    </p>
-                </WorkSection>
 
 
                 {/* row - text left + image right */}
                 <WorkRow>
-                    <div class="lg:w-1/3 lg:mb-10 lg:self-center">
-                        <h3 class="text-2xl py-3 font-semibold">Capital Region Council of Governments</h3>
-                        <p class="mb-5">CRCOG staff sought a solution to help its target audiences effectively and efficiently access relevant and current information.</p>
-                        <p>We developed a website designed to accomplish enhanced organization, increase CRCOG&apos;s social media presence, and support its marketing efforts.</p>
+                    {/* reverse column order on large screens */}
+                    <div class="lg:flex lg:flex-row-reverse">
+                        <div class="lg:w-1/3 mb-10">
+                            <Image class="" src={crcogHome} alt="Homepage of the Capitol Region Council of Governments website" placeholder="blur" width={1598} height={2510} />
+                        </div>
+
+                        <div class="lg:w-2/3 lg:mb-10 lg:mr-10 lg:self-center">
+                            <h3 class="text-2xl py-3 font-semibold">Capital Region Council of Governments</h3>
+                            <p class="mb-5">CRCOG staff sought a solution to help its target audiences effectively and efficiently access relevant and current information.</p>
+                            <p>We developed a website designed to accomplish enhanced organization, increase CRCOG&apos;s social media presence, and support its marketing efforts.</p>
+                            <p class="mt-5 font-medium">
+                                The new CRCOG website won a Gold Hermes Creative Award, evaluating the creative industry&apos;s best marketing and communication programs, in the category of Overall Website &ndash; Government.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="lg:w-2/3">
-                        <Image class="" src={summaryPhoto} alt="Four different user personas" placeholder="blur" width={1280} height={720} />
-
-                    </div>
                 </WorkRow>
-
-                {/* row - pull quote - style more later */}
-                <WorkSection>
-                    <p class="mb-10">
-                        The new CRCOG website won a Gold Hermes Creative Award, evaluating the creative industry&apos;s best marketing and communication programs, in the category of Overall Website &ndash; Government.
-                    </p>
-                </WorkSection>
             </WorkSection>
 
 
