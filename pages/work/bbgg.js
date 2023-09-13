@@ -155,8 +155,8 @@ export default function BBGG() {
                             </div>
 
                             <div class="lg:w-1/2 lg:mb-10 lg:mr-10 lg:self-center">
-                                <h3 class="text-2xl py-3 font-semibold">BBG&G Case Studies</h3>
-                                <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with the BBG&G&apos;s existing brand image, I designed new templates for the case studies showcased on the site.</p>
+                                <h3 class="text-2xl py-3 font-semibold">BBG&G Website Refresh</h3>
+                                <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with BBG&G&apos;s existing brand image, I designed and built new templates for various pages on the company website; these included the contact page, careers page, and individual case studies showcased on the site. </p>
                                 <a href="https://bbggadv.com/work/" target="_blank" rel="noreferrer">
                                     <button class=" mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
                                         <p class="inline">Visit Live Site</p><HiOutlineExternalLink class="inline items-center lg:mb-1 ml-2" />
