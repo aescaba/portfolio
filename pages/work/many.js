@@ -9,14 +9,14 @@ import Overview from '../../components/work/overview';
 
 // image imports
 import summaryPhoto from '../../public/images/work/many/MANY_thumb.jpg'
+import responsiveMockup from '../../public/images/work/many/MANY_mockup.png'
 
-const summary = "Amidst restructuring and rebranding, WBEC Metro NY and Greater DMV needed a website redesign to blend their new brand identity into a modern and cohesive online presence."
+const summary = "I designed and developed a microsite for the Museum Association of New York (MANY)’s “Voices and Votes” exhibit to enhance visitor engagement and provide easy access to relevant information."
 
 const toolsList = [
   "WordPress",
   "HTML/CSS",
-  "Adobe Photoshop",
-  "Adobe Illustrator"
+  "Search Engine Optimization"
 ]
 
 const imgInfo = {
@@ -41,8 +41,7 @@ const responsibilities = [
 export default function MANY() {
   return (
     <WorkPage
-      title={"Museum Association of New York"}>
-      <h2 class="text-2xl font-medium">"Voices and Votes: Democracy in America"</h2>
+      title={"Museum Association of New York: \"Voices & Votes\""}>
 
 
       <Summary
@@ -54,10 +53,12 @@ export default function MANY() {
         linkText="Visit Website"
       />
 
-      <Overview
+      {/* <Overview
         overview={overview}
         responsibilities={responsibilities}
-      />
+      /> */}
+      <Image class="" src={responsiveMockup} alt="Mockup of MANY site on a desktop, laptop, tablet, and phone" placeholder="blur" width={1260} height={840} />
+
     </WorkPage>
   );
 }
