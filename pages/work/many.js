@@ -9,7 +9,7 @@ import Overview from '../../components/work/overview';
 
 // image imports
 import summaryPhoto from '../../public/images/work/many/MANY_thumb.jpg'
-import responsiveMockup from '../../public/images/work/many/MANY_mockup.png'
+import responsiveMockup from '../../public/images/work/many/MANY_Mockup.png'
 
 const summary = "I designed and developed a microsite for the Museum Association of New York (MANY)’s “Voices and Votes” exhibit to enhance visitor engagement and provide easy access to relevant information."
 
