@@ -17,7 +17,8 @@ const toolsList = [
   "WordPress",
   "HTML/CSS",
   "Adobe Photoshop",
-  "Adobe Illustrator"
+  "Adobe Illustrator",
+  "Search Engine Optimization"
 ]
 
 const imgInfo = {
@@ -60,7 +61,7 @@ export default function WBECNYDMV() {
 
       {/* row - full size image */}
       {/* <WorkRow> */}
-        <Image class="" src={responsiveMockup} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1260} height={840} />
+        <Image class="" src={responsiveMockup} alt="Mockup of WBEC site on a desktop, laptop, tablet, and phone" placeholder="blur" width={1260} height={840} />
       {/* </WorkRow> */}
     </WorkPage>
   );
