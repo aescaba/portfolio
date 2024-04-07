@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 // image imports
 import wbec from '../public/images/work/wbecnydmv/WBEC_preview_1.jpg'
-import capstone from '../public/images/work/capstone/capstone-thumb.jpg'
+import capstone from '../public/images/work/capstone/capstone_thumb.jpg'
 import unimaps from '../public/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg'
 import bluebook from '../public/images/work/mbta-bluebook/mbta-bluebook-thumb.jpg'
 import portfolioPreview from '../public/images/work/portfolio-preview-thumb.jpg'
