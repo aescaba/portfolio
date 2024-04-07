@@ -3,6 +3,7 @@ import WorkListing from '../components/worklisting'
 import Image from 'next/image'
 
 // image imports
+import bbgg from '../public/images/work/bbgg/bbgg_thumb.jpg';
 import wbec from '../public/images/work/wbecnydmv/WBEC_preview_1.jpg'
 import capstone from '../public/images/work/capstone/capstone_thumb.jpg'
 import unimaps from '../public/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg'
@@ -30,7 +31,12 @@ export default function Work() {
         </WorkListing>
 
         {/* project two */}
-
+        <WorkListing
+          imgsrc={bbgg}
+          path={"bbgg"}
+          title={"BBG&G Integrated Marketing"}
+          description={"Projects as Mid-Level Web Developer/Designer"}>
+        </WorkListing>
 
         {/* project three */}
         <WorkListing
