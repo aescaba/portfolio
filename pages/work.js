@@ -3,10 +3,10 @@ import WorkListing from '../components/worklisting'
 import Image from 'next/image'
 
 // image imports
-import bbgg from '../public/images/work/bbgg/bbgg-thumb.jpg'
-import capstone from '../public/images/work/capstone/capstone-thumb.jpg'
-import unimaps from '../public/images/work/mbta-unimaps/mbta-unimaps-thumb.jpg'
-import bluebook from '../public/images/work/mbta-bluebook/mbta-bluebook-thumb.jpg'
+import bbgg from '../public/images/work/bbgg/bbgg_thumb.jpg';
+import wbec from '../public/images/work/wbecnydmv/WBEC_preview_1.jpg'
+import capstone from '../public/images/work/capstone/capstone_thumb.jpg'
+import bluebook from '../public/images/work/mbta-bluebook/bluebook_thumb.jpg'
 import portfolioPreview from '../public/images/work/portfolio-preview-thumb.jpg'
 import gallerifyPreview from '../public/images/work/gallerify-preview-thumb.jpg'
 
@@ -23,26 +23,26 @@ export default function Work() {
 
         {/* project one */}
         <WorkListing
+          imgsrc={wbec}
+          path={"wbecnydmv"}
+          title={"WBEC Metro NY & Greater DMV"}
+          description={"Complete website overhaul to reflect new branding and improve user experience"}>
+        </WorkListing>
+
+        {/* project two */}
+        <WorkListing
           imgsrc={bbgg}
           path={"bbgg"}
           title={"BBG&G Integrated Marketing"}
           description={"Projects as Mid-Level Web Developer/Designer"}>
         </WorkListing>
 
-        {/* project two */}
+        {/* project three */}
         <WorkListing
           imgsrc={capstone}
           path={"capstone"}
           title={"Tastes of the Motherland"}
           description={"Northeastern University capstone project: an interactive website prototype"}>
-        </WorkListing>
-
-        {/* project three */}
-        <WorkListing
-          imgsrc={unimaps}
-          path={"unimaps"}
-          title={"MBTA University Marketing: Interest-Based Maps"}
-          description={"Outreach plan to promote MBTA ridership to university students and young professionals"}>
         </WorkListing>
 
         {/* project four */}
