@@ -11,8 +11,9 @@ import Overview from '../../components/work/overview';
 
 // image imports
 import summaryPhoto from '../../public/images/work/bbgg/bbgg_thumb.jpg';
+import webRefresh from '../../public/images/work/bbgg/BBGG_2024_Refresh.png';
 import caseStudies from '../../public/images/work/bbgg/case-study-drafts.jpg';
-import anniversary from '../../public/images/work/bbgg/25th-anniv.png';
+import anniversary from '../../public/images/work/bbgg/BBGG_25_Years.png';
 
 const summary = "As a Mid-Level Web Designer and Developer at BBG&G Integrated Marketing, I am an integral member of the web/creative team and work on all aspects of website design and development."
 
@@ -72,7 +73,22 @@ export default function BBGG() {
                 {/* row - image left + text right */}
                 <WorkRow>
                     <div class="lg:w-1/2">
-                        <Image class="" src={anniversary} alt="Wireframes/drafts of 25th company anniversary homepage and timeline" placeholder="blur" width={842} height={800} />
+                        <Image class="" src={webRefresh} alt="Wireframes/drafts of 25th company anniversary homepage and timeline" placeholder="blur" width={884} height={755} />
+                    </div>
+
+                    <div class="lg:w-1/2 lg:mb-10 lg:self-center">
+                        <h3 class="text-2xl py-3 font-semibold">BBG&G Website Refresh</h3>
+                        <p>I spearheaded the design refresh for BBG&G&apos;s website, working independently to create visually appealing and user-friendly pages. The redesign 
+                            revitalized the website&apos;s look and feel, enhancing its overall appeal and usability.
+                        </p>
+                     
+                    </div>
+                </WorkRow>
+
+                {/* row - image left + text right */}
+                <WorkRow>
+                    <div class="lg:w-1/2">
+                        <Image class="" src={anniversary} alt="Wireframes/drafts of 25th company anniversary homepage and timeline" placeholder="blur" width={818} height={472} />
                     </div>
 
                     <div class="lg:w-1/2 lg:mb-10 lg:self-center">
@@ -90,8 +106,8 @@ export default function BBGG() {
                     </div>
 
                     <div class="lg:w-1/2 lg:mb-10 lg:self-center">
-                        <h3 class="text-2xl py-3 font-semibold">BBG&G Website Refresh</h3>
-                        <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with BBG&G&apos;s existing brand image, I designed and built new templates for various pages on the company website; these included the contact page, careers page, and individual case studies showcased on the site. </p>
+                        <h3 class="text-2xl py-3 font-semibold">BBG&G Case Study Refresh</h3>
+                        <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with BBG&G&apos;s existing brand image, I designed and built new templates for various pages on the company website; most notably the individual case studies showcased on the site. </p>
                                 <a href="https://bbggadv.com/work/" target="_blank" rel="noreferrer">
                                     <button class=" mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
                                         <p class="inline">Visit Live Site</p><HiOutlineExternalLink class="inline items-center lg:mb-1 ml-2" />
