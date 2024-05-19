@@ -7,6 +7,7 @@ import bbgg from '../public/images/work/bbgg/bbgg_thumb.jpg';
 import wbec from '../public/images/work/wbecnydmv/WBEC_preview_1.jpg'
 import capstone from '../public/images/work/capstone/capstone_thumb.jpg'
 import bluebook from '../public/images/work/mbta-bluebook/bluebook_thumb.jpg'
+import many from '../public/images/work/many/MANY_thumb.jpg'
 import portfolioPreview from '../public/images/work/portfolio-preview-thumb.jpg'
 import gallerifyPreview from '../public/images/work/gallerify-preview-thumb.jpg'
 
@@ -39,19 +40,29 @@ export default function Work() {
 
         {/* project three */}
         <WorkListing
+          imgsrc={many}
+          path={"many"}
+          title={"Museum Association of New York: \"Voices & Votes\""}
+          description={"Microsite for two-year long traveling museum exhibition"}>
+        </WorkListing>
+
+        {/* project four */}
+        <WorkListing
           imgsrc={capstone}
           path={"capstone"}
           title={"Tastes of the Motherland"}
           description={"Northeastern University capstone project: an interactive website prototype"}>
         </WorkListing>
 
-        {/* project four */}
+        {/* project five */}
         <WorkListing
           imgsrc={bluebook}
           path={"bluebook"}
           title={"MBTA Blue Book Redesign"}
           description={"Microsite design to improve readability of and broaden access to MBTA data pool"}>
         </WorkListing>
+
+
 
       </div>
 
