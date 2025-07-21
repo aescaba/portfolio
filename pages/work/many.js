@@ -32,10 +32,9 @@ const overview = [
 ]
 
 const responsibilities = [
-  "Designed and built 90+ responsive web pages based off old content and new requests, adhering to brand guidelines and 2 initial page wireframes",
+  "CMS Setup using WordPress, allowing full customization and scalability to meet any and all evolving needs",
   "Organized and coordinated technical and design process efforts between myself, creative director, and account staff/client liaison",
-  "Researched, tested, and implemented technical solutions to specific client requests",
-  "Perform routine web maintenance: plugin updates, content updates, SEO audits"
+  "Researched, tested, and implemented technical solutions to specific client requests"
 ]
 
 export default function MANY() {
@@ -53,6 +52,7 @@ export default function MANY() {
 
       <Overview
         overview={overview}
+        responsibilities={responsibilities}
       />
       <Image class="" src={responsiveMockup} alt="Mockup of MANY site on a desktop, laptop, tablet, and phone" placeholder="blur" width={1260} height={840} />
 
