@@ -27,7 +27,7 @@ const imgInfo = {
 }
 
 const overview = [
-  "The Museum Association of New York lacked a centralized, user-friendly digital presence for their <em>Voices and Votes: Democracy in America | A New Agora for New York</em> project. Only existing as a single page as part of a broader website, MANY needed Agora New York to have its own platform to introduce the project’s mission, spark curiosity, and turn website visitors into active participants.  Without a clear path to promote events or foster community among history enthusiasts and museum-goers, opportunities to build connections were being lost.",
+  "The Museum Association of New York lacked a centralized, user-friendly digital presence for their Voices and Votes: Democracy in America | A New Agora for New York project. Only existing as a single page as part of a broader website, MANY needed Agora New York to have its own platform to introduce the project’s mission, spark curiosity, and turn website visitors into active participants.  Without a clear path to promote events or foster community among history enthusiasts and museum-goers, opportunities to build connections were being lost.",
   "The goals were multifaceted: build an intuitive, engaging site from scratch, add interactive elements to boost user involvement, drive online traffic to in-person events, and lay the foundation for a vibrant, enthusiastic community. The solution also needed to empower the client with the ability to manage and update content independently after launch."
 ]
 
