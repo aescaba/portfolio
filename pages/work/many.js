@@ -21,14 +21,14 @@ const toolsList = [
 
 const imgInfo = {
   summaryPhoto,
-  alt: "Screenshot of 'About Us' page on WBEC Metro NY and Greater DMV website",
+  alt: "Screenshot of homepage on MANY Agora New York website",
   width: "1280",
   height: "800"
 }
 
 const overview = [
-  "Following a successful rebranding initiative, the Women's Business Enterprise Council of Metro NY and Greater DMV (WBEC NY DMV) sought to align their website with their updated brand identity. With the direction provided by our team's creative director, I translated the new sitemap and initial wireframes into a cohesive design for over 90 pages of the website.",
-  "From conceptualization to execution, I oversaw the entire redesign process, ensuring a modern aesthetic, improved navigation, and more compelling calls to action. The result was a website that not only reflected the organization's fresh look but also enhanced user experience and engagement."
+  "The Museum Association of New York lacked a centralized, user-friendly digital presence for their <em>Voices and Votes: Democracy in America | A New Agora for New York</em> project. Only existing as a single page as part of a broader website, MANY needed Agora New York to have its own platform to introduce the project’s mission, spark curiosity, and turn website visitors into active participants.  Without a clear path to promote events or foster community among history enthusiasts and museum-goers, opportunities to build connections were being lost.",
+  "The goals were multifaceted: build an intuitive, engaging site from scratch, add interactive elements to boost user involvement, drive online traffic to in-person events, and lay the foundation for a vibrant, enthusiastic community. The solution also needed to empower the client with the ability to manage and update content independently after launch."
 ]
 
 const responsibilities = [
@@ -48,15 +48,12 @@ export default function MANY() {
         summary={summary}
         toolsList={toolsList}
         imgInfo={imgInfo}
-        hasLink={true}
-        link="https://www.agoranewyork.org/"
-        linkText="Visit Website"
+        hasLink={false}
       />
 
-      {/* <Overview
+      <Overview
         overview={overview}
-        responsibilities={responsibilities}
-      /> */}
+      />
       <Image class="" src={responsiveMockup} alt="Mockup of MANY site on a desktop, laptop, tablet, and phone" placeholder="blur" width={1260} height={840} />
 
     </WorkPage>
