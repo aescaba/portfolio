@@ -17,20 +17,20 @@ export default function About() {
         {/* second column - bio */}
         <div class="space-y-6 font-light text-xl leading-8">
           <p>
-          <span class="font-bold text-blue-400">Hi, I&apos;m Amanda (she/her)!</span> I&apos;m a proud Filipino American who grew up in the Hudson Valley, New York and
-          spent five years studying computer science and interaction design at Northeastern University in Boston.</p>
+          Hi there! <span class="font-bold text-blue-400">I&apos;m Amanda (she/her)</span>&emdash;a detail-oriented, user-focused Web Designer &amp; Developer who loves blending creativity and code
+          to craft <span class="font-semibold text-orange-400">digital experiences that don&apos;t just work, but resonate</span>. With a strong foundation in both technical problem-solving and visual design, I thrive in roles that let me bridge
+          the gap between the two.</p>
 
-          <p>I&apos;ve taken on the responsibilities of a <span class="font-semibold text-orange-400">front-end developer and UI/UX designer</span> and I 
-          thrive in positions that incorporate skills from both of my disciplines. My favorite thing that design and
-          code have in common is the <span class="font-semibold text-amber-400">creative process</span>—I love seeing how the decisions made each step of the way come 
-          together to support the final product.</p>
+          <p>Whether I&apos;m designing interfaces, building custom sites, or exploring new tools, I bring a <span class="font-semibold text-amber-400">collaborative, solutions-oriented mindset</span> and a deep care for intuitive, accessible,
+            and cohesive user experiences. I also believe that how we work shapes what we create&emdash;so I look for ways to support great design by sharing knowledge and refining team workflows.</p>
 
-          <p>When it comes to my work, I enjoy improving any type of user experience, but I&apos;m most 
-          passionate about <span class="font-semibold text-blue-400">sharing and preserving culture</span>, <span class="font-semibold text-amber-400">uplifting marginalized voices</span>, and <span class="font-semibold text-orange-400">building community,</span> especially through storytelling.</p>
+          <p>At the heart of my work is a drive to build digital spaces that <span class="font-semibold text-blue-400">foster connection</span>,
+           <span class="font-semibold text-amber-400">uplift underrepresented stories</span>, and <span class="font-semibold text-orange-400">help people feel seen</span>. I care deeply about storytelling,
+           cultural preservation, and community&emdash;and those values shape how I design, build, and collaborate.</p>
 
-          <p>I spend my time cooking and baking dishes from my favorite cuisines, ignoring my pile of unread books 
-          to buy new ones, singing both parts of the duet by myself, tinkering with my mechanical keyboard, making too many Spotify
-          playlists, starting more video games than I tend to finish, and getting distracted by cute dogs in public.</p>
+          <p>Outside of work, you can find me cooking my way through my favorite cuisines, making too many Spotify playlists, adding to my endless video game and book backlog, singing both parts of a duet, tinkering with my mechanical keyboard,
+             or getting distracted by cute dogs in public.
+          </p>
         </div>
       </div>
     </div>
