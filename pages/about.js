@@ -17,16 +17,16 @@ export default function About() {
         {/* second column - bio */}
         <div class="space-y-6 font-light text-xl leading-8">
           <p>
-          Hi there! <span class="font-bold text-blue-400">I&apos;m Amanda (she/her)</span>&emdash;a detail-oriented, user-focused Web Designer &amp; Developer who loves blending creativity and code
+          Hi there! <span class="font-bold text-blue-400">I&apos;m Amanda (she/her)</span> &emdash; a detail-oriented, user-focused Web Designer &amp; Developer who loves blending creativity and code
           to craft <span class="font-semibold text-orange-400">digital experiences that don&apos;t just work, but resonate</span>. With a strong foundation in both technical problem-solving and visual design, I thrive in roles that let me bridge
           the gap between the two.</p>
 
           <p>Whether I&apos;m designing interfaces, building custom sites, or exploring new tools, I bring a <span class="font-semibold text-amber-400">collaborative, solutions-oriented mindset</span> and a deep care for intuitive, accessible,
-            and cohesive user experiences. I also believe that how we work shapes what we create&emdash;so I look for ways to support great design by sharing knowledge and refining team workflows.</p>
+            and cohesive user experiences. I also believe that how we work shapes what we create &emdash; so I look for ways to support great design by sharing knowledge and refining team workflows.</p>
 
-          <p>At the heart of my work is a drive to build digital spaces that <span class="font-semibold text-blue-400">foster connection</span>,
+          <p>At the heart of my work is a drive to build digital spaces that <span class="font-semibold text-blue-400">foster connection</span>, 
            <span class="font-semibold text-amber-400">uplift underrepresented stories</span>, and <span class="font-semibold text-orange-400">help people feel seen</span>. I care deeply about storytelling,
-           cultural preservation, and community&emdash;and those values shape how I design, build, and collaborate.</p>
+           cultural preservation, and community; those values shape how I design, build, and collaborate.</p>
 
           <p>Outside of work, you can find me cooking my way through my favorite cuisines, making too many Spotify playlists, adding to my endless video game and book backlog, singing both parts of a duet, tinkering with my mechanical keyboard,
              or getting distracted by cute dogs in public.
