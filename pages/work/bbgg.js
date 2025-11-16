@@ -67,7 +67,7 @@ export default function BBGG() {
             <WorkSection>
 
                 <div class="mb-4 text-xl">
-                    <h2 class="text-3xl py-4 font-semibold">UI/UX Design</h2>
+                    <h2 class="text-xl py-4 font-semibold uppercase">UI/UX Design</h2>
                 </div>
 
                 {/* row - image left + text right */}
@@ -76,8 +76,8 @@ export default function BBGG() {
                         <Image class="" src={webRefresh} alt="Wireframes/drafts of 25th company anniversary homepage and timeline" placeholder="blur" width={884} height={755} />
                     </div>
 
-                    <div class="lg:w-1/2 lg:mb-10 lg:self-center">
-                        <h3 class="text-2xl py-3 font-semibold">BBG&G Website Refresh</h3>
+                    <div class="lg:w-1/2 lg:mb-10 lg:self-center text-base">
+                        <h3 class="py-3 font-semibold uppercase text-lg ">BBG&G Website Refresh</h3>
                         <p>I spearheaded the design refresh for BBG&G&apos;s website, working independently to create visually appealing and user-friendly pages. The redesign 
                             revitalized the website&apos;s look and feel, enhancing its overall appeal and usability.
                         </p>
@@ -91,8 +91,8 @@ export default function BBGG() {
                         <Image class="" src={anniversary} alt="Wireframes/drafts of 25th company anniversary homepage and timeline" placeholder="blur" width={818} height={472} />
                     </div>
 
-                    <div class="lg:w-1/2 lg:mb-10 lg:self-center">
-                        <h3 class="text-2xl py-3 font-semibold">BBG&G 25th Anniversary</h3>
+                    <div class="lg:w-1/2 lg:mb-10 lg:self-center text-base">
+                        <h3 class="py-3 font-semibold uppercase text-lg">BBG&G 25th Anniversary</h3>
                         <p>I designed the homepage header and landing page for BBG&G Integrated Marketing&apos;s 25th anniversary. The header replaced the website&apos;s usual design, offering a preview of BBG&G&apos;s growth
                             and success over the past 25 years. The landing page continued this narrative with an animated timeline showcasing more of the company&apos;s successes.
                         </p>
@@ -105,11 +105,11 @@ export default function BBGG() {
                         <Image class="" src={caseStudies} alt="Wireframes/drafts of new case study designs" placeholder="blur" width={3590} height={2149} />
                     </div>
 
-                    <div class="lg:w-1/2 lg:mb-10 lg:self-center">
-                        <h3 class="text-2xl py-3 font-semibold">BBG&G Case Study Refresh</h3>
+                    <div class="lg:w-1/2 lg:mb-10 lg:self-center text-base">
+                        <h3 class="py-3 font-semibold uppercase text-lg">BBG&G Case Study Refresh</h3>
                         <p class="mb-5">With the goal of achieving a cohesive and contemporary look that aligned seamlessly with BBG&G&apos;s existing brand image, I designed and built new templates for various pages on the company website; most notably the individual case studies showcased on the site. </p>
                                 <a href="https://bbggadv.com/work/" target="_blank" rel="noreferrer">
-                                    <button class=" mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                                    <button class=" mt-6 items-center font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
                                         <p class="inline">Visit Live Site</p><HiOutlineExternalLink class="inline items-center lg:mb-1 ml-2" />
                                     </button>
                                 </a>

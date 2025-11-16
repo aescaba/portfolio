@@ -9,7 +9,7 @@ export default function WorkSection({ children }) {
     */
 
     return (
-        <div class="mb-10 lg:mb-20">
+        <div class="mb-10 lg:mb-20 text-base">
             {children}
         </div>
     );

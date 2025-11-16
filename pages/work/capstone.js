@@ -2,6 +2,7 @@
 import Image from 'next/image';
 
 //component imports
+import ImgCaption from '../../components/imgcaption';
 import WorkPage from '../../components/work/workpage';
 import WorkSection from '../../components/work/worksection';
 import WorkRow from '../../components/work/workrow';
@@ -57,7 +58,7 @@ export default function Capstone() {
         linkText="View Project"
       />
 
-      <a class="text-amber-400 transition ease-in-out delay-100 hover:text-orange-400 font-semibold" href="https://drive.google.com/file/d/146VCS8Jz-Py_qIGlt_TLYfS-ULiYQb4_/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View full process documentation">
+      <a class="text-amber-500 transition ease-in-out delay-100 hover:text-orange-400 font-semibold" href="https://drive.google.com/file/d/146VCS8Jz-Py_qIGlt_TLYfS-ULiYQb4_/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View full process documentation">
         View full process documentation	&#8594;
       </a>
 
@@ -70,8 +71,8 @@ export default function Capstone() {
       {/* third section - process */}
       <WorkSection>
 
-        <div class="mb-4 text-xl">
-          <h2 class="text-3xl py-4 font-semibold">Process</h2>
+        <div class="mb-4">
+          <h2 class="py-4 font-semibold uppercase">Process</h2>
         </div>
 
         {/* row - image left + text right */}
@@ -121,12 +122,12 @@ export default function Capstone() {
         <WorkRow>
           <div class="lg:w-1/2">
             <Image class="" src={planningExcerpts} alt="Miscellaneous handwritten digital notes documenting the process of defining my target audience and look/feel" placeholder="blur" width={875} height={1078} />
-            <p class="mt-2 text-lg leading-6">Excerpts from my early planning stages&mdash;defining my target audience and look/feel</p>
+            <ImgCaption caption={"Excerpts from my early planning stages—defining my target audience and look/feel"}/>
           </div>
 
           <div>
             <Image class="lg:w-1/2" src={organizing} alt="Various lists of possible cookbook recipes and handwritten annotations" placeholder="blur" width={1405} height={1078} />
-            <p class="mt-2 text-lg leading-6">Lists of possible cookbook recipes to include, narrowing them down, then organizing into sections</p>
+            <ImgCaption caption={"Lists of possible cookbook recipes to include, narrowing them down, then organizing into sections"}/>
           </div>
         </WorkRow>
 
@@ -146,7 +147,7 @@ export default function Capstone() {
       {/* fourth section - preview */}
       <WorkSection>
         <div class="mb-4 text-xl">
-          <h2 class="text-3xl py-4 font-semibold">Preview</h2>
+          <h2 class="py-4 font-semibold text-xl uppercase">Preview</h2>
         </div>
         <div class="flex justify-center">
           <iframe class="w-full aspect-video" src="https://drive.google.com/file/d/1GQN2bRQYNej_zq_rWChd5c8c9StBEkqn/preview" allow="autoplay"></iframe>

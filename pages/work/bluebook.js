@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 // component imports
+import ImgCaption from '../../components/imgcaption';
 import WorkPage from '../../components/work/workpage';
 import WorkSection from '../../components/work/worksection';
 import WorkRow from '../../components/work/workrow';
@@ -68,7 +69,7 @@ export default function BlueBook() {
 
       <WorkSection>
         <div class="mb-4 text-xl">
-          <h2 class="text-3xl py-4 font-semibold">Process</h2>
+          <h2 class="text-xl py-4 font-semibold uppercase">Process</h2>
         </div>
 
         {/* row - image left + text right */}
@@ -93,12 +94,13 @@ export default function BlueBook() {
         <WorkRow>
           <div class="">
             <Image class="" src={planning2} alt="Rough pencil sketches of potential webpage organization" placeholder="blur" width={1643} height={1088} />
-            <p class="mt-2 text-lg leading-6">Initial sketches trying to figure out a way to display content</p>
+            <ImgCaption caption={"Initial sketches trying to figure out a way to display content"}/>
+            
           </div>
 
           <div>
             <Image class="" src={planning3} alt="Pencil sketches of potential landing pages and a subpage" placeholder="blur" width={1643} height={1088} />
-            <p class="mt-2 text-lg leading-6">Slightly more refined pencil sketches of two landing page options and a subpage</p>
+            <ImgCaption caption={"Slightly more refined pencil sketches of two landing page options and a subpage"}/>
           </div>
         </WorkRow>
 
@@ -145,9 +147,9 @@ export default function BlueBook() {
       {/* preview */}
       <WorkSection>
         <div class="mb-4 text-xl">
-          <h2 class="text-3xl py-4 font-semibold">Preview</h2>
+          <h2 class="text-lg py-4 font-semibold uppercase">Preview</h2>
           <a href="https://mbta-massdot.opendata.arcgis.com/" target="_blank" rel="noreferrer" aria-label="View MBTA Open Data Portal">
-                    <button class="flex mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                    <button class="flex text-lg mt-6 items-center font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
                         View MBTA Open Data Portal<HiOutlineExternalLink class="inline ml-2" />
                     </button>
                 </a>
