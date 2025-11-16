@@ -1,6 +1,6 @@
 import PageTitle from '../components/pagetitle'
 import Image from 'next/image'
-import photo from '../public/images/about/apl.webp'
+import photo from '../public/images/about/amanda_2025.png'
 
 export default function About() {
   return (
@@ -15,22 +15,19 @@ export default function About() {
         </div>
 
         {/* second column - bio */}
-        <div class="space-y-6 font-light text-xl leading-8">
+        <div class="space-y-6 font-light text-lg leading-7">
           <p>
-          Hi there! <span class="font-bold text-blue-400">I&apos;m Amanda (she/her)</span>&mdash;a detail-oriented, user-focused Web Designer &amp; Developer who loves <span class="font-semibold text-orange-400">blending creativity and code
-          to craft digital experiences</span> that don&apos;t just work, but resonate. With a strong foundation in both technical problem-solving and visual design, I thrive in roles that let me bridge
-          the gap between the two.</p>
+         I&apos;m a designer and developer who thrives where creativity meets problem-solving.</p>
 
-          <p>Whether I&apos;m designing interfaces, building custom sites, or exploring new tools, I bring a <span class="font-semibold text-amber-400">collaborative, solutions-oriented mindset</span> and a deep care for intuitive, accessible,
-            and cohesive user experiences. I also believe that how we work shapes what we create &mdash; so I look for ways to support great design by sharing knowledge and refining team workflows.</p>
+          <p>I love coding for its logic and challenge, and design for its ability to tell stories and improve how people experience the web. Together, they let me create solutions that are both functional and human.</p>
 
-          <p>At the heart of my work is a drive to build digital spaces that <span class="font-semibold text-blue-400">foster connection</span>, 
-           <span class="font-semibold text-amber-400"> uplift underrepresented stories</span>, and <span class="font-semibold text-orange-400">help people feel seen</span>. I care deeply about storytelling,
-           cultural preservation, and community; those values shape how I design, build, and collaborate.</p>
+          <p>From designing UIs to building responsive sites to streamlining workflows, my process is grounded in curiosity, collaboration, and care for the people I&apos;m creating for and the people I work with.</p>
 
-          <p>Outside of work, you can find me cooking my way through my favorite cuisines, making too many Spotify playlists, adding to my endless video game and book backlog, singing both parts of a duet, tinkering with my mechanical keyboard,
-             or getting distracted by cute dogs in public.
-          </p>
+          <p>I&apos;m driven by a passion for community and storytelling, creating spaces that foster connection, honor diverse voices, and help people feel seen.</p>
+
+          <p>Off the clock, you might find me catching up on my endless video game and book backlog, baking or cooking, curating too many Spotify playlists, or planning my next cosplay.</p>
+
+          <p>(ﾉ´ヮ´)ﾉ\*:･ﾟ✧</p>
         </div>
       </div>
     </div>
