@@ -12,20 +12,20 @@ export default function WorkListing({imgsrc, path, title, description}) {
     
     return (
         <div class="">
-            <div class="transition ease-in-out delay-100 hover:text-amber-400">
+            <div class="transition ease-in-out delay-100 hover:text-amber-500">
                 <Link href={"/work/"+ `${path}`}>
                     <a>
                         <div class="mb-4 lg:mb-6">
                             <Image alt={"Preview of " + `${title}`} src={imgsrc} placeholder="blur" width={1280} height={800}/>
                         </div>
 
-                        <div class="font-bold text-xl">
+                        <div class="uppercase mb-4">
                             {title}
                         </div>
                     </a>
                 </Link>  
             </div>
-            <div class="font-light text-neutral-300 text-lg leading-6">
+            <div class=" text-sm text-stone-500">
                 {description}
             </div>
       </div>
