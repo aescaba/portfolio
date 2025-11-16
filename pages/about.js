@@ -15,7 +15,7 @@ export default function About() {
         </div>
 
         {/* second column - bio */}
-        <div class="space-y-6 font-light text-lg leading-7">
+        <div class="space-y-6 font-light text-lg/7">
           <p class="font-semibold text-2xl">
          I&apos;m a designer and developer who thrives where creativity meets problem-solving.</p>
 

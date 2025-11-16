@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <div class="h-[80vh] grid content-center space-y-4 font-light">
-      <h1 class="text-3xl lg:text-5xl">
+    <div class="h-[80vh] grid content-center space-y-4 ">
+      <h1 class="text-2xl lg:text-4xl">
         I&apos;m Amanda, a  <span class="font-bold bg-gradient-to-r hover:bg-gradient-to-l from-blue-500 via-orange-400 to-amber-400 inline-block leading-tight text-transparent bg-clip-text">designer &amp; developer </span> passionate about people and process.</h1>
-      <h2 class="text-xl lg:text-2xl">
+      <h2 class="text-base lg:text-xl font-light">
        I care about community and storytelling and I love the challenge of turning ideas into inclusive, well-crafted solutions that serve both people and purpose.
       </h2>
       {/* <div class="my-6 text-blue-300 font-light text-lg italic">&mdash; Just like me, this website is a constant work in progress :)</div> */}
