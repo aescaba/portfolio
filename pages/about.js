@@ -16,7 +16,7 @@ export default function About() {
 
         {/* second column - bio */}
         <div class="space-y-6 font-light text-lg leading-7">
-          <p>
+          <p class="font-semibold text-2xl">
          I&apos;m a designer and developer who thrives where creativity meets problem-solving.</p>
 
           <p>I love coding for its logic and challenge, and design for its ability to tell stories and improve how people experience the web. Together, they let me create solutions that are both functional and human.</p>
