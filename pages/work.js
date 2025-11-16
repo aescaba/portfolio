@@ -66,11 +66,11 @@ export default function Work() {
 
       </div>
 
-      <h2 class="text-2xl mb-12 font-medium">In Progress</h2>
+      {/* <h2 class="text-2xl mb-12 font-medium">In Progress</h2> */}
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
+      {/* <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24"> */}
         {/* portfolio preview */}
-        <div class="">
+        {/* <div class="">
           <div class="mb-4 lg:mb-6">
             <Image alt="Blurred photo preview of portfolio project asset" src={portfolioPreview} placeholder="blur" width={1280} height={800} />
           </div>
@@ -78,10 +78,10 @@ export default function Work() {
           <div class="font-bold text-xl">
             Portfolio Website
           </div>
-        </div>
+        </div> */}
 
                 {/* gallerify preview */}
-                <div class="">
+                {/* <div class="">
           <div class="mb-4 lg:mb-6">
             <Image alt="Blurred photo preview of Gallerify project asset" src={gallerifyPreview} placeholder="blur" width={1280} height={800} />
           </div>
@@ -89,8 +89,8 @@ export default function Work() {
           <div class="font-bold text-xl">
             Gallerify
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
     </div>
   )
