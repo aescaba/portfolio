@@ -1,6 +1,7 @@
 import PageTitle from '../components/pagetitle'
 import Image from 'next/image'
 import photo from '../public/images/about/amanda_2025.png'
+import IntLinkBtn from '../components/intlinkbtn.js'
 
 export default function About() {
   return (
@@ -28,6 +29,9 @@ export default function About() {
           <p>Off the clock, you might find me catching up on my endless video game and book backlog, baking or cooking, curating too many Spotify playlists, or planning my next cosplay.</p>
 
           <p>(ﾉ´ヮ´)ﾉ\*:･ﾟ✧</p>
+
+          <IntLinkBtn link="/" linkText="test"></IntLinkBtn>
+
         </div>
       </div>
     </div>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  --color-tomato: #FB4C3C;
+}
+
 html,
 body {
   padding: 0;
