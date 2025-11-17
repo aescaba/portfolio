@@ -20,17 +20,10 @@ export default function Contact() {
         </h3>
 
         <div class="flex flex-row mt-6 space-x-4">
-<<<<<<< HEAD
-          <a href="https://drive.google.com/file/d/1n4lYfD1M7ZoGZGENIhkVUaDjUM4hhpkh/view?usp=sharing" target="_blank" rel="noreferrer">
-          <button class="outline outline-2 rounded-full px-8 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-semibold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
-            <p>Resume</p>
-          </button>
-=======
           <a href="https://drive.google.com/file/d/1YuvgyURkuiX-TyeJXHtA8w7q7M-AIOpa/view?usp=sharing" target="_blank" rel="noreferrer">
             <button class="outline outline-2 rounded-full px-8 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 font-semibold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
               <p>Resume</p>
             </button>
->>>>>>> origin/master
           </a>
 
           <button class="saturate-0 hover:saturate-100 transition ease-in-out delay-[25ms]">
