@@ -1,7 +1,20 @@
-import PageTitle from '../../components/pagetitle'
+// library imports
 import Image from 'next/image';
+
+//component imports
+import ImgCaption from '../../components/imgcaption';
+import WorkPage from '../../components/work/workpage';
+import WorkSection from '../../components/work/worksection';
+import WorkRow from '../../components/work/workrow';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
+
+// image imports
+import summaryPhoto from '../../public/images/work/capstone/lechon-page.jpg'
+import capstoneSketches from '../../public/images/work/capstone/capstone-sketches.jpg';
+import capstonePlanning from '../../public/images/work/capstone/capstone-planning.jpg';
+import planningExcerpts from '../../public/images/work/capstone/planning-excerpts.jpg';
+import organizing from '../../public/images/work/capstone/organizing.jpg';
 
 const summary = "Two of my biggest passions are food and culture—so for my final capstone project at Northeastern University, I combined the two interests to create a project that encapsulated who I was and what I loved to express."
 
@@ -12,7 +25,7 @@ const toolsList = [
 ]
 
 const imgInfo = {
-  src: "/images/work/capstone/lechon-page.jpg",
+  summaryPhoto,
   alt: "Screenshot of cookbook capstone project, open to a page with an illustrated roast pig",
   width: "1280",
   height: "720"
@@ -32,45 +45,115 @@ const responsibilities = [
 
 export default function Capstone() {
   return (
-    <div class="font-light text-xl leading-6 pb-24">
+    <WorkPage
+      title={"Capstone Project: Tastes of the Motherland"}>
 
-      <PageTitle title={"Capstone Project: Tastes of the Motherland"}/>
-      
-      {/* first row - summary and preview photo */}
-      <Summary 
+      {/* first section - summary and preview photo */}
+      <Summary
         summary={summary}
         toolsList={toolsList}
-        imgInfo = {imgInfo}
+        imgInfo={imgInfo}
         hasLink={true}
         link="http://bit.ly/aescaba_capstone"
         linkText="View Project"
       />
 
-    {/* second row - overview and responsibilities */}
-    <Overview
-      overview={overview}
-      responsibilities={responsibilities}
-    />
+      <a class="text-amber-500 transition ease-in-out delay-100 hover:text-orange-400 font-semibold" href="https://drive.google.com/file/d/146VCS8Jz-Py_qIGlt_TLYfS-ULiYQb4_/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View full process documentation">
+        View full process documentation	&#8594;
+      </a>
 
-    {/* third row */}
-    <div class="mb-10 lg:mb-20">
-      <div class="mb-4 text-xl leading-8">
-        <h2 class="text-3xl py-4 font-semibold">Process</h2>
-      </div>
-      
-      <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
-        <div>
-          <Image class="" src="/images/work/capstone/capstone-sketches.jpg" alt="Early sketches of the proposed website flow" width={1280} height={720}/>
-          <p class="mt-2 text-lg leading-6">Early sketches of the website flow had the user choose a book off a shelf stocked with meaningful trinkets.</p>
+      {/* second row - overview and responsibilities */}
+      <Overview
+        overview={overview}
+        responsibilities={responsibilities}
+      />
+
+      {/* third section - process */}
+      <WorkSection>
+
+        <div class="mb-4">
+          <h2 class="py-4 font-semibold uppercase">Process</h2>
         </div>
 
-        <div>
-          <Image class="" src="/images/work/capstone/capstone-planning.jpg" alt="Early sketches of possible interactions; collection references and inspiration" width={1280} height={720}/>
-          <p class="mt-2 text-lg leading-6">I researched children&apos;s books, cookbooks, and food essays for inspiration.</p>
-        </div>
-      </div>
-    </div>
+        {/* row - image left + text right */}
+        <WorkRow>
+          <div class="lg:w-1/2">
+            <Image class="" src={capstoneSketches} alt="Early sketches of the proposed website flow" placeholder="blur" width={1280} height={720} />
 
-    </div>
+          </div>
+
+          <div class="lg:w-1/2 lg:mb-10 lg:self-center">
+            <p>Early sketches of the website flow had the user choose a cookbook off a shelf. The
+              book would open up to show the recipes, and clicking on certain photos or words
+              triggered a popup with fun facts. The bookshelf would have trinkets lying on it that
+              were relevant to how the food is prepared, cooked, or served. I eventually simplified
+              this concept into one cookbook with interactive elements within and around it.
+            </p>
+          </div>
+        </WorkRow>
+
+        {/* row - full size image */}
+        <WorkRow>
+          <Image class="" src={capstonePlanning} alt="Early sketches of possible interactions; collection references and inspiration" placeholder="blur" width={1280} height={720} />
+        </WorkRow>
+
+        {/* row - text */}
+        {/* 
+        TODO:
+          using a section instead of a row so it doesnt go to two columns - redo this to be cleaner/consistent later 
+        */}
+        <WorkSection>
+          <p class="mb-10">
+            I initially turned to inspiration from both virtual and physical sources. Online
+            references were interactive games that required the user to click and interact with
+            objects on the page or virtual storybooks, and physical references were children&apos;s
+            books that had interactive aspects like envelopes with letters inside or tabs to pull out.
+          </p>
+          <p>
+            I wanted to insert a lot of personal stories in this to really convey how directly
+            influenced I was by these dishes, and if I couldn&apos;t come up with a strong enough
+            anecdotes to share, I would interview family members or other Filipino friends. I spent
+            a few weeks narrowing down my target audience and researching existing media that catered
+            towards that audience.
+          </p>
+        </WorkSection>
+
+        {/* row - vertical + horizontal image */}
+        <WorkRow>
+          <div class="lg:w-1/2">
+            <Image class="" src={planningExcerpts} alt="Miscellaneous handwritten digital notes documenting the process of defining my target audience and look/feel" placeholder="blur" width={875} height={1078} />
+            <ImgCaption caption={"Excerpts from my early planning stages—defining my target audience and look/feel"}/>
+          </div>
+
+          <div>
+            <Image class="lg:w-1/2" src={organizing} alt="Various lists of possible cookbook recipes and handwritten annotations" placeholder="blur" width={1405} height={1078} />
+            <ImgCaption caption={"Lists of possible cookbook recipes to include, narrowing them down, then organizing into sections"}/>
+          </div>
+        </WorkRow>
+
+        {/* row - text */}
+        <WorkRow>
+          <p class="mb-10">
+            Once I had my cookbook structure finalized, I used a combination of online recipes,
+            physical cookbooks, and phone calls with my parents to get the recipes. The project
+            was put together using a combination of Adobe InDesign, iOS Procreate, and Adobe
+            XD&mdash;I typeset the cookbook itself, drew all the annotations and illustrations
+            by hand, and published the interactivity online.
+          </p>
+        </WorkRow>
+
+      </WorkSection>
+
+      {/* fourth section - preview */}
+      <WorkSection>
+        <div class="mb-4 text-xl">
+          <h2 class="py-4 font-semibold text-xl uppercase">Preview</h2>
+        </div>
+        <div class="flex justify-center">
+          <iframe class="w-full aspect-video" src="https://drive.google.com/file/d/1GQN2bRQYNej_zq_rWChd5c8c9StBEkqn/preview" allow="autoplay"></iframe>
+        </div>
+      </WorkSection>
+
+    </WorkPage>
   );
 }

@@ -1,11 +1,11 @@
-# Amanda Escaba - Personal Portfolio
-## Redesign in progress
+# Amanda Escaba - Personal Portfolio ✨
+[![Netlify Status](https://api.netlify.com/api/v1/badges/17f343c5-a445-4fe9-b44c-583ef4c6e24e/deploy-status)](https://app.netlify.com/sites/amandaescaba/deploys)
 
-This is the code for my personal portfolio website.
+This is the code for my personal portfolio website. It's meant to be a constant work in progress&mdash;I update work examples, styling, and interactivity to update my portfolio and keep improving my tech stack.
 
-I decided to recreate my portfolio site, which was previously created using a [Gatsby](https://www.gatsbyjs.com/) template. I chose to build this website using Next.js and Tailwind as a means to learn new frameworks.
+I chose to build this website using Next.js and Tailwind as a means to learn new frameworks. Wireframes were designed using Figma, and it's hosted on Netlify.
 
-Default Next.js README information can be read below.
+Relevant default Next.js README information can be read below.
 
 ---
 
@@ -37,9 +37,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

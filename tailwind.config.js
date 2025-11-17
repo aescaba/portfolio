@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "Assistant": ["Assistant", ...defaultTheme.fontFamily.sans]
+        "Manrope": ["Manrope", ...defaultTheme.fontFamily.sans]
       },
     },
   },
