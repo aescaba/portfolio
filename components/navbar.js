@@ -30,7 +30,7 @@ function NavigationLink({ href, text, router }) {
     return (
         <Link href={href === "/home" ? "/" : href} passHref>
             <a href={href === "/home" ? "/" : href}
-                className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-amber-500`}
+                className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blue-700`}
             >
                 {text}
             </a>
