@@ -11,10 +11,15 @@ import '@tailwindplus/elements';
 
 const navigationRoutes = ["work", "about", "contact"];
 
-function NavigationLink({ href, text, router }) {
+function NavigationLink({ href, text, router, classNames }) {
   const isActive = router.asPath === (href === "/home" ? "/" : href);
   return (
-    <Link href={href === "/home" ? "/" : href} className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blueberry`}>
+    <Link
+    href={href === "/home" ? "/" : href}
+    // className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blueberry`}
+        className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blueberry` + classNames}
+
+    >
 
       {text}
 
@@ -74,6 +79,7 @@ export default function Navbar() {
                 href={`/${singleRoute}`}
                 text={singleRoute.charAt(0).toUpperCase() + singleRoute.slice(1)} //https://flexiple.com/javascript/javascript-capitalize-first-letter/
                 router={router}
+                classNames={" block text-right"}
               />
             );
           })}
