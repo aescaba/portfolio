@@ -114,7 +114,7 @@ export default function UniMaps() {
         <div class="mb-4 text-xl">
           <h2 class="text-3xl py-4 font-semibold">Preview</h2>
           <a href="https://drive.google.com/file/d/1Mn1ZaLUWeAT9z04bvnlV_ln-Hf0TZamY/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View Full Proposal">
-            <button class="flex mt-6 items-center text-lg font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+            <button class="flex mt-6 items-center text-lg font-semibold outline-solid outline-2 rounded-full px-6 py-2 transition ease-in-out delay-25 hover:bg-white hover:text-black hover:outline-0 text-xl font-bold hover:bg-linear-to-l from-orange-300 via-amber-300 to-blue-400">
               View Full Proposal<HiOutlineExternalLink class="inline ml-2" />
             </button>
           </a>

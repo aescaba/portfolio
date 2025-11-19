@@ -21,7 +21,7 @@ export default function Summary({ summary, toolsList, imgInfo, hasLink, link = "
         if (hasLink) {
             return (
                 <a href={link} target="_blank" rel="noreferrer" aria-label={"View a live preview"}>
-                    <button class="flex text-lg mt-6 items-center font-semibold outline outline-2 rounded-full px-6 py-2 transition ease-in-out delay-[25ms] hover:bg-white hover:text-black hover:outline-0 font-bold hover:bg-gradient-to-l from-orange-300 via-amber-300 to-blue-400">
+                    <button class="flex text-lg mt-6 items-center font-semibold outline-solid outline-2 rounded-full px-6 py-2 transition ease-in-out delay-25 hover:bg-white hover:text-black hover:outline-0 font-bold hover:bg-linear-to-l from-orange-300 via-amber-300 to-blue-400">
                         {linkText}<HiOutlineExternalLink class="inline ml-2" />
                     </button>
                 </a>
