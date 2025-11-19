@@ -12,7 +12,7 @@ export default function WorkListing({imgsrc, path, title, description}) {
     
     return (
         <div class="">
-            <div class="transition ease-in-out delay-100 hover:text-amber-500">
+            <div class="transition ease-in-out delay-100 hover:text-ocean">
                 <Link href={"/work/"+ `${path}`}>
 
                     <div class="mb-4 lg:mb-6">

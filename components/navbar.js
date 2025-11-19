@@ -28,7 +28,7 @@ export default function Navbar() {
 function NavigationLink({ href, text, router }) {
     const isActive = router.asPath === (href === "/home" ? "/" : href);
     return (
-        <Link href={href === "/home" ? "/" : href} className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-amber-500`}>
+        <Link href={href === "/home" ? "/" : href} className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-ocean`}>
 
             {text}
 
