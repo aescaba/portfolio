@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div class="h-[80vh] lg:w-5/6 grid content-center space-y-4 ">
       <h1 class="text-2xl lg:text-4xl font-semibold">
-        I&apos;m Amanda, a  <span class="font-bold bg-gradient-to-r hover:bg-gradient-to-l from-blue-500 via-orange-500 to-amber-500 inline-block leading-tight text-transparent bg-clip-text">designer &amp; developer </span> passionate about people and process.</h1>
+        I&apos;m Amanda, a  <span class="font-bold bg-linear-to-r hover:bg-linear-to-l from-blue-500 via-orange-500 to-amber-500 inline-block leading-tight text-transparent bg-clip-text">designer &amp; developer </span> passionate about people and process.</h1>
       <h2 class="text-lg font-light">
        I care about community and storytelling and I love the challenge of turning ideas into inclusive, well-crafted solutions that serve both people and purpose.
       </h2>
