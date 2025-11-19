@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindplus/elements": "^1.0.19",
     "framer-motion": "^12.23.24",
     "next": "16.0.3",
     "popmotion": "^11.0.5",
