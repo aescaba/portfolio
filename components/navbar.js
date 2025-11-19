@@ -11,8 +11,6 @@ import '@tailwindplus/elements';
 
 const navigationRoutes = ["home", "work", "about", "contact"];
 
-
-// maps the navlinks to elements
 function NavigationLink({ href, text, router }) {
     const isActive = router.asPath === (href === "/home" ? "/" : href);
     return (
@@ -45,7 +43,8 @@ export default function Navbar() {
 // }
 
 return (
-    <nav class="relative after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
+    <nav class="relative after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10
+    justify-end mx-10 md:mx-24 lg:mx-32 xl:mx-48 2xl:mx-80 my-8 space-x-6 md:space-x-10 lg:space-x-14 text-base uppercase">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -63,7 +62,8 @@ return (
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex shrink-0 items-center">
-          <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" class="h-8 w-auto" />
+          {/* <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" class="h-8 w-auto" /> */}
+          <Link href={'/'}><img src="/AE_Logo.svg" alt="AE signature logo" class="h-8 w-auto" /></Link>
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
