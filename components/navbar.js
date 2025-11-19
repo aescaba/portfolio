@@ -9,7 +9,7 @@ import Link from "next/link";
 import '@tailwindplus/elements';
 
 
-const navigationRoutes = ["home", "work", "about", "contact"];
+const navigationRoutes = ["work", "about", "contact"];
 
 function NavigationLink({ href, text, router }) {
     const isActive = router.asPath === (href === "/home" ? "/" : href);
@@ -62,7 +62,7 @@ return (
       </div>
       {/* <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"> */}
       {/* <div class="flex shrink-0 items-center"> */}
-      <div class="flex flex-1 items-start justify-start sm:items-stretch sm:justify-start">
+      <div class="flex flex-1 justify-between">
         <div class="flex shrink-0 items-center">
           {/* <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" class="h-8 w-auto" /> */}
           <Link href={'/'}><img src="/AE_Logo.svg" alt="AE signature logo" class="h-8 w-auto" /></Link>
