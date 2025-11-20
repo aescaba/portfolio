@@ -8,11 +8,11 @@
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --color-mustard: #FBBF24;
-    --color-blueberry: #347FD5;
-    --color-tomato: #FB4C3C;
-    --color-vanilla: #FFFBF3;
-    --color-sesame: #131315;
+  --color-mustard: #FBBF24;
+  --color-blueberry: #347FD5;
+  --color-tomato: #FB4C3C;
+  --color-vanilla: #FFFBF3;
+  --color-sesame: #131315;
 }
 
 /*
@@ -24,6 +24,7 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
+
   *,
   ::after,
   ::before,
