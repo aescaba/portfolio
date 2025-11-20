@@ -32,8 +32,9 @@ export default function Navbar() {
 
   return (
     <nav class="relative after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10
-    justify-end mx-10 md:mx-24 lg:mx-32 xl:mx-48 2xl:mx-80 my-8 space-x-6 md:space-x-10 lg:space-x-14 text-base uppercase">
-      <div class="mx-auto max-w-7xl">
+    justify-end text-base uppercase">
+      {/* removed from nav attributes and added to _app.js: mx-10 md:mx-24 lg:mx-32 xl:mx-48 2xl:mx-80 my-8 space-x-6 md:space-x-10 lg:space-x-14 */}
+      <div>
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
             {/* <!-- Mobile menu button--> */}
