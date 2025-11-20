@@ -48,9 +48,9 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <div class="flex flex-1 justify-between">
+          <div class="flex flex-1 justify-between items-center">
             <div class="flex shrink-0 items-center">
-              <Link href={'/'}><img src="/AE_Logo.svg" alt="AE signature logo" class="h-8 w-auto" /></Link>
+              <Link href={'/'}><img src="/AE_Logo.svg" alt="AE signature logo" class="h-12 w-auto" /></Link>
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-8">
@@ -71,7 +71,7 @@ export default function Navbar() {
       </div>
 
       <el-disclosure id="mobile-menu" hidden class="block sm:hidden">
-        <div class="space-y-1 px-2 pt-2 pb-3">
+        <div class="space-y-4 px-2 pt-2 pb-3">
           {navigationRoutes.map((singleRoute) => {
             return (
               <NavigationLink
@@ -79,7 +79,7 @@ export default function Navbar() {
                 href={`/${singleRoute}`}
                 text={singleRoute.charAt(0).toUpperCase() + singleRoute.slice(1)} //https://flexiple.com/javascript/javascript-capitalize-first-letter/
                 router={router}
-                classNames={" block text-right"}
+                classNames={" block text-right text-lg"}
               />
             );
           })}
