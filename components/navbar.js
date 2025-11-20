@@ -71,7 +71,7 @@ export default function Navbar() {
       </div>
 
       <el-disclosure id="mobile-menu" hidden class="block sm:hidden">
-        <div class="space-y-4 px-2 pt-2 pb-3">
+        <div class="space-y-6 px-2 pt-2 pb-3">
           {navigationRoutes.map((singleRoute) => {
             return (
               <NavigationLink
@@ -79,7 +79,7 @@ export default function Navbar() {
                 href={`/${singleRoute}`}
                 text={singleRoute.charAt(0).toUpperCase() + singleRoute.slice(1)} //https://flexiple.com/javascript/javascript-capitalize-first-letter/
                 router={router}
-                classNames={" block text-right text-lg"}
+                classNames={" block text-right text-xl"}
               />
             );
           })}
