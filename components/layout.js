@@ -3,7 +3,7 @@
 export default function Layout({ children }) {
     return (
         <>
-            <main>
+            <main className="mt-20">
                 {children}
             </main>
 

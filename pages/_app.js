@@ -17,14 +17,12 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/AE_Logo_BG.svg" />
       </Head>
 
-      <div className="w-2/3 max-w-5xl mx-auto my-8 justify-self-center">
-
+      <div className="w-2/3 max-w-5xl mx-auto my-8 justify-between">
         <Navbar />
-
         <Layout>
             <Component {...pageProps} />
         </Layout>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
