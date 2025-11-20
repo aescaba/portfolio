@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <div class="flex flex-1 justify-between items-center">
             <div class="flex shrink-0 items-center">
-              <Link href={'/'}><img src="/AE_Logo.svg" alt="AE signature logo" class="h-12 w-auto" /></Link>
+              <Link href={'/'}><img src="/AE_Logo.svg" alt="AE signature logo" class="h-10 sm:h-12 w-auto" /></Link>
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-8">
