@@ -77,7 +77,7 @@ export default function Navbar() {
         <div class="space-y-8 px-2 pt-2 pb-3">
           {navigationRoutes.map((singleRoute) => {
             return (
-              <div className="hover:text-blueberry">
+              <div className="transition ease-in-out delay-75 hover:text-blueberry">
 
                 <NavigationLink
                   key={singleRoute}
