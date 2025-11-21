@@ -8,8 +8,8 @@ export default function Contact() {
     <div>
 
       <PageTitle title={"Contact"} />
-      
-      <div>
+
+      <div className="h-[40vh]">
 
         <h2 className="text-xl font-semibold">
           Amanda Escaba <span className="font-normal text-lg">&#40;she/her&#41;</span>
@@ -19,10 +19,15 @@ export default function Contact() {
           <Link href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com &gt;</Link>
         </p>
 
-        <div className="flex flex-row mt-6 space-x-4">
+        <div className="flex flex-col lg:flex-row mt-6 space-y-6 lg:space-x-6 uppercase text-xl lg:text-lg">
           <a href="https://drive.google.com/file/d/1YuvgyURkuiX-TyeJXHtA8w7q7M-AIOpa/view?usp=sharing" target="_blank" rel="noreferrer"
           >
-           <p className="text-lg uppercase transition ease-in-out delay-75 hover:text-blueberry">Resume &gt;</p>
+            <p className="transition ease-in-out delay-75 hover:text-blueberry">Resume &gt;</p>
+          </a>
+
+          <a href="https://www.linkedin.com/in/aescaba/" target="_blank" rel="noreferrer"
+          >
+            <p className="transition ease-in-out delay-75 hover:text-blueberry">LinkedIn &gt;</p>
           </a>
 
           {/* <button class="saturate-0 hover:saturate-100 transition ease-in-out delay-25">
