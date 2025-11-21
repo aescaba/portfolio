@@ -12,8 +12,8 @@ export default function Footer() {
             <p>designed & developed ♡</p>
             </div>
           <div className="flex space-x-8">
-            <div className="hover:text-blueberry"><a href="mailto:amandaescaba@gmail.com">email</a></div>
-            <div className="hover:text-blueberry"><a href="https://www.linkedin.com/in/aescaba/" target="_blank">linkedin</a></div>
+            <div className="hover:text-blueberry"><a href="mailto:amandaescaba@gmail.com">email &gt; </a></div>
+            <div className="hover:text-blueberry"><a href="https://www.linkedin.com/in/aescaba/" target="_blank">linkedin &gt;</a></div>
           </div>
         </div>
         {/* <a className=""
