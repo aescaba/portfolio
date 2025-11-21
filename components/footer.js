@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="relative mt-[10vh] py-20">
       <div className="absolute inset-x-0 bottom-0">
-        <div className="flex flex-wrap space-y-4 sm:space-y-0 justify-center md:justify-between items-center text-basis sm:text-sm">
+        <div className="flex flex-wrap space-y-4 sm:space-y-0 md:justify-between items-center text-basis sm:text-sm">
           <div className="flex">
             <p>designed & developed with next.js and tailwind</p>
           </div>
