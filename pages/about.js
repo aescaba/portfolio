@@ -19,11 +19,12 @@ export default function About() {
           <p class="font-semibold text-2xl">
          I&apos;m a designer and developer who thrives where creativity meets problem-solving.</p>
 
-          <p>I love <span className="font-semibold">coding</span> for its logic and challenge and I love <span className="font-semibold">design</span> for its power to tell stories and make an impact. Together, they let me craft solutions that are both functional and human.</p>
+          <p>I love <span className="font-semibold">coding</span> for its logic and challenge and I love <span className="font-semibold">design</span> for its narrative and impact. Together, they let me craft solutions that are both functional and human.</p>
 
-          <p>The creative journey&mdash;<span className="font-semibold">untangling complexity, turning chaos into clarity, and bringing ideas to life</span>&mdash;energizes me, while my process is grounded in curiosity, collaboration, and care for the people I&apos;m creating for and the teams I work with.</p>
-
-          <p>From designing UIs to building responsive sites to streamlining workflows, I&apos;m driven by a passion for <span className="font-semibold">community and storytelling,</span> creating spaces that foster connection, honor diverse voices, and <span className="font-semibold">help people feel seen.</span></p>
+          <p>The creative journey of <span className="font-semibold">untangling complexity</span> and <span className="font-semibold">turning chaos into clarity</span> energizes me, and <span className="font-semibold">bringing ideas to life</span> is the cherry on top.</p>
+           
+          <p>My process is grounded in curiosity, collaboration, and care for the people I&apos;m creating for <span className="italic">and</span> the teams I work with&mdash;from designing UIs to building responsive sites to streamlining workflows, I&apos;m driven by a passion 
+          for <span className="font-semibold">community and storytelling</span> to create spaces that foster connection and help people feel seen.</p>
 
           <p>Off the clock, you might find me catching up on my endless video game and book backlog, baking or cooking, curating too many Spotify playlists, or planning my next cosplay.</p>
 
