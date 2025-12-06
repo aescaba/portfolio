@@ -16,13 +16,13 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="My name is Amanda and I'm a web designer and developer based in the New York Metropolitan Area. I love designing user-centered experiences and everything about the process of creating!" />
         <link rel="icon" href="/AE_Logo_BG.svg" />
       </Head>
-      <div>
-        <Navbar />
 
+      <div className="w-2/3 max-w-5xl mx-auto my-8 justify-between">
+        <Navbar />
         <Layout>
             <Component {...pageProps} />
         </Layout>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
