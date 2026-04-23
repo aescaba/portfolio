@@ -17,6 +17,9 @@ export default function Work() {
     <div class="">
 
       <PageTitle title={"Work"} />
+      <div class="flex flex-col">
+
+      </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
 
