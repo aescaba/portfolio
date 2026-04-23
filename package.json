@@ -22,7 +22,7 @@
     "eslint": "^9.39.1",
     "eslint-config-next": "16.0.3",
     "postcss": "^8.4.16",
-    "tailwindcss": "^4.1.17"
+    "tailwindcss": "^4.2.4"
   },
   "engines": {
     "node": ">=20.9.0"
