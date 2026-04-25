@@ -1,6 +1,6 @@
 import PageTitle from "../pagetitle";
 
-export default function WorkPage({ title, children }) {
+export default function WorkPage({ title = "", children }) {
 
     /*
         title: string - page title

@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 // component imports
 import WorkPage from '../../components/work/workpage';
+import WorkHeading from '../../components/work/workheading';
 import Summary from '../../components/work/summary';
 import Overview from '../../components/work/overview';
 // import WorkRow from '../../components/work/workrow';
@@ -28,35 +29,26 @@ const imgInfo = {
   height: "800"
 }
 
-const overview = [
-  "Following a successful rebranding initiative, the Women's Business Enterprise Council of Metro NY and Greater DMV (WBEC NY DMV) sought to align their website with their updated brand identity. With the direction provided by our team's creative director, I translated the new sitemap and initial wireframes into a cohesive design for over 90 pages of the website.",
-  "From conceptualization to execution, I oversaw the entire redesign process, ensuring a modern aesthetic, improved navigation, and more compelling calls to action. The result was a website that not only reflected the organization's fresh look but also enhanced user experience and engagement."
-]
+const title = "Reimagining a website to better serve a growing network of women entrepreneurs"
 
-const responsibilities = [
-  "Designed and built 90+ responsive web pages based off old content and new requests, adhering to brand guidelines and 2 initial page wireframes",
-  "Organized and coordinated technical and design process efforts between myself, creative director, and account staff/client liaison",
-  "Researched, tested, and implemented technical solutions to specific client requests",
-  "Perform routine web maintenance: plugin updates, content updates, SEO audits"
-]
+const client = "WBEC Metro NY & Greater DMV"
 
 export default function WBECNYDMV() {
   return (
-    <WorkPage
-      title={"WBEC Metro NY & Greater DMV"}>
+    <WorkPage>
 
-      <Summary
+      {/* <Summary
         summary={summary}
         toolsList={toolsList}
         imgInfo={imgInfo}
         hasLink={true}
         link="https://www.wbecnydmv.org/"
         linkText="Visit Website"
-      />
+      /> */}
 
-      <Overview
-        overview={overview}
-        responsibilities={responsibilities}
+      <WorkHeading
+        title={title}
+        client={client}
       />
 
       {/* row - full size image */}
