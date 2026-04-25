@@ -4,23 +4,25 @@ import Image from 'next/image';
 // component imports
 import WorkPage from '../../components/work/workpage';
 import WorkHeading from '../../components/work/workheading';
-import Summary from '../../components/work/summary';
-import Overview from '../../components/work/overview';
+import WorkMetadata from '../../components/work/workmetadata';
+
 // import WorkRow from '../../components/work/workrow';
 
 // image imports
 import summaryPhoto from '../../public/images/work/wbecnydmv/WBEC_preview_1.jpg'
-import responsiveMockup from '../../public/images/work/wbecnydmv/WBEC_responsive_mockup.png'
+import cover from '../../public/images/work/wbecnydmv/WBEC_Cover.png'
 
-const summary = "Amidst restructuring and rebranding, WBEC Metro NY and Greater DMV needed a website redesign to blend their new brand identity into a modern and cohesive online presence."
-
-const toolsList = [
-  "WordPress",
-  "HTML/CSS",
-  "Adobe Photoshop",
-  "Adobe Illustrator",
-  "Search Engine Optimization"
+// for metadata
+const responsibilities = [
+  "UX research and information architecture",
+  "Responsive web development",
+  "SEO and accessibility improvements",
+  "Collaboration with stakeholders"
 ]
+
+const role = "UX/UI Designer & Web Developer"
+
+const tools = "WordPress, HTML/CSS/JS, SEO tools"
 
 const imgInfo = {
   summaryPhoto,
@@ -53,8 +55,14 @@ export default function WBECNYDMV() {
 
       {/* row - full size image */}
       {/* <WorkRow> */}
-        <Image class="" src={responsiveMockup} alt="Mockup of WBEC site on a desktop, laptop, tablet, and phone" placeholder="blur" width={1260} height={840} />
+        <Image class="" src={cover} alt="Mockup of WBEC site on a laptop someone is browsing" placeholder="blur"/>
       {/* </WorkRow> */}
+
+      <WorkMetadata
+      responsibilities={responsibilities}
+      role={role}
+      tools={tools}
+      />
     </WorkPage>
   );
 }
