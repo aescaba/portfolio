@@ -3,6 +3,8 @@
 //     return <h3 class="uppercase text-base font-semibold">{heading}</h3>
 // }
 
+import TextBlock from "../textblock";
+
 export default function WorkMetadata({ responsibilities, role, tools }) {
     
     /*
@@ -13,13 +15,20 @@ export default function WorkMetadata({ responsibilities, role, tools }) {
 
     return (
         <div class="flex-row mb-10">
+
+<TextBlock
+isBulleted={true}
+heading="Responsibilities"
+body={responsibilities}
+/>
+
             <div class="flex-col w-1/3">
                 {/* <Heading heading={"Responsibilities"}/> */}
-                {responsibilities.map((point) => {
+                {/* {responsibilities.map((point) => {
                         return (
                             <li key={point}>{point}</li>
                         );
-                    })}
+                    })} */}
             </div>
             <div class="flex-col w-1/3">
                 <h3 class="uppercase text-base">Role</h3>
