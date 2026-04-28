@@ -37,32 +37,14 @@ const client = "WBEC Metro NY & Greater DMV"
 
 export default function WBECNYDMV() {
   return (
-    <WorkPage>
-
-      {/* <Summary
-        summary={summary}
-        toolsList={toolsList}
-        imgInfo={imgInfo}
-        hasLink={true}
-        link="https://www.wbecnydmv.org/"
-        linkText="Visit Website"
-      /> */}
-
-      <WorkHeading
-        title={title}
-        client={client}
-      />
-
-      {/* row - full size image */}
-      {/* <WorkRow> */}
-        <Image class="" src={cover} alt="Mockup of WBEC site on a laptop someone is browsing" placeholder="blur"/>
-      {/* </WorkRow> */}
-
-      <WorkMetadata
-      responsibilities={responsibilities}
-      role={role}
-      tools={tools}
-      />
-    </WorkPage>
+    <WorkPage
+    title = {title}
+    client = {client}
+    coverSrc = {cover}
+    coverAltText = "Mockup of WBEC site on a laptop someone is browsing"
+    responsibilities = {responsibilities}
+    role ={role}
+    tools = {tools}
+    />
   );
 }
