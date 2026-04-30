@@ -17,21 +17,18 @@ export default function WorkMetadata({ responsibilities, role, tools }) {
         <div class="flex justify-between flex-col lg:flex-row gap-8 mb-10">
 
             <TextBlock
-                numCols = "3"
                 isBulleted = {true}
                 heading = "Responsibilities"
                 body = {responsibilities}
             />
 
             <TextBlock
-                numCols = "3"
                 isBulleted = {false}
                 heading = "Role"
                 body = {role}
             />
 
             <TextBlock
-                numCols = "3"
                 isBulleted = {false}
                 heading = "Tools"
                 body = {tools}

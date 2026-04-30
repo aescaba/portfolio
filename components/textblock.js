@@ -1,10 +1,10 @@
 
 
-export default function TextBlock({ numCols = 1, isBulleted = false, heading = "", body = [] }) {
+export default function TextBlock({ colSpan = "1/3", isBulleted = false, heading = "", body = [] }) {
 
     /*
-        numCols: int | number of columns in the row
-        bulleted: boolean | is the body a bulleted list?
+        colSpan: string | columns to span (ex. 1/3, 2/3) - default is 1/3
+        bulleted: boolean | is the body a bulleted list? - default is false
         heading: string | heading of the text block
         body: array (string) | body copy of the text block
 
@@ -14,7 +14,7 @@ export default function TextBlock({ numCols = 1, isBulleted = false, heading = "
     */
 
     return (
-        <div class={"flex-col w-1/"+ `${numCols}` + " text-sm"}>
+        <div class={"flex-col lg:w-"+ `${colSpan}` + " lg:mb-8 text-base leading-7"}>
             <h3 class="uppercase text-base mb-2">{heading}</h3>
             {isBulleted ?
                 <ul className="list-disc list-outside pl-4">
