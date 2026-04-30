@@ -14,6 +14,7 @@ const client = "WBEC Metro NY & Greater DMV"
 
 /* Cover photo */
 import coverPhoto from '../../public/images/work/wbecnydmv/WBEC_Cover.png'
+import WorkRow from '../../components/work/workrow';
 const coverAltText = "Mockup of WBEC site on a laptop someone is browsing"
 
 /* Metadata */
@@ -35,6 +36,11 @@ const problemBody = "The Women’s Business Enterprise Council of Metro NY and G
 /* Challenges */
 const challengesHeading = "Challenges"
 const challengesBody = ["Important information about certification and programs was difficult to locate", "Navigation and content structure had grown inconsistent over time", "Visual design lacked brand consistency across digital platforms", "The website needed to support frequent feature requests and program updates"]
+const challengesTextAfter = "Because the site serves both existing members and prospective entrepreneurs, unclear navigation created friction in the onboarding journey."
+
+/* Goals */
+const goalsHeading = "Goals"
+const goalsBody = ["Improve the user experience for accessing key information", "Establish consistent branding across digital touchpoints", "Create a flexible system that could support evolving organizational needs", "Deliver design improvements while adapting to scope changes and deadlines"]
 
 export default function WBECNYDMV() {
   return (
@@ -47,20 +53,30 @@ export default function WBECNYDMV() {
       role={role}
       tools={tools}>
 
-      {/* Problem */}
+      {/* Problem Row */}
       <TextBlock
         colSpan="2/3"
         heading={problemHeading}
         body={problemBody}
       />
 
-      {/* Challenges / Goals */}
+      {/* Challenges / Goals Row */}
+      <WorkRow>
       <TextBlock
         colSpan="1/2"
         isBulleted="true"
         heading={challengesHeading}
         body={challengesBody}
+        textAfter={challengesTextAfter}
       />
+            <TextBlock
+        colSpan="1/2"
+        isBulleted="true"
+        heading={goalsHeading}
+        body={goalsBody}
+      />
+      </WorkRow>
+
 
     </WorkPage>
 

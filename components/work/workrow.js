@@ -10,7 +10,8 @@ export default function WorkRow({ children }) {
     */
 
     return (
-        <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
+        // <div class="flex flex-col mb-10 lg:mb-20 lg:flex-row gap-8 lg:gap-12">
+        <div class="flex justify-between flex-col lg:flex-row gap-8 mb-10">
             {children}
         </div>
     );
