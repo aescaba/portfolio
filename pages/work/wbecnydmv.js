@@ -1,12 +1,6 @@
 // component imports
 import WorkPage from '../../components/work/workpage';
 import TextBlock from '../../components/textblock';
-/*
-  colSpan: string | columns to span (ex. 1/3, 2/3) - default is 1/3
-  isBulleted: boolean | is the body a bulleted list? - default is false
-  heading: string | heading of the text block
-  body: array (string) | body copy of the text block
-*/
 
 /* Work Heading component */
 const title = "Reimagining a website to better serve a growing network of women entrepreneurs"
@@ -42,6 +36,36 @@ const challengesTextAfter = "Because the site serves both existing members and p
 const goalsHeading = "Goals"
 const goalsBody = ["Improve the user experience for accessing key information", "Establish consistent branding across digital touchpoints", "Create a flexible system that could support evolving organizational needs", "Deliver design improvements while adapting to scope changes and deadlines"]
 
+/* Constraints */
+const constraintsHeading = "Constraints"
+const constraintsSubHeading1 = "Technology Stack"
+const constraintsBody1 = "Stakeholders required keeping the existing CMS. The builder tools implemented were new to me since I was brought onto the project after scope was defined, so I took it as a hands-on learning opportunity."
+
+const constraintsSubHeading2 = "Evolving Content Needs"
+const constraintsTextBefore = "During the project, the organization frequently introduced new feature requests. To keep the project on track, I:"
+const constraintsBody2 = ["prioritized high-impact updates", "designed modular components for quick implementation", "balanced design improvements with timeline constraints"]
+
+/* Process */
+const processHeading = "Process"
+const processSubHeading = "Define the Experience"
+const processTextBefore = "User Needs"
+const processBody = "Two primary audiences emerged with sets of different needs:"
+
+const prospectiveMembersHeading = "Prospective Members"
+const prospectiveMembersBody = ["Learn about certification", "Understand eligibility", "Find application steps"]
+
+const existingMembersHeading = "Existing Members"
+const existingMembersBody = ["Access programming and events", "Stay updated on resources and opportunities"]
+
+const uxStrategyHeading = "UX Strategy"
+const uxStrategyTextBefore = "To support these needs, I focused on:"
+const uxStrategyBody = ["simplifying the information architecture", "clarifying navigation pathways", "prioritizing high-value content"]
+
+const informationArchitectureSubHeading = "Information Architecture"
+
+const improvementsHeading = "Key Improvements"
+const improvementsBody = ["Consolidated scattered content into clear program hubs", "Prioritized certification information within navigation", "Reduced content redundancy across pages"]
+
 export default function WBECNYDMV() {
   return (
     <WorkPage
@@ -62,19 +86,81 @@ export default function WBECNYDMV() {
 
       {/* Challenges / Goals Row */}
       <WorkRow>
+        <TextBlock
+          colSpan="1/2"
+          isBulleted="true"
+          heading={challengesHeading}
+          body={challengesBody}
+          textAfter={challengesTextAfter}
+        />
+        <TextBlock
+          colSpan="1/2"
+          isBulleted="true"
+          heading={goalsHeading}
+          body={goalsBody}
+        />
+      </WorkRow>
+
+      <TextBlock heading={constraintsHeading} />
+
+      {/* Tech Stack / Evolving Content Needs */}
+      <WorkRow>
+        <TextBlock
+          colSpan="1/2"
+          subheading={constraintsSubHeading1}
+          body={constraintsBody1} />
+
+        <TextBlock
+          colSpan="1/2"
+          isBulleted="true"
+          subheading={constraintsSubHeading2}
+          textBefore={constraintsTextBefore}
+          body={constraintsBody2} />
+      </WorkRow>
+
+      {/* Process Row */}
       <TextBlock
-        colSpan="1/2"
-        isBulleted="true"
-        heading={challengesHeading}
-        body={challengesBody}
-        textAfter={challengesTextAfter}
+        colSpan="2/3"
+        heading={processHeading}
+        subheading={processSubHeading}
+        textBefore={processTextBefore}
+        body={processBody}
       />
-            <TextBlock
-        colSpan="1/2"
+
+      <WorkRow>
+
+        <TextBlock
+          isBulleted="true"
+          subheading={prospectiveMembersHeading}
+          body={prospectiveMembersBody}
+        />
+
+        <TextBlock
+          isBulleted="true"
+          subheading={existingMembersHeading}
+          body={existingMembersBody}
+        />
+        <TextBlock />
+      </WorkRow>
+
+      <WorkRow>
+        <TextBlock
+          isBulleted="true"
+          heading={uxStrategyHeading}
+          textBefore={uxStrategyTextBefore}
+          body={uxStrategyBody} />
+      </WorkRow>
+
+      <WorkRow>
+        <TextBlock
+        subheading={informationArchitectureSubHeading}/>
+      </WorkRow>
+
+      <WorkRow>
+        <TextBlock
         isBulleted="true"
-        heading={goalsHeading}
-        body={goalsBody}
-      />
+        subheading={improvementsHeading}
+        body={improvementsBody}/>
       </WorkRow>
 
 
