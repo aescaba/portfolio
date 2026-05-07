@@ -17,11 +17,15 @@ export default function Work() {
     <div class="">
 
       <PageTitle title={"Work"} />
+      <div class="flex mb-10">
+        <p class="italic">Portfolio under construction. Additional work samples available upon request.</p>
+      </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
 
         {/* CHANGE THIS TO BE A FEED LATER ? */}
 
+        
         {/* project one */}
         <WorkListing
           imgsrc={wbec}
