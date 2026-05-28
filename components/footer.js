@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Footer() {
   return (
-    <div className="relative mt-[10vh] py-20">
+    <div className="relative mt-[10vh] py-20 text-stone-600">
       <div className="absolute inset-x-0 bottom-0">
         <div className="flex flex-col md:flex-row space-y-4 sm:space-y-0 justify-between gap-6 text-sm md:text-xs uppercase">
           <div className="flex flex-col">
