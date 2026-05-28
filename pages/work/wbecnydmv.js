@@ -2,86 +2,33 @@
 import WorkPage from '../../components/work/workpage';
 import TextBlock from '../../components/textblock';
 
-/* Work Heading component */
-const title = "Reimagining a website to better serve a growing network of women entrepreneurs"
-const client = "WBEC Metro NY & Greater DMV"
 
-/* Cover photo */
+/* Photos */
 import coverPhoto from '../../public/images/work/wbecnydmv/WBEC_Cover.png'
 import WorkRow from '../../components/work/workrow';
-const coverAltText = "Mockup of WBEC site on a laptop someone is browsing"
 
-/* Metadata */
-const responsibilities = [
-  "UX research and information architecture",
-  "Responsive web development",
-  "SEO and accessibility improvements",
-  "Collaboration with stakeholders"
-]
-const role = "UX/UI Designer & Web Developer"
-const tools = "WordPress, HTML/CSS/JS, SEO tools"
-
-/* Body */
-
-/* Problem */
-const problemHeading = "Problem"
-const problemBody = "The Women’s Business Enterprise Council of Metro NY and Greater DMV, or WBEC NY DMV, supports a network of women entrepreneurs through certification, programming, and business resources. Their outdated website made it difficult for members and potential applicants to find information about benefits and the certification process. Its site structure and design reinforced the incorrect assumption that the organization was developed with the mindset of a demographic inexperienced with modern design conventions."
-
-/* Challenges */
-const challengesHeading = "Challenges"
-const challengesBody = ["Important information about certification and programs was difficult to locate", "Navigation and content structure had grown inconsistent over time", "Visual design lacked brand consistency across digital platforms", "The website needed to support frequent feature requests and program updates"]
-const challengesTextAfter = "Because the site serves both existing members and prospective entrepreneurs, unclear navigation created friction in the onboarding journey."
-
-/* Goals */
-const goalsHeading = "Goals"
-const goalsBody = ["Improve the user experience for accessing key information", "Establish consistent branding across digital touchpoints", "Create a flexible system that could support evolving organizational needs", "Deliver design improvements while adapting to scope changes and deadlines"]
-
-/* Constraints */
-const constraintsHeading = "Constraints"
-const constraintsSubHeading1 = "Technology Stack"
-const constraintsBody1 = "Stakeholders required keeping the existing CMS. The builder tools implemented were new to me since I was brought onto the project after scope was defined, so I took it as a hands-on learning opportunity."
-
-const constraintsSubHeading2 = "Evolving Content Needs"
-const constraintsTextBefore = "During the project, the organization frequently introduced new feature requests. To keep the project on track, I:"
-const constraintsBody2 = ["prioritized high-impact updates", "designed modular components for quick implementation", "balanced design improvements with timeline constraints"]
-
-/* Process */
-const processHeading = "Process"
-const processSubHeading = "Define the Experience"
-const processTextBefore = "User Needs"
-const processBody = "Two primary audiences emerged with sets of different needs:"
-
-const prospectiveMembersHeading = "Prospective Members"
-const prospectiveMembersBody = ["Learn about certification", "Understand eligibility", "Find application steps"]
-
-const existingMembersHeading = "Existing Members"
-const existingMembersBody = ["Access programming and events", "Stay updated on resources and opportunities"]
-
-const uxStrategyHeading = "UX Strategy"
-const uxStrategyTextBefore = "To support these needs, I focused on:"
-const uxStrategyBody = ["simplifying the information architecture", "clarifying navigation pathways", "prioritizing high-value content"]
-
-const informationArchitectureSubHeading = "Information Architecture"
-
-const improvementsHeading = "Key Improvements"
-const improvementsBody = ["Consolidated scattered content into clear program hubs", "Prioritized certification information within navigation", "Reduced content redundancy across pages"]
 
 export default function WBECNYDMV() {
   return (
     <WorkPage
-      title={title}
-      client={client}
+      title={"Reimagining a website to better serve a growing network of women entrepreneurs"}
+      client={"WBEC Metro NY & Greater DMV"}
       coverSrc={coverPhoto}
-      coverAltText={coverAltText}
-      responsibilities={responsibilities}
-      role={role}
-      tools={tools}>
+      coverAltText={"Mockup of WBEC site on a laptop someone is browsing"}
+      responsibilities={[
+        "UX research and information architecture",
+        "Responsive web development",
+        "SEO and accessibility improvements",
+        "Collaboration with stakeholders"
+      ]}
+      role={"UX/UI Designer & Web Developer"}
+      tools={"WordPress, HTML/CSS/JS, SEO tools"}>
 
       {/* Problem Row */}
       <TextBlock
         colSpan="2/3"
-        heading={problemHeading}
-        body={problemBody}
+        heading={"Problem"}
+        body={"The Women’s Business Enterprise Council of Metro NY and Greater DMV, or WBEC NY DMV, supports a network of women entrepreneurs through certification, programming, and business resources. Their outdated website made it difficult for members and potential applicants to find information about benefits and the certification process. Its site structure and design reinforced the incorrect assumption that the organization was developed with the mindset of a demographic inexperienced with modern design conventions."}
       />
 
       {/* Challenges / Goals Row */}
@@ -89,56 +36,56 @@ export default function WBECNYDMV() {
         <TextBlock
           colSpan="1/2"
           isBulleted="true"
-          heading={challengesHeading}
-          body={challengesBody}
-          textAfter={challengesTextAfter}
+          heading={"Challenges"}
+          body={["Important information about certification and programs was difficult to locate", "Navigation and content structure had grown inconsistent over time", "Visual design lacked brand consistency across digital platforms", "The website needed to support frequent feature requests and program updates"]}
+          textAfter={"Because the site serves both existing members and prospective entrepreneurs, unclear navigation created friction in the onboarding journey."}
         />
         <TextBlock
           colSpan="1/2"
           isBulleted="true"
-          heading={goalsHeading}
-          body={goalsBody}
+          heading={"Goals"}
+          body={["Improve the user experience for accessing key information", "Establish consistent branding across digital touchpoints", "Create a flexible system that could support evolving organizational needs", "Deliver design improvements while adapting to scope changes and deadlines"]}
         />
       </WorkRow>
 
-      <TextBlock heading={constraintsHeading} />
+      <TextBlock heading={"Constraints"} />
 
       {/* Tech Stack / Evolving Content Needs */}
       <WorkRow>
         <TextBlock
           colSpan="1/2"
-          subheading={constraintsSubHeading1}
-          body={constraintsBody1} />
+          subheading={"Technology Stack"}
+          body={"Stakeholders required keeping the existing CMS. The builder tools implemented were new to me since I was brought onto the project after scope was defined, so I took it as a hands-on learning opportunity."} />
 
         <TextBlock
           colSpan="1/2"
           isBulleted="true"
-          subheading={constraintsSubHeading2}
-          textBefore={constraintsTextBefore}
-          body={constraintsBody2} />
+          subheading={"Evolving Content Needs"}
+          textBefore={"During the project, the organization frequently introduced new feature requests. To keep the project on track, I:"}
+          body={["prioritized high-impact updates", "designed modular components for quick implementation", "balanced design improvements with timeline constraints"]} />
       </WorkRow>
 
       {/* Process Row */}
+
       <TextBlock
         colSpan="2/3"
-        heading={processHeading}
-        subheading={processSubHeading}
-        textBefore={processTextBefore}
-        body={processBody}
+        heading={"Process"}
+        subheading={"Defining the User Experience"}
+        body={"Two primary audiences emerged with sets of different needs:"}
       />
 
       <WorkRow>
 
         <TextBlock
           isBulleted="true"
-          subheading={prospectiveMembersHeading}
-          body={prospectiveMembersBody}
+          subheading={"Prospective Members"}
+          body={["Learn about certification", "Understand eligibility", "Find application steps"]}
         />
 
         <TextBlock
           isBulleted="true"
-          subheading={existingMembersHeading}
-          body={existingMembersBody}
+          subheading={"Existing Members"}
+          body={["Access programming and events", "Stay updated on resources and opportunities"]}
         />
         <TextBlock />
       </WorkRow>
@@ -146,21 +93,21 @@ export default function WBECNYDMV() {
       <WorkRow>
         <TextBlock
           isBulleted="true"
-          heading={uxStrategyHeading}
-          textBefore={uxStrategyTextBefore}
-          body={uxStrategyBody} />
+          heading={"UX Strategy"}
+          textBefore={"To support these needs, I focused on:"}
+          body={["simplifying the information architecture", "clarifying navigation pathways", "prioritizing high-value content"]} />
       </WorkRow>
 
       <WorkRow>
         <TextBlock
-        subheading={informationArchitectureSubHeading}/>
+          subheading={"Information Architecture"} />
       </WorkRow>
 
       <WorkRow>
         <TextBlock
-        isBulleted="true"
-        subheading={improvementsHeading}
-        body={improvementsBody}/>
+          isBulleted="true"
+          subheading={"Key Improvements"}
+          body={["Consolidated scattered content into clear program hubs", "Prioritized certification information within navigation", "Reduced content redundancy across pages"]} />
       </WorkRow>
 
 

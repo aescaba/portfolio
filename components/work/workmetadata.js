@@ -14,7 +14,7 @@ export default function WorkMetadata({ responsibilities, role, tools }) {
     */
 
     return (
-        <div class="flex justify-between flex-col lg:flex-row gap-8 mb-10">
+        <div class="flex justify-between flex-col lg:flex-row mb-10">
 
             <TextBlock
                 isBulleted = {true}

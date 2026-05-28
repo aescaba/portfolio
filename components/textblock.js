@@ -24,9 +24,9 @@ export default function TextBlock({
     */
 
     return (
-        <div className={"flex-col lg:w-" + `${colSpan}` + " lg:mb-8 text-base leading-7"}>
-            <h3 className="uppercase text-base mb-4">{heading}</h3>
-            <h4 className="uppercase text-base mb-4">{subheading}</h4>
+        <div className={"flex-col lg:w-" + `${colSpan}` + " lg:mb-8 text-sm leading-6"}>
+            <h3 className="uppercase font-medium text-base mb-4">{heading}</h3>
+            <h4 className="uppercase font-medium text-sm mb-4">{subheading}</h4>
             <p className="mb-2">{textBefore}</p>
             {isBulleted ?
                 <>
