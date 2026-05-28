@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
-export default function WorkListing({imgsrc, path, title, description}) {
+export default function WorkListing({ imgsrc, path, title, description }) {
 
     /*
         imgsrc: image file - imported in work.js
@@ -9,22 +9,20 @@ export default function WorkListing({imgsrc, path, title, description}) {
         title: string - title of the project, used for alt text
         description: string - project description to be displayed below image
     */
-    
+
     return (
-        <div class="">
-            <div class="transition ease-in-out delay-75 hover:text-blueberry">
-                <Link href={"/work/"+ `${path}`}>
-
-                    <div class="mb-4 lg:mb-6">
-                        <Image alt={"Preview of " + `${title}`} src={imgsrc} placeholder="blur" width={1280} height={800}/>
-                    </div>
-                    <div class="uppercase mb-4">
-                        {title}
-                    </div>
-
-                </Link>  
+        <div class="flex flex-col">
+            <div class="mb-4 lg:mb-6">
+                <Image alt={"Preview of " + `${title}`} src={imgsrc} placeholder="blur" width={1280} height={800} />
             </div>
-            <div class=" text-sm text-stone-500">
+            <Link href={"/work/" + `${path}`}>
+                <div class="uppercase text-base mb-4 group relative link">
+                    {title}
+                    {/* <div class="bg-sesame h-[1px] w-0 group-hover:w-full transition-all duration-500"></div> */}
+                </div>
+
+            </Link>
+            <div class="text-sm text-stone-500">
                 {description}
             </div>
         </div>

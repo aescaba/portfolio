@@ -25,7 +25,7 @@ export default function TextBlock({
     */
 
     return (
-        <div className={"flex-col lg:w-" + `${colSpan}` + " lg:mb-8 text-sm text-gray-600 leading-6"}>
+        <div className={"flex-col lg:w-" + `${colSpan}` + " lg:mb-8 text-sm text-stone-600 leading-6"}>
             <h2 className="uppercase font-medium text-sesame text-base mb-4">{h2}</h2>
             <h3 className="uppercase font-medium text-sesame text-sm mb-4">{h3}</h3>
             <h4 className="uppercase text-sesame text-sm mb-4">{h4}</h4>

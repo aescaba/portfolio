@@ -48,9 +48,9 @@ a {
   text-decoration: none;
 }
 
-/* a:hover {
-  color: #fcd34d;
-} */
+.link:hover {
+  text-decoration: underline;
+}
 
 * {
   box-sizing: border-box;

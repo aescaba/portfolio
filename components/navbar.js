@@ -57,7 +57,7 @@ export default function Navbar() {
               <div class="flex space-x-8">
                 {navigationRoutes.map((singleRoute) => {
                   return (
-                    <span className="group relative">
+                    <span className="group relative link">
                       <NavigationLink
                         key={singleRoute}
                         href={`/${singleRoute}`}
@@ -65,7 +65,7 @@ export default function Navbar() {
                         router={router}
                       />
                       {/* UNDERLINE SLIDE */}
-                      <div class="bg-sesame h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                      {/* <div class="bg-sesame h-[1px] w-0 group-hover:w-full transition-all duration-500"></div> */}
 
                       {/* UNDERLINE FLOAT UP */}
                       {/* <span class="absolute bottom-0.75 left-0 bg-sesame h-0 w-full transition-all duration-200 group-hover:h-[1px]"></span>  */}
