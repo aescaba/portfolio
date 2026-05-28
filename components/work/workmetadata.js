@@ -18,19 +18,19 @@ export default function WorkMetadata({ responsibilities, role, tools }) {
 
             <TextBlock
                 isBulleted = {true}
-                heading = "Responsibilities"
+                h3 = "Responsibilities"
                 body = {responsibilities}
             />
 
             <TextBlock
                 isBulleted = {false}
-                heading = "Role"
+                h3 = "Role"
                 body = {role}
             />
 
             <TextBlock
                 isBulleted = {false}
-                heading = "Tools"
+                h3 = "Tools"
                 body = {tools}
             />
         </div>
