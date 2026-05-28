@@ -13,8 +13,8 @@ export default function Footer() {
           </div>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8 uppercase">
             <p className="font-bold">Contact</p>
-            <div className="transition ease-in-out delay-75 hover:text-blueberry"><a href="mailto:amandaescaba@gmail.com">email &gt; </a></div>
-            <div className="transition ease-in-out delay-75 hover:text-blueberry"><a href="https://www.linkedin.com/in/aescaba/" target="_blank">linkedin &gt;</a></div>
+            <div className="link"><a href="mailto:amandaescaba@gmail.com">email &gt; </a></div>
+            <div className="link"><a href="https://www.linkedin.com/in/aescaba/" target="_blank">linkedin &gt;</a></div>
           </div>
         </div>
         {/* <a className=""

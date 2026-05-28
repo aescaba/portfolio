@@ -9,25 +9,25 @@ export default function Contact() {
 
       <PageTitle title={"Contact"} />
 
-      <div className="h-[40vh]">
+      <div className="flex flex-col h-[40vh]">
 
         <h2 className="text-xl font-semibold">
           Amanda Escaba <span className="font-normal text-lg">&#40;she/her&#41;</span>
         </h2>
 
-        <p className="transition ease-in-out delay-75 hover:text-blueberry">
+        <p className="link">
           <Link href="mailto:amandaescaba@gmail.com">amandaescaba@gmail.com &gt;</Link>
         </p>
 
         <div className="flex flex-col lg:flex-row mt-6 space-y-6 lg:space-x-6 uppercase text-xl lg:text-lg">
           <a href="https://drive.google.com/file/d/1YuvgyURkuiX-TyeJXHtA8w7q7M-AIOpa/view?usp=sharing" target="_blank" rel="noreferrer"
           >
-            <p className="transition ease-in-out delay-75 hover:text-blueberry">Resume &gt;</p>
+            <p className="link text-sm">Resume &gt;</p>
           </a>
 
           <a href="https://www.linkedin.com/in/aescaba/" target="_blank" rel="noreferrer"
           >
-            <p className="transition ease-in-out delay-75 hover:text-blueberry">LinkedIn &gt;</p>
+            <p className="link text-sm">LinkedIn &gt;</p>
           </a>
 
           {/* <button class="saturate-0 hover:saturate-100 transition ease-in-out delay-25">

@@ -17,7 +17,7 @@ function NavigationLink({ href, text, router, classNames }) {
     <Link
       href={href === "/home" ? "/" : href}
       // className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blueberry`}
-      className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blueberry` + classNames}
+      // className={`${isActive && "nav_item_active font-bold"} nav_item transition ease-in-out delay-75 hover:text-blueberry` + classNames}
 
     >
 
@@ -84,14 +84,14 @@ export default function Navbar() {
         <div class="space-y-8 px-2 pt-2 pb-3">
           {navigationRoutes.map((singleRoute) => {
             return (
-              <div className="transition ease-in-out delay-75 hover:text-blueberry">
+              <div>
 
                 <NavigationLink
                   key={singleRoute}
                   href={`/${singleRoute}`}
                   text={singleRoute.charAt(0).toUpperCase() + singleRoute.slice(1)} //https://flexiple.com/javascript/javascript-capitalize-first-letter/
                   router={router}
-                  classNames={" block text-right text-xl"}
+                  classNames={" block text-right text-xl link"}
                 />
               </div>
             );
