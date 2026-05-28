@@ -112,23 +112,19 @@ export default function WBECNYDMV() {
           body={["Consolidated scattered content into clear program hubs", "Prioritized certification information within navigation", "Reduced content redundancy across pages"]} />
       </WorkRow>
 
-      <WorkRow>
-        <TextBlock
-          h3="Design Approach" />
-      </WorkRow>
 
       <WorkRow>
         <TextBlock
           colSpan="1/2"
           isBulleted="true"
-          h4="Brand Consistency"
+          h3="Brand Consistency"
           textBefore="The redesign introduced:"
           body={["consistent typography hierarchy", "standardized colors and spacing", "reusable UI components"]}
           textAfter="This helped align the website with the organization’s broader brand identity while improving readability and accessibility." />
 
         <TextBlock
           colSpan="1/2"
-          h4="Responsive Design"
+          h3="Responsive Design"
           body="The interface was optimized for mobile users, ensuring entrepreneurs could access resources on any device." />
 
       </WorkRow>
