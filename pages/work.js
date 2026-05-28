@@ -21,7 +21,8 @@ export default function Work() {
 
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24">
+      {/* <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 pb-24"> */}
+      <div class="flex flex-col gap-30">
 
         {/* CHANGE THIS TO BE A FEED LATER ? */}
 
