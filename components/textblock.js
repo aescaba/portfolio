@@ -29,15 +29,6 @@ export default function TextBlock({
             <h4 className="uppercase text-base mb-4">{subheading}</h4>
             <p className="mb-2">{textBefore}</p>
             {isBulleted ?
-<<<<<<< HEAD
-                <ul className="list-disc list-outside marker:text-xs pl-4">
-                    {body.map((bullet) => {
-                        return (
-                            <li key={bullet}>{bullet}</li>
-                        );
-                    })}
-                </ul>
-=======
                 <>
                     <ul className="list-disc list-outside pl-5">
                         {body.map((bullet) => {
@@ -47,7 +38,6 @@ export default function TextBlock({
                         })}
                     </ul>
                 </>
->>>>>>> db6cbbc5095cae0703612b662e6111b6d502958b
                 : <p>{body}</p>}
             <p className="mt-4">{textAfter}</p>
         </div>
