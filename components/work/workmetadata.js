@@ -14,7 +14,7 @@ export default function WorkMetadata({ responsibilities, role, tools }) {
     */
 
     return (
-        <div class="flex flex-col lg:flex-row gap-4 mb-10">
+        <div class="flex flex-col lg:flex-row gap-10 mb-10">
 
             <TextBlock
                 numCols = "3"

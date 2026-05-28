@@ -17,7 +17,7 @@ export default function TextBlock({ numCols = 1, isBulleted = false, heading = "
         <div class={"flex-col w-1/"+ `${numCols}` + " text-sm"}>
             <h3 class="uppercase text-base mb-2">{heading}</h3>
             {isBulleted ?
-                <ul className="list-disc list-outside pl-4">
+                <ul className="list-disc list-outside marker:text-xs pl-4">
                     {body.map((bullet) => {
                         return (
                             <li key={bullet}>{bullet}</li>
