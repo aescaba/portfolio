@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 // image imports
 import bbgg from '../public/images/work/bbgg/bbgg_thumb.jpg';
-import wbec from '../public/images/work/wbecnydmv/WBEC_preview_1.jpg'
+import wbec from '../public/images/work/wbecnydmv/WBEC_Cover.png'
 import capstone from '../public/images/work/capstone/capstone_thumb.jpg'
 import bluebook from '../public/images/work/mbta-bluebook/bluebook_thumb.jpg'
 import many from '../public/images/work/many/MANY_thumb.jpg'
