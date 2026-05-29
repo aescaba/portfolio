@@ -77,12 +77,14 @@ export default function WBECNYDMV() {
       <WorkRow>
 
         <TextBlock
+          colSpan="1/3"
           isBulleted="true"
           h4="Prospective Members"
           body={["Learn about certification", "Understand eligibility", "Find application steps"]}
         />
 
         <TextBlock
+          colSpan="1/3"
           isBulleted="true"
           h4="Existing Members"
           body={["Access programming and events", "Stay updated on resources and opportunities"]}
@@ -172,8 +174,8 @@ export default function WBECNYDMV() {
       {/* -- Key Takeaways */}
       <WorkRow>
         <TextBlock
-        colSpan="2/3"
-        body="Redesigning WBEC NY/DMV’s website demonstrated how thoughtful UX improvements can help mission-driven organizations better support their communities. Through improved information architecture, consistent design, and flexible development, the website now provides a clearer path for women entrepreneurs seeking certification and resources."
+          colSpan="2/3"
+          body="Redesigning WBEC NY/DMV’s website demonstrated how thoughtful UX improvements can help mission-driven organizations better support their communities. Through improved information architecture, consistent design, and flexible development, the website now provides a clearer path for women entrepreneurs seeking certification and resources."
         />
       </WorkRow>
 

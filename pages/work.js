@@ -3,7 +3,7 @@ import WorkListing from '../components/worklisting'
 import Image from 'next/image'
 
 // image imports
-import bbgg from '../public/images/work/bbgg/bbgg_thumb.jpg';
+import bbggIntranet from '../public/images/work/bbgg-intranet/BBGG Intranet_Cover.jpg'
 import wbec from '../public/images/work/wbecnydmv/WBEC_Cover.png'
 import capstone from '../public/images/work/capstone/capstone_thumb.jpg'
 import bluebook from '../public/images/work/mbta-bluebook/bluebook_thumb.jpg'
@@ -31,15 +31,15 @@ export default function Work() {
           imgsrc={wbec}
           path={"wbecnydmv"}
           title={"WBEC Metro NY & Greater DMV"}
-          description={"Complete website overhaul to reflect new branding and improve user experience"}>
+          description={"Reimagining a website to better serve a growing network of women entrepreneurs"}>
         </WorkListing>
 
         {/* project two */}
         <WorkListing
-          imgsrc={bbgg}
-          path={"bbgg"}
+          imgsrc={bbggIntranet}
+          path={"bbgg-intranet"}
           title={"BBG&G Integrated Marketing"}
-          description={"Projects as Mid-Level Web Developer/Designer"}>
+          description={"Designing a centralized intranet to streamline knowledge sharing and team collaboration"}>
         </WorkListing>
 
         {/* project three */}
