@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
       <h2 class="text-lg font-light">
        Driven by my passion for community and storytelling, I love turning chaos into clarity and bringing ideas to life through well-crafted solutions that serve both people and purpose.
       </h2>
-      {/* <div class="my-6 text-blue-300 font-light text-lg italic">&mdash; Just like me, this website is a constant work in progress :)</div> */}
+      <Link class="text-blue-400 italic" href="https://new--amandaescaba.netlify.app/" target="_blank">Preview new portfolio site (in progress) &gt;</Link>
+      {/* <div class="my-6 text-blue-300 font-light text-lg italic">Preview new portfolio site (in progress) &gt;</div> */}
     </div>
   )
 }
