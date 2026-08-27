@@ -25,10 +25,10 @@ export default function TextBlock({
     */
 
     return (
-        <div className={"flex-col lg:w-" + `${colSpan}` + " lg:mb-8 text-sm text-stone-600 leading-6"}>
-            <h2 className="uppercase font-medium text-sesame text-base mb-4">{h2}</h2>
-            <h3 className="uppercase font-medium text-sesame text-sm mb-4">{h3}</h3>
-            <h4 className="uppercase text-sesame text-sm mb-4">{h4}</h4>
+        <div className={"flex-col lg:w-" + `${colSpan}` + " lg:mb-8 text-base text-stone-600 leading-7"}>
+            <h2 className="uppercase font-medium text-sesame text-lg mb-4">{h2}</h2>
+            <h3 className="uppercase font-medium text-sesame text-base mb-4">{h3}</h3>
+            <h4 className="uppercase text-sesame text-base mb-4">{h4}</h4>
             <p className="mb-2">{textBefore}</p>
             {isBulleted ?
                 <>

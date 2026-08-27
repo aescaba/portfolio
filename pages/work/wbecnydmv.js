@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 // component imports
 import WorkPage from '../../components/work/workpage';
 import TextBlock from '../../components/textblock';
@@ -6,6 +8,7 @@ import TextBlock from '../../components/textblock';
 /* Photos */
 import coverPhoto from '../../public/images/work/wbecnydmv/WBEC_Cover.png'
 import WorkRow from '../../components/work/workrow';
+import img1 from '../../public/images/work/wbecnydmv/WBEC_devices_mockup.png'
 
 
 export default function WBECNYDMV() {
@@ -38,7 +41,6 @@ export default function WBECNYDMV() {
           isBulleted="true"
           h3="Challenges"
           body={["Important information about certification and programs was difficult to locate", "Navigation and content structure had grown inconsistent over time", "Visual design lacked brand consistency across digital platforms", "The website needed to support frequent feature requests and program updates"]}
-          textAfter="Because the site serves both existing members and prospective entrepreneurs, unclear navigation created friction in the onboarding journey."
         />
         <TextBlock
           colSpan="1/2"
@@ -48,22 +50,14 @@ export default function WBECNYDMV() {
         />
       </WorkRow>
 
-      <TextBlock heading={"Constraints"} />
-
-      {/* -- Tech Stack / Evolving Content Needs */}
       <WorkRow>
         <TextBlock
-          colSpan="1/2"
-          h3="Technology Stack"
-          body="Stakeholders required keeping the existing CMS. The builder tools implemented were new to me since I was brought onto the project after scope was defined, so I took it as a hands-on learning opportunity." />
-
-        <TextBlock
-          colSpan="1/2"
-          isBulleted="true"
-          h3="Evolving Content Needs"
-          textBefore="During the project, the organization frequently introduced new feature requests. To keep the project on track, I:"
-          body={["prioritized high-impact updates", "designed modular components for quick implementation", "balanced design improvements with timeline constraints"]} />
+      colSpan="1"
+         body="Because the site serves both existing members and prospective entrepreneurs, unclear navigation created friction in the onboarding journey. Stakeholders required keeping the existing CMS. The builder tools implemented were new to me since I was brought onto the project after scope was defined, so I took it as a hands-on learning opportunity."
+         />
       </WorkRow>
+
+      <Image alt={"Mockup of WBEC NY DMV website on a desktop and mobile screen"} src={img1} placeholder="blur" />
 
       {/* - Process */}
 
@@ -99,6 +93,17 @@ export default function WBECNYDMV() {
           h3="UX Strategy"
           textBefore="To support these needs, I focused on:"
           body={["simplifying the information architecture", "clarifying navigation pathways", "prioritizing high-value content"]} />
+      </WorkRow>
+
+      {/* -- Tech Stack / Evolving Content Needs */}
+      <WorkRow>
+     
+        <TextBlock
+          colSpan="1/2"
+          isBulleted="true"
+          h3="Evolving Content Needs"
+          textBefore="During the project, the organization frequently introduced new feature requests. To keep the project on track, I:"
+          body={["prioritized high-impact updates", "designed modular components for quick implementation", "balanced design improvements with timeline constraints"]} />
       </WorkRow>
 
       <WorkRow>
