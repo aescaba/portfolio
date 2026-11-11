@@ -17,14 +17,13 @@ export default function About() {
         {/* second column - bio */}
         <div class="space-y-6 font-light">
           <p class="font-semibold text-2xl">
-         I&apos;m a designer and developer who thrives where creativity meets problem-solving.</p>
+         I&apos;m a designer, developer, and digital professional who thrives where creativity meets problem-solving.</p>
 
-          <p>I love <span className="font-semibold">coding</span> for its logic and challenge and I love <span className="font-semibold">design</span> for its narrative and impact. Together, they let me craft solutions that are both functional and human.</p>
+          <p>I love coding for its logic and challenge and I love design for its narrative and impact. Together, my combined background lets me approach challenges from different perspectives and create experiences that are both functional and human.</p>
 
-          <p>The creative journey of <span className="font-semibold">untangling complexity</span> and <span className="font-semibold">turning chaos into clarity</span> energizes me, and <span className="font-semibold">bringing ideas to life</span> is the cherry on top.</p>
+          <p>I&apos;ve always been invigorated by the creative journey of untangling complexity, turning chaos into clarity, and getting to see ideas brought to life. I&apos;m just as interested in how things are built as I am in how they work, are maintained, and can be made better.</p>
            
-          <p>My process is grounded in curiosity, collaboration, and care for the people I&apos;m creating for <span className="italic">and</span> the teams I work with&mdash;from designing UIs to building responsive sites to streamlining workflows, I&apos;m driven by a passion 
-          for <span className="font-semibold">community and storytelling</span> to create spaces that foster connection and help people feel seen.</p>
+          <p>Above all, my process is grounded in curiosity, collaboration, and care for the people I&apos;m creating for and the teams I work with. From designing UIs and building responsive websites to managing digital properties, troubleshooting technical challenges, and streamlining workflows, I&apos;m driven by a passion for community and storytelling to create spaces that foster connection and help people feel seen.</p>
 
           <p>Off the clock, you might find me catching up on my endless video game and book backlog, baking or cooking, curating too many Spotify playlists, or planning my next cosplay.</p>
 

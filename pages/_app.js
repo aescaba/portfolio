@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Amanda Escaba &ndash; Web Designer & Developer &ndash; Portfolio Site</title>
-        <meta name="description" content="My name is Amanda and I'm a web designer and developer based in the New York Metropolitan Area. I love designing user-centered experiences and everything about the process of creating!" />
+        <meta name="description" content="Amanda is a designer and developer in New York passionate about digital experiences, creative problem-solving, community, and bringing ideas to life through technology and design." />
         <link rel="icon" href="/AE_Logo_BG.svg" />
       </Head>
 
